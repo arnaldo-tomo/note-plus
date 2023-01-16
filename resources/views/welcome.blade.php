@@ -35,15 +35,17 @@
                 <i class="ri-close-fill side-right-icon"></i>
             </div>
             <div class="card shadow-none tag-details mb-0">
+
                 <div class="card-header d-flex justify-content-between">
                     <div class="header-title">
-                        <h4 class="card-title mb-0">Tag List</h4>
+                        <h4 class="card-title mb-0">Lista de Tags</h4>
                     </div>
                     <div>
                         <a href="#" data-toggle="modal" data-target="#create-note"><i
                                 class="ri-add-line font-size-20"></i></a>
                     </div>
                 </div>
+
                 <div class="card-body p-0">
                     <ul class="list-inline p-3 m-0 pb-0">
                         <li class="mb-3 px-2">
@@ -130,263 +132,14 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="mb-3 px-2">
-                            <div class="item d-flex align-items-center justify-content-between pb-3 border-bottom">
-                                <div class="media align-items-center">
-                                    <div class="icon icon-btn icon-btn-warning">E</div>
-                                    <h5>Evening Snacks</h5>
-                                </div>
-                                <div class="dropdown">
-                                    <span class="dropdown-toggle dropdown-bg" id="tag-dropdownMenuButton5"
-                                        data-toggle="dropdown" aria-expanded="false" role="button">
-                                        <i class="ri-more-fill"></i>
-                                    </span>
-                                    <div class="dropdown-menu dropdown-menu-right border-none"
-                                        aria-labelledby="tag-dropdownMenuButton5" style="">
-                                        <a class="dropdown-item" data-toggle="modal" data-target="#tag-rename"
-                                            href="#"><i class="las la-pen mr-3"></i>Rename</a>
-                                        <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".item"
-                                            href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="mb-3 px-2">
-                            <div class="item d-flex align-items-center justify-content-between pb-3 border-bottom">
-                                <div class="media align-items-center">
-                                    <div class="icon icon-btn icon-btn-success">F</div>
-                                    <h5>Fast Track</h5>
-                                </div>
-                                <div class="dropdown">
-                                    <span class="dropdown-toggle dropdown-bg" id="tag-dropdownMenuButton6"
-                                        data-toggle="dropdown" aria-expanded="false" role="button">
-                                        <i class="ri-more-fill"></i>
-                                    </span>
-                                    <div class="dropdown-menu dropdown-menu-right border-none"
-                                        aria-labelledby="tag-dropdownMenuButton6" style="">
-                                        <a class="dropdown-item" data-toggle="modal" data-target="#tag-rename"
-                                            href="#"><i class="las la-pen mr-3"></i>Rename</a>
-                                        <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".item"
-                                            href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="mb-3 px-2">
-                            <div class="item d-flex align-items-center justify-content-between pb-3 border-bottom">
-                                <div class="media align-items-center">
-                                    <div class="icon icon-btn icon-btn-danger">G</div>
-                                    <h5>Good Morning</h5>
-                                </div>
-                                <div class="dropdown">
-                                    <span class="dropdown-toggle dropdown-bg" id="tag-dropdownMenuButton7"
-                                        data-toggle="dropdown" aria-expanded="false" role="button">
-                                        <i class="ri-more-fill"></i>
-                                    </span>
-                                    <div class="dropdown-menu dropdown-menu-right border-none"
-                                        aria-labelledby="tag-dropdownMenuButton7" style="">
-                                        <a class="dropdown-item" data-toggle="modal" data-target="#tag-rename"
-                                            href="#"><i class="las la-pen mr-3"></i>Rename</a>
-                                        <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".item"
-                                            href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="mb-3 px-2">
-                            <div class="item d-flex align-items-center justify-content-between pb-3 border-bottom">
-                                <div class="media align-items-center">
-                                    <div class="icon icon-btn icon-btn-info">H</div>
-                                    <h5>Health</h5>
-                                </div>
-                                <div class="dropdown">
-                                    <span class="dropdown-toggle dropdown-bg" id="tag-dropdownMenuButton8"
-                                        data-toggle="dropdown" aria-expanded="false" role="button">
-                                        <i class="ri-more-fill"></i>
-                                    </span>
-                                    <div class="dropdown-menu dropdown-menu-right border-none"
-                                        aria-labelledby="tag-dropdownMenuButton8" style="">
-                                        <a class="dropdown-item" data-toggle="modal" data-target="#tag-rename"
-                                            href="#"><i class="las la-pen mr-3"></i>Rename</a>
-                                        <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".item"
-                                            href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="mb-3 px-2">
-                            <div class="item d-flex align-items-center justify-content-between pb-3 border-bottom">
-                                <div class="media align-items-center">
-                                    <div class="icon icon-btn icon-btn-warning">I</div>
-                                    <h5>Ice Cream</h5>
-                                </div>
-                                <div class="dropdown">
-                                    <span class="dropdown-toggle dropdown-bg" id="tag-dropdownMenuButton9"
-                                        data-toggle="dropdown" aria-expanded="false" role="button">
-                                        <i class="ri-more-fill"></i>
-                                    </span>
-                                    <div class="dropdown-menu dropdown-menu-right border-none"
-                                        aria-labelledby="tag-dropdownMenuButton9" style="">
-                                        <a class="dropdown-item" data-toggle="modal" data-target="#tag-rename"
-                                            href="#"><i class="las la-pen mr-3"></i>Rename</a>
-                                        <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".item"
-                                            href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="mb-3 px-2">
-                            <div class="item d-flex align-items-center justify-content-between pb-3 border-bottom">
-                                <div class="media align-items-center">
-                                    <div class="icon icon-btn icon-btn-success">J</div>
-                                    <h5>Juice</h5>
-                                </div>
-                                <div class="dropdown">
-                                    <span class="dropdown-toggle dropdown-bg" id="tag-dropdownMenuButton10"
-                                        data-toggle="dropdown" aria-expanded="false" role="button">
-                                        <i class="ri-more-fill"></i>
-                                    </span>
-                                    <div class="dropdown-menu dropdown-menu-right border-none"
-                                        aria-labelledby="tag-dropdownMenuButton10" style="">
-                                        <a class="dropdown-item" data-toggle="modal" data-target="#tag-rename"
-                                            href="#"><i class="las la-pen mr-3"></i>Rename</a>
-                                        <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".item"
-                                            href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="mb-3 px-2">
-                            <div class="item d-flex align-items-center justify-content-between pb-3 border-bottom">
-                                <div class="media align-items-center">
-                                    <div class="icon icon-btn icon-btn-danger">K</div>
-                                    <h5>Kangaroo</h5>
-                                </div>
-                                <div class="dropdown">
-                                    <span class="dropdown-toggle dropdown-bg" id="tag-dropdownMenuButton11"
-                                        data-toggle="dropdown" aria-expanded="false" role="button">
-                                        <i class="ri-more-fill"></i>
-                                    </span>
-                                    <div class="dropdown-menu dropdown-menu-right border-none"
-                                        aria-labelledby="tag-dropdownMenuButton11" style="">
-                                        <a class="dropdown-item" data-toggle="modal" data-target="#tag-rename"
-                                            href="#"><i class="las la-pen mr-3"></i>Rename</a>
-                                        <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".item"
-                                            href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="mb-3 px-2">
-                            <div class="item d-flex align-items-center justify-content-between pb-3 border-bottom">
-                                <div class="media align-items-center">
-                                    <div class="icon icon-btn icon-btn-purple">L</div>
-                                    <h5>Leaves</h5>
-                                </div>
-                                <div class="dropdown">
-                                    <span class="dropdown-toggle dropdown-bg" id="tag-dropdownMenuButton12"
-                                        data-toggle="dropdown" aria-expanded="false" role="button">
-                                        <i class="ri-more-fill"></i>
-                                    </span>
-                                    <div class="dropdown-menu dropdown-menu-right border-none"
-                                        aria-labelledby="tag-dropdownMenuButton12" style="">
-                                        <a class="dropdown-item" data-toggle="modal" data-target="#tag-rename"
-                                            href="#"><i class="las la-pen mr-3"></i>Rename</a>
-                                        <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".item"
-                                            href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="mb-3 px-2">
-                            <div class="item d-flex align-items-center justify-content-between pb-3 border-bottom">
-                                <div class="media align-items-center">
-                                    <div class="icon icon-btn icon-btn-info">M</div>
-                                    <h5>Machine</h5>
-                                </div>
-                                <div class="dropdown">
-                                    <span class="dropdown-toggle dropdown-bg" id="tag-dropdownMenuButton13"
-                                        data-toggle="dropdown" aria-expanded="false" role="button">
-                                        <i class="ri-more-fill"></i>
-                                    </span>
-                                    <div class="dropdown-menu dropdown-menu-right border-none"
-                                        aria-labelledby="tag-dropdownMenuButton13" style="">
-                                        <a class="dropdown-item" data-toggle="modal" data-target="#tag-rename"
-                                            href="#"><i class="las la-pen mr-3"></i>Rename</a>
-                                        <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".item"
-                                            href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="px-2">
-                            <div class="item d-flex align-items-center justify-content-between">
-                                <div class="media align-items-center">
-                                    <div class="icon icon-btn icon-btn-warning">N</div>
-                                    <h5>Nail Polish</h5>
-                                </div>
-                                <div class="dropdown">
-                                    <span class="dropdown-toggle dropdown-bg" id="tag-dropdownMenuButton14"
-                                        data-toggle="dropdown" aria-expanded="false" role="button">
-                                        <i class="ri-more-fill"></i>
-                                    </span>
-                                    <div class="dropdown-menu dropdown-menu-right border-none"
-                                        aria-labelledby="tag-dropdownMenuButton14" style="">
-                                        <a class="dropdown-item" data-toggle="modal" data-target="#tag-rename"
-                                            href="#"><i class="las la-pen mr-3"></i>Rename</a>
-                                        <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".item"
-                                            href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Modal -->
-    <div class="modal fade" id="create-note" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <div class="popup text-left">
-                        <h4 class="mb-4">Create New Tag</h4>
-                        <div class="content create-workform">
-                            <input type="text" class="form-control" placeholder="Enter Tag Name">
-                            <div class="col-lg-12 mt-4">
-                                <div class="d-flex flex-wrap align-items-ceter justify-content-center">
-                                    <div class="btn btn-outline-primary mr-4" data-dismiss="modal">Create</div>
-                                    <div class="btn btn-primary" data-dismiss="modal">Cancel</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal -->
-    <div class="modal fade" id="tag-rename" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <div class="popup text-left">
-                        <h4 class="mb-4">Rename Your Tag</h4>
-                        <div class="content create-workform">
-                            <input type="text" class="form-control" placeholder="Enter Tag Name">
-                            <div class="col-lg-12 mt-4">
-                                <div class="d-flex flex-wrap align-items-ceter justify-content-center">
-                                    <div class="btn btn-primary mr-4" data-dismiss="modal">Cancel</div>
-                                    <div class="btn btn-outline-primary" data-dismiss="modal">Save</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> <!-- loader END -->
+
+
+
     <!-- Wrapper Start -->
     <div class="wrapper">
         <div class="iq-top-navbar">
@@ -406,6 +159,7 @@
                             aria-label="Toggle navigation">
                             <i class="ri-menu-3-line"></i>
                         </button>
+
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ml-auto navbar-list align-items-center">
                                 <li class="nav-item nav-icon search-content">
@@ -418,13 +172,15 @@
                                         <form action="#" class="searchbox p-2">
                                             <div class="form-group mb-0 position-relative">
                                                 <input type="text" class="text search-input font-size-12"
-                                                    placeholder="type here to search...">
+                                                    placeholder="Escreva aque para pesquisar...">
                                                 <a href="#" class="search-link"><i
                                                         class="las la-search"></i></a>
                                             </div>
                                         </form>
                                     </div>
                                 </li>
+
+
                                 <li class="nav-item nav-icon dropdown mail-content">
                                     <a href="#" class="search-toggle dropdown-toggle nav-icon-1"
                                         id="h1-dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true"
@@ -507,6 +263,8 @@
                                         </div>
                                     </div>
                                 </li>
+
+
                                 <li class="nav-item nav-icon dropdown mail-content">
                                     <a href="#" class="search-toggle dropdown-toggle nav-icon-1"
                                         id="h1-dropdownMenuButton004" data-toggle="dropdown" aria-haspopup="true"
@@ -589,6 +347,8 @@
                                         </div>
                                     </div>
                                 </li>
+
+
                                 <li class="caption-content">
                                     <a href="#"
                                         class="iq-user-toggle d-flex align-items-center justify-content-between"
@@ -1574,6 +1334,8 @@
             </div>
         </div>
     </footer>
+
+    @include('modal.index')
 
     @livewireScripts
     <!-- Backend Bundle JavaScript -->
