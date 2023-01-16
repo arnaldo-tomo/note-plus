@@ -9,7 +9,7 @@
                                <a class="iq-note-callapse-btn show-note-button" data-toggle="collapse" href="#collapseMenu" role="button"
                                    data-extra-toggle="toggle" data-extra-class-show=".hide-note-button" data-extra-class-hide=".show-note-button"
                                    aria-expanded="false">
-                                   <i class="las la-pencil-alt pr-2"></i>Write Your Note
+                                   <i class="las la-pencil-alt pr-2"></i>Escreva Suas anotaçao
                                </a>
                                <span class="hide-note-button d-none"><i class="las la-folder pr-2"></i>Folder</span>
                            </div>
@@ -208,7 +208,7 @@
                <div class="col-lg-12">                
                    <div class="card card-block card-stretch">
                        <div class="card-body custom-notes-space">
-                           <h3 class="">Your Notes</h3>
+                           <h3 class="">Suas anotações</h3>
                            <div class="iq-tab-content">
                                <div class="d-flex flex-wrap align-items-top justify-content-between">
                                    <ul class="d-flex nav nav-pills text-center note-tab mb-3" id="note-pills-tab" role="tablist">                                
