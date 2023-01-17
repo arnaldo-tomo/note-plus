@@ -401,7 +401,7 @@
             </div>
             <div class="iq-sidebar  sidebar-default ">
                 <div class="iq-sidebar-logo d-flex align-items-center justify-content-between">
-                    <a href="/" class="header-logo">
+                    <a href="/index" class="header-logo">
                         <img src="../assets/images/logo.png" class="img-fluid rounded-normal light-logo" alt="logo">
                         <h4 class="logo-title ml-3">{{ config('app.name') }}</h4>
                     </a>
@@ -599,7 +599,7 @@
                 </div>
             </div>
     
-
+            {{ $slot }}
 
 
         </div>
@@ -625,7 +625,7 @@
             </div>
         </footer>
     
-        @include('modal.index')
+      
     
         @livewireScripts
         <!-- Backend Bundle JavaScript -->
