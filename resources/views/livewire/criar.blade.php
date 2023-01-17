@@ -5,14 +5,14 @@
  <!-- Wrapper Start -->
  <div class="wrapper">
      
-        <div class="content-page">
+<div class="content-page">
   <div class="container-fluid">        
      <div class="desktop-header">
          <div class="card card-block topnav-left">
              <div class="card-body write-card">
                  <div class="d-flex align-items-center justify-content-between">
                      <h4>New Note</h4>
-                     <a href="index.html" class="btn btn-outline-primary svg-icon">
+                     <a href="index" class="btn btn-outline-primary svg-icon">
                          <svg  width="20" class="svg-icon" id="new-note-back" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 19l-7-7 7-7m8 14l-7-7 7-7" />
                          </svg>
