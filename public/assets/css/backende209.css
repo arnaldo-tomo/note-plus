@@ -15,7 +15,7 @@
   --iq-success: #8ac3a3;
   --iq-info: #87baf5;
   --iq-warning: #f0864a;
-  --iq-danger: #f674ad;
+  --iq-danger: #cf0000;
   --iq-light: #848486;
   --iq-dark: #01041b;
   --iq-purple: #AA87F5;
@@ -34,7 +34,7 @@
   --indigo: #6610f2;
   --purple: #AA87F5;
   --pink: #ffd3e2;
-  --red: #f674ad;
+  --red:#cf0000;
   --orange: #f0864a;
   --yellow: #f0864a;
   --green: #8ac3a3;
@@ -49,7 +49,7 @@
   --success: #8ac3a3;
   --info: #87baf5;
   --warning: #f0864a;
-  --danger: #f674ad;
+  --danger:#cf0000;
   --light: #848486;
   --dark: #01041b;
   --purple: #AA87F5;
