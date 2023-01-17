@@ -164,18 +164,18 @@
                  <div class="card-body write-card pb-4">
                      <div class="row">
                          <div class="col-md-8">
-                             <form action="#">
+                             <form action="#" wire:submit.prevent="storenotes">
                                  <div class="form-group">
                                      <label class="label-control">Title</label>
-                                     <input type="text" class="form-control" name="title" placeholder="Example Note" value="" data-change="input" data-custom-target="#note-title">
+                                     <input type="text" class="form-control" name="title" wire:model="title" placeholder="Example Note" value="" data-change="input" data-custom-target="#note-title">
                                  </div>
                                  <div class="form-group">
                                      <label class="label-control">Description</label>
-                                     <textarea type="text" class="form-control" name="description" rows="3" data-change="input" data-custom-target="#note-description" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."></textarea>
+                                     <textarea type="text" class="form-control" name="description" wire:model="description" rows="3" data-change="input" data-custom-target="#note-description" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."></textarea>
                                  </div>
                                  <div class="form-group">
                                      <label class="label-control">Reminder Date</label>
-                                     <input type="date" class="form-control" name="reminder_date" value="2021-01-01" data-change="input" data-custom-target="#note-reminder-date">
+                                     <input type="date" class="form-control" name="remenber" value="2021-01-01" data-change="input" data-custom-target="#note-reminder-date">
                                  </div>
                                  <div class="form-group">
                                      <label class="label-control">Icon</label>
