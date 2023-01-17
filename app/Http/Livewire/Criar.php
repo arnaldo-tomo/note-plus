@@ -20,10 +20,10 @@ class Criar extends Component
         //on form submit validation
         $this->validate([
             'user_id' => 'required|unique:users', //students = table name
-            'title' => 'required',
+            'title' => 'required|string',
             'remenber' => 'required|date',
             'description' => 'required|string',
-            'priority' => 'required|numeric',
+            'priority' => 'required|string',
         ]);
 
         $notes = new notes();
