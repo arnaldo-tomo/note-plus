@@ -1,4 +1,6 @@
 <div>
+
+
     <div class="content-page">
         <div class="container-fluid note-details">
            <div class="desktop-header">
@@ -9,7 +11,7 @@
                                <a class="iq-note-callapse-btn show-note-button" data-toggle="collapse" href="#collapseMenu" role="button"
                                    data-extra-toggle="toggle" data-extra-class-show=".hide-note-button" data-extra-class-hide=".show-note-button"
                                    aria-expanded="false">
-                                   <i class="las la-pencil-alt pr-2"></i>Escreva Suas anotaçao
+                                   <i class="las la-pencil-alt pr-2"></i>Escreva Suas anotaçao aki
                                </a>
                                <span class="hide-note-button d-none"><i class="las la-folder pr-2"></i>Folder</span>
                            </div>
@@ -2006,8 +2008,11 @@
                </div>
            </div>
        </div>
-   
-   
 
          </div>
+
+
+
+
+         
 </div>
