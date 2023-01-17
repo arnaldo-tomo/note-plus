@@ -56,7 +56,7 @@
 <head>
     <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <title>NotePlus | Responsive Bootstrap 4 Admin Dashboard Template</title>
+      <title>{{ config('app.name') }}</title>
       
       <!-- Favicon -->
       <link rel="shortcut icon" href="https://templates.iqonic.design/note-plus/html/assets/images/favicon.ico" />
@@ -83,20 +83,27 @@
                      <div class="logo-detail">            
                            <div class="d-flex align-items-center"><img src="../assets/images/logo.png" class="img-fluid rounded-normal light-logo logo" alt="logo"> <h4 class="logo-title ml-3">NotePlus</h4></div>
                      </div>      
-                     <h3 class="mb-2">Sign In</h3>
+                     <h3 class="mb-2">{{ session('status') }}</h3>
                      <p>Login to stay connected.</p>
-                     <form>
+                     <form method="POST" action="{{ route('login') }}">
+                        @csrf
                         <div class="row">
                            <div class="col-lg-12">
                               <div class="floating-label form-group">
-                                 <input class="floating-input form-control" type="email" placeholder=" ">
+                                 <input class="floating-input form-control" name="email" type="email" placeholder=" " value="{{ old('email') }}" required autofocus>
                                  <label>Email</label>
+                                 @error('email')
+                                 <span class="text-danger float-left">{{ $message }}</span>
+                             @enderror
                               </div>
                            </div>
                            <div class="col-lg-12">
                               <div class="floating-label form-group">
-                                 <input class="floating-input form-control" type="password" placeholder=" ">
+                                 <input class="floating-input form-control" name="password" type="password" placeholder=" " value="{{ old('password') }}" required autofocus>
                                  <label>Password</label>
+                                 @error('password')
+                                     <span class="text-danger float-left">{{ $message }}</span>
+                                 @enderror
                               </div>
                            </div>
                            <div class="col-lg-6">
@@ -109,8 +116,11 @@
                               <a href="auth-recoverpw.html" class="text-primary float-right">Forgot Password?</a>
                            </div>
                         </div>
-                        <button type="submit" class="btn btn-primary">Sign In</button>
-                        <p class="mt-3 mb-0">
+                        
+                        <div class="float-left mb-2">
+                            <button type="submit" class="btn btn-primary w-100 h-96">entrar</button>
+                        </div>
+                        <p class="mt-5 mb-1">
                            Create an Account <a href="auth-sign-up.html" class="text-primary"><b>Sign Up</b></a>
                         </p>
                      </form>
