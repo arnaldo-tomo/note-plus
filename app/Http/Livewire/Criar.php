@@ -10,7 +10,7 @@ class Criar extends Component
     
     public function render()
     {
-        $sms = User::all();
-        return view('livewire.criar', compact('sms'))->layout('livewire.root');
+
+        return view('livewire.criar')->layout('livewire.root');
     }
 }
