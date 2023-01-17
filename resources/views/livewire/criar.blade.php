@@ -168,15 +168,23 @@
                                  <div class="form-group">
                                      <label class="label-control">Title</label>
                                      <input type="text" class="form-control" name="title" wire:model="title" placeholder="Example Note" value="" data-change="input" data-custom-target="#note-title">
-                                 </div>
+                               @error('title')
+                               <span class=" text-danger">{{ $message }}</span>
+                               @enderror
+                                    </div>
                                  <div class="form-group">
                                      <label class="label-control">Description</label>
                                      <textarea type="text" class="form-control" name="description" wire:model="description" rows="3" data-change="input" data-custom-target="#note-description" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."></textarea>
-                                 </div>
+                                     @error('description')
+                                     <span class=" text-danger">{{ $message }}</span>
+                                     @enderror
+                                    </div>
                                  <div class="form-group">
                                      <label class="label-control">Reminder Date</label>
-                                     <input type="date" class="form-control" name="remenber" value="2021-01-01" data-change="input" data-custom-target="#note-reminder-date">
-                                 </div>
+                                     <input type="date" class="form-control" name="remenber" wire:model="remenber" value="2021-01-01" data-change="input" data-custom-target="#note-reminder-date">
+                                     @error('remenber')
+                                     <span class="text-danger">{{ $message }}</span>
+                                     @enderror   </div>
                                  <div class="form-group">
                                      <label class="label-control">Icon</label>
                                      <div id="icon-button">
@@ -227,7 +235,7 @@
                                  <div class="form-group">
                                      <label class="label-control">Priority</label>
                                      <div>
-                                         <select name="priority" id="" class="form-control" data-change="select" data-custom-target="color">
+                                         <select name="priority" wire:model="priority" id="" class="form-control" data-change="select" data-custom-target="color">
                                              <option value="primary">Default</option>
                                              <option value="success">Very Low</option>
                                              <option value="info" selected>Low</option>
@@ -236,7 +244,10 @@
                                              <option value="purple">Very High</option>
                                          </select>
                                      </div>
-                                 </div>
+                                 @error('priority')
+                                     <span class="text-danger">{{ $message }}</span>
+                                 @enderror
+                                    </div>
                                  <button type="reset" class="btn btn-outline-primary" data-reset="note-reset">
                                      <svg width="20" class="svg-icon" id="new-note-reset" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12.066 11.2a1 1 0 000 1.6l5.334 4A1 1 0 0019 16V8a1 1 0 00-1.6-.8l-5.333 4zM4.066 11.2a1 1 0 000 1.6l5.334 4A1 1 0 0011 16V8a1 1 0 00-1.6-.8l-5.334 4z" />
