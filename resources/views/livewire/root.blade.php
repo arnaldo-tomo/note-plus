@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>{{ config('app.name') }}</title>
+        <title>{{ config('app.name') }}fff</title>
     
         <!-- Favicon -->
         <link rel="shortcut icon" href="https://templates.iqonic.design/note-plus/html/assets/images/favicon.ico" />
@@ -382,10 +382,15 @@
                                                 <span>Privacy Settings</span>
                                             </a>
                                             <hr class="my-1">
-                                            <a class="dropdown-item" href="/logout">
+                                            <form method="POST" action="{{ route('logout') }}">
+                                                @csrf
+                                            <a class="dropdown-item" href="route('logout')"
+                                            onclick="event.preventDefault();
+                                                        this.closest('form').submit();">
                                                 <i class="las la-sign-out-alt font-size-20 mr-1"></i>
                                                 <span>Logout</span>
                                             </a>
+                                            </form>
                                         </div>
                                     </li>
                                 </ul>
@@ -435,10 +440,15 @@
                             <span>config Privacidade</span>
                         </a>
                         <hr class="my-2">
-                        <a class="dropdown-item" href="auth-sign-in">
+                        <form method="POST" action="{{ route('logout') }}">
+                            @csrf
+                        <a class="dropdown-item" href="route('logout')"
+                        onclick="event.preventDefault();
+                                    this.closest('form').submit();">
                             <i class="las la-sign-out-alt font-size-20 mr-1"></i>
                             <span>Logout</span>
                         </a>
+                        </form>
                     </div>
                 </div>
                 <div class="data-scrollbar" data-scroll="1">
