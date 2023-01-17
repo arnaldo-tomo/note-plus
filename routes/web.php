@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('livewire.root');
+    return view('auth.login');
 });
 
 Route::get('welcome', Root::class)->name('welcome');
