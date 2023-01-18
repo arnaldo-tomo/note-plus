@@ -14,6 +14,10 @@ class Criar extends Component
     {
         return view('livewire.criar')->layout('livewire.root');
     }
+    public function clear()
+    {
+        $this->priority = "";
+    }
 
     public function storenotes()
     {
@@ -33,7 +37,7 @@ class Criar extends Component
         $notes->description = $this->icon;
         $notes->priority = $this->priority;
         $notes->save();
-
+        $this->clear();
         session()->flash('message', 'New student has been added successfully');
     }
 }
