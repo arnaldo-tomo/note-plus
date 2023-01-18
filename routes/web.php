@@ -4,10 +4,7 @@ use App\Http\Controllers\Controller;
 use App\Http\Controllers\ProfileController;
 use App\Http\Livewire\Criar;
 use App\Http\Livewire\Index;
-use App\Http\Livewire\Root;
 use Illuminate\Support\Facades\Route;
-
-
 
 Route::get('/', [Controller::class, 'auth']);
 Route::middleware('auth')->group(function () {
