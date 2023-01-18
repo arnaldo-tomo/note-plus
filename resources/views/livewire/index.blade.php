@@ -184,7 +184,7 @@
                                                        <div class="iq-full-screen"><a href="#" class="" id="btnFullscreen"><i class="las la-expand-arrows-alt font-size-18"></i></a></div>
                                                    </div>
                                                    <div id="quill-toolbar">
-                                                       <h1 class="mb-3">Birthday Bash</h1>
+                                                       <h1 class="mb-3">Birthday Bashvv</h1>
                                                        <p>Hosting friend's birthday party and purchasing items.</p>
                                                        <ul>
                                                            <li>Cake</li>
@@ -209,6 +209,7 @@
                </div>
                <div class="col-lg-12">                
                    <div class="card card-block card-stretch">
+                    
                        <div class="card-body custom-notes-space">
                            <h3 class="">Suas anotações</h3>
                            <div class="iq-tab-content">
@@ -2012,7 +2013,7 @@
          </div>
 
 
-
+@include('modal.index')
 
          
 </div>
