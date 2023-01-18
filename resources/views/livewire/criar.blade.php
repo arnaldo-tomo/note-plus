@@ -362,10 +362,11 @@
                                                         </a>
                                                     </label>
                                                 </div>
-                                                @error('icon')
-                                                    <span class="text-danger">{{ $message }}</span>
-                                                @enderror
+                                               
                                             </div>
+                                            @error('icon')
+                                            <span class="text-danger">{{ $message }}</span>
+                                        @enderror
                                         </div>
                                         <div class="form-group">
                                             <label class="label-control">Prioridade</label>
