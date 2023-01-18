@@ -2,13 +2,15 @@
 
 namespace App\Http\Livewire;
 
-use App\Models\notes;
 use App\Models\User;
+use App\Models\notes;
 use Livewire\Component;
+use Illuminate\Support\Facades\Auth;
 
 class Criar extends Component
 {
     public $user_id, $title, $description, $remenber, $icon, $priority;
+    public $updateMode = false;
     
     public function render()
     {
@@ -18,27 +20,28 @@ class Criar extends Component
     {
         $this->priority = "";
     }
-
+    protected $rules = [
+        'title' => 'required',
+        'remenber' => 'required',
+        'icon' => 'required',
+        'description' => 'required',
+        'priority' => 'required ',
+    ];
     public function storenotes()
     {
+        $this->validate();
 
-        //on form submit validation
-        $this->validate([
-            'user_id' => 'required|unique:users', //students = table name
-            'title' => 'required|string',
-            'remenber' => 'required|date',
-            'description' => 'required|string',
-            'priority' => 'required|string',
-        ]);
+        $this->rules;
 
         $notes = new notes();
-        $notes->user_id = auth()->user()->id;
+        $notes->user_id = Auth::user()->id;
         $notes->title = $this->title;
         $notes->remenber = $this->remenber;
-        $notes->description = $this->icon;
+        $notes->icon = $this->icon;
+        $notes->description = $this->description;
         $notes->priority = $this->priority;
         $notes->save();
-       
         session()->flash('message', 'New student has been added successfully');
+        redirect()->to('index');
     }
 }
