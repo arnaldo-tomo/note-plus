@@ -16,11 +16,11 @@ return new class extends Migration
         Schema::create('notes', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id');
-            $table->foreignId('title');
-            $table->foreignId('description');
-            $table->foreignId('remenber',);
-            $table->foreignId('icon',);
-            $table->foreignId('priority');
+            $table->string('title');
+            $table->string('description');
+            $table->string('remenber',);
+            $table->string('icon',);
+            $table->string('priority');
             $table->timestamps();
         });
     }
