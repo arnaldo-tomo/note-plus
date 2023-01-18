@@ -11,14 +11,14 @@
                 <div class="card card-block topnav-left">
                     <div class="card-body write-card">
                         <div class="d-flex align-items-center justify-content-between">
-                            <h4>New Note</h4>
+                            <h4>Nova Nota</h4>
                             <a href="index" class="btn btn-outline-primary svg-icon">
                                 <svg width="20" class="svg-icon" id="new-note-back" xmlns="http://www.w3.org/2000/svg"
                                     fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M11 19l-7-7 7-7m8 14l-7-7 7-7" />
                                 </svg>
-                                <span>Back</span>
+                                <span>Voltar</span>
                             </a>
                         </div>
                     </div>
@@ -193,7 +193,7 @@
                                 <div class="col-md-8">
                                     <form action="#" wire:submit.prevent="storenotes">
                                         <div class="form-group">
-                                            <label class="label-control">Title</label>
+                                            <label class="label-control">Titulo</label>
                                             <input type="text" class="form-control" name="title"
                                                 wire:model="title" placeholder="Example Note" value=""
                                                 data-change="input" data-custom-target="#note-title">
@@ -202,15 +202,15 @@
                                             @enderror
                                         </div>
                                         <div class="form-group">
-                                            <label class="label-control">Description</label>
-                                            <textarea type="text" class="form-control" name="description" wire:model="description" rows="3"
-                                                data-change="input" data-custom-target="#note-description" placeholder="place holder"></textarea>
+                                            <label class="label-control">Descrição</label>
+                                            <textarea type="text" class="form-control"wire:model="description" rows="3"
+                                                data-change="input" data-custom-target="#note-description" placeholder="Descrição da sua nota "></textarea>
                                             @error('description')
                                                 <span class=" text-danger">{{ $message }}</span>
                                             @enderror
                                         </div>
                                         <div class="form-group">
-                                            <label class="label-control">Reminder Date</label>
+                                            <label class="label-control">Data do lembrete</label>
                                             <input type="date" class="form-control" name="remenber"
                                                 wire:model="remenber" value="2021-01-01" data-change="input"
                                                 data-custom-target="#note-reminder-date">
@@ -240,10 +240,10 @@
 
                                                 <div class="form-check form-check-inline">
                                                     <input class="form-check-input" type="radio" wire:model="icon"
-                                                        id="inlineRadio2" value="option2">
-                                                    <label class="form-check-label" for="inlineRadio2">
-                                                        <a class="btn btn-outline-primary ml-1" data-change="click"
-                                                            data-custom-target="#note-icon">
+                                                        id="inlineRadio2" value="option2" >
+                                                    <label class="form-check-label" for="inlineRadio2" data-change="click"
+                                                    data-custom-target="#note-icon">
+                                                        <a type="radio"  class="btn btn-outline-primary ml-1" >
                                                             <svg width="23" class="svg-icon"
                                                                 xmlns="http://www.w3.org/2000/svg" fill="none"
                                                                 viewBox="0 0 24 24" stroke="currentColor">
@@ -443,10 +443,23 @@
 
                                         <div class="card-body rounded">
                                             <h4 class="card-title text-ellipsis short-1" id="note-title1">
+                                                @if (!$title)
+                                                Nota de exemplo
+                                                @else
                                                 {{ $title }}
+                                                @endif
                                             </h4>
                                             <p class="mb-3 text-ellipsis short-6" id="note-description">
-                                                {{ $description }}</p>
+                                                @if (!$description)
+                                                    Exemplo da descricao da Suas anotaçao, A 
+                                                    expressão Lorem ipsum em design gráfico 
+                                                    e editoração é um texto padrão em latim
+                                                     utilizado na produção gráfica para preencher os espaços de texto em ...
+ 
+                                                @else
+                                                {{ $description }}
+                                                @endif
+                                            </p>
                                         </div>
 
                                         <div class="card-footer">
