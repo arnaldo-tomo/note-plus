@@ -22,7 +22,6 @@ class Criar extends Component
     public function storenotes()
     {
 
-        dd($this->icon);
         //on form submit validation
         $this->validate([
             'user_id' => 'required|unique:users', //students = table name
