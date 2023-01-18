@@ -311,7 +311,7 @@
                                         <div class="form-group">
                                             <label class="label-control">Priority</label>
                                             <div>
-                                                <select name="priority" wire:model="priority" id=""
+                                                <select wire:model="priority" id="priority"  name="priority" 
                                                     class="form-control" data-change="select"
                                                     data-custom-target="color">
                                                     <option value="primary">Default</option>
