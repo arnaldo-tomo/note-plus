@@ -365,7 +365,7 @@
                                             </div>
                                         </div>
                                         <div class="form-group">
-                                            <label class="label-control">Priority</label>
+                                            <label class="label-control">Prioridade</label>
                                             <div>
                                                 <select id="priority" name="priority" class="form-control"
                                                     data-change="select" data-custom-target="color">
@@ -390,7 +390,7 @@
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                                     d="M12.066 11.2a1 1 0 000 1.6l5.334 4A1 1 0 0019 16V8a1 1 0 00-1.6-.8l-5.333 4zM4.066 11.2a1 1 0 000 1.6l5.334 4A1 1 0 0011 16V8a1 1 0 00-1.6-.8l-5.334 4z" />
                                             </svg>
-                                            Reset
+                                            Limpar campos
                                         </button>
                                         <button type="submit" class="btn btn-primary ml-1">
                                             <svg width="20" class="svg-icon" id="new-note-save"
@@ -399,7 +399,7 @@
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                                     d="M8 7H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-3m-1 4l-3 3m0 0l-3-3m3 3V4" />
                                             </svg>
-                                            Save
+                                            Guardar Nota
                                         </button>
                                     </form>
                                 </div>
@@ -431,9 +431,9 @@
                                                         aria-labelledby="dropdownMenuButton4" style="">
                                                         <a href="#" class="dropdown-item new-note1"
                                                             data-toggle="modal" data-custom-target="#new-note1"><i
-                                                                class="ri-eye-line mr-3"></i>View</a>
+                                                                class="ri-eye-line mr-3"></i>Ver</a>
                                                         <a class="dropdown-item" href="#"><i
-                                                                class="las la-trash-alt mr-3"></i>Delete</a>
+                                                                class="las la-trash-alt mr-3"></i>Deletar</a>
                                                     </div>
                                                 </div>
 
@@ -507,9 +507,9 @@
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton4"
                                     style="">
                                     <a href="#" class="dropdown-item new-note1" data-toggle="modal"
-                                        data-custom-target="#new-note1"><i class="ri-eye-line mr-3"></i>View</a>
+                                        data-custom-target="#new-note1"><i class="ri-eye-line mr-3"></i>Ver</a>
                                     <a class="dropdown-item" href="#"><i
-                                            class="las la-trash-alt mr-3"></i>Delete</a>
+                                            class="las la-trash-alt mr-3"></i>Deletar</a>
                                 </div>
                             </div>
                         </div>
