@@ -290,7 +290,7 @@
                                                <div class="col-lg-4 col-md-6">
                                                    <div class="card card-block card-stretch card-height card-bottom-border-info note-detail">
                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                           <div class="icon iq-icon-box-2 icon-border-info rounded">
+                                                           <div class="icon iq-icon-box-2 py-3 icon-border-info  rounded">
                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-01" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                                                                </svg>
@@ -325,7 +325,7 @@
                                                <div class="col-lg-4 col-md-6">
                                                    <div class="card card-block card-stretch card-height card-bottom-border-purple note-detail">
                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                           <div class="icon iq-icon-box-2 icon-border-purple rounded">
+                                                           <div class="icon iq-icon-box-2 py-3 icon-border-purple rounded">
                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-02" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.701 2.701 0 00-1.5-.454M9 6v2m3-2v2m3-2v2M9 3h.01M12 3h.01M15 3h.01M21 21v-7a2 2 0 00-2-2H5a2 2 0 00-2 2v7h18zm-3-9v-2a2 2 0 00-2-2H8a2 2 0 00-2 2v2h12z" />
                                                                </svg>
@@ -363,7 +363,7 @@
                                                <div class="col-lg-4 col-md-6">
                                                    <div class="card card-block card-stretch card-height card-bottom-border-warning note-detail">
                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                           <div class="icon iq-icon-box-2 icon-border-warning rounded">
+                                                           <div class="icon iq-icon-box-2 py-3 icon-border-warning rounded">
                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-03"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
                                                                </svg>
@@ -405,7 +405,7 @@
                                                <div class="col-lg-4 col-md-6">
                                                    <div class="card card-block card-stretch card-height card-bottom-border-danger note-detail">
                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                           <div class="icon iq-icon-box-2 icon-border-danger rounded">
+                                                           <div class="icon iq-icon-box-2 py-3 icon-border-danger  rounded">
                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-04" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
                                                                </svg>
@@ -454,7 +454,7 @@
                                                <div class="col-lg-4 col-md-6">
                                                    <div class="card card-block card-stretch card-height card-bottom-border-primary note-detail">
                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                           <div class="icon iq-icon-box-2 icon-border-primary rounded">
+                                                           <div class="icon iq-icon-box-2 py-3 icon-border-primary rounded">
                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-05" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                                                                </svg>
@@ -508,7 +508,7 @@
                                                <div class="col-lg-4 col-md-6">
                                                    <div class="card card-block card-stretch card-height card-bottom-border-success note-detail">
                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                           <div class="icon iq-icon-box-2 icon-border-success rounded">
+                                                           <div class="icon iq-icon-box-2 py-3 icon-border-success rounded">
                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-06" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
                                                                </svg>
@@ -545,7 +545,7 @@
                                                <div class="col-lg-4 col-md-6">
                                                    <div class="card card-block card-stretch card-height card-bottom-border-success note-detail">
                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                           <div class="icon iq-icon-box-2 icon-border-success rounded">
+                                                           <div class="icon iq-icon-box-2 py-3 icon-border-success rounded">
                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-07"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
                                                                </svg>
@@ -584,7 +584,7 @@
                                                <div class="col-lg-4 col-md-6">
                                                    <div class="card card-block card-stretch card-height card-bottom-border-warning note-detail">
                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                           <div class="icon iq-icon-box-2 icon-border-warning rounded">
+                                                           <div class="icon iq-icon-box-2 py-3 icon-border-warning rounded">
                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-08" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 19v-8.93a2 2 0 01.89-1.664l7-4.666a2 2 0 012.22 0l7 4.666A2 2 0 0121 10.07V19M3 19a2 2 0 002 2h14a2 2 0 002-2M3 19l6.75-4.5M21 19l-6.75-4.5M3 10l6.75 4.5M21 10l-6.75 4.5m0 0l-1.14.76a2 2 0 01-2.22 0l-1.14-.76" />
                                                                </svg>
@@ -619,7 +619,7 @@
                                                <div class="col-lg-4 col-md-6">
                                                    <div class="card card-block card-stretch card-height card-bottom-border-info note-detail">
                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                           <div class="icon iq-icon-box-2 icon-border-info rounded">
+                                                           <div class="icon iq-icon-box-2 py-3 icon-border-info py-3 rounded">
                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-09" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                                                                    <path fill-rule="evenodd" d="M5 3a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2V5a2 2 0 00-2-2H5zm0 2h10v7h-2l-1 2H8l-1-2H5V5z" clip-rule="evenodd" />
                                                                </svg>
@@ -836,7 +836,7 @@
                                                <div class="col-lg-4 col-md-6">
                                                    <div class="card card-block card-stretch card-height card-bottom-border-info note-detail">
                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                           <div class="icon iq-icon-box-2 icon-border-info rounded">
+                                                           <div class="icon iq-icon-box-2 py-3 icon-border-info py-3 rounded">
                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-10" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                                                                </svg>
@@ -871,7 +871,7 @@
                                                <div class="col-lg-4 col-md-6">
                                                    <div class="card card-block card-stretch card-height card-bottom-border-success note-detail">
                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                           <div class="icon iq-icon-box-2 icon-border-success rounded">
+                                                           <div class="icon iq-icon-box-2 py-3 icon-border-success rounded">
                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-11" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
                                                                </svg>
@@ -906,7 +906,7 @@
                                                <div class="col-lg-4 col-md-6">
                                                    <div class="card card-block card-stretch card-height card-bottom-border-warning note-detail">
                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                           <div class="icon iq-icon-box-2 icon-border-warning rounded">
+                                                           <div class="icon iq-icon-box-2 py-3 icon-border-warning rounded">
                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-12" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 19v-8.93a2 2 0 01.89-1.664l7-4.666a2 2 0 012.22 0l7 4.666A2 2 0 0121 10.07V19M3 19a2 2 0 002 2h14a2 2 0 002-2M3 19l6.75-4.5M21 19l-6.75-4.5M3 10l6.75 4.5M21 10l-6.75 4.5m0 0l-1.14.76a2 2 0 01-2.22 0l-1.14-.76" />
                                                                </svg>
@@ -941,7 +941,7 @@
                                                <div class="col-lg-4 col-md-6">
                                                    <div class="card card-block card-stretch card-height card-bottom-border-danger note-detail">
                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                           <div class="icon iq-icon-box-2 icon-border-danger rounded">
+                                                           <div class="icon iq-icon-box-2 py-3 icon-border-danger rounded">
                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-13" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
                                                                </svg>
@@ -989,7 +989,7 @@
                                                <div class="col-lg-4 col-md-6">
                                                    <div class="card card-block card-stretch card-height card-bottom-border-purple note-detail">
                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                           <div class="icon iq-icon-box-2 icon-border-purple rounded">
+                                                           <div class="icon iq-icon-box-2 py-3 icon-border-purple rounded">
                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-14" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.701 2.701 0 00-1.5-.454M9 6v2m3-2v2m3-2v2M9 3h.01M12 3h.01M15 3h.01M21 21v-7a2 2 0 00-2-2H5a2 2 0 00-2 2v7h18zm-3-9v-2a2 2 0 00-2-2H8a2 2 0 00-2 2v2h12z" />
                                                                </svg>
@@ -1029,7 +1029,7 @@
                                                <div class="col-lg-4 col-md-6">
                                                    <div class="card card-block card-stretch card-height card-bottom-border-info note-detail">
                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                           <div class="icon iq-icon-box-2 icon-border-info rounded">
+                                                           <div class="icon iq-icon-box-2 py-3 icon-border-info py-3 rounded">
                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                                                                    <path fill-rule="evenodd" d="M5 3a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2V5a2 2 0 00-2-2H5zm0 2h10v7h-2l-1 2H8l-1-2H5V5z" clip-rule="evenodd" />
                                                                </svg>
@@ -1194,7 +1194,7 @@
                                                <div class="col-lg-4 col-md-6">
                                                    <div class="card card-block card-stretch card-height card-bottom-border-purple note-detail">
                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                           <div class="icon iq-icon-box-2 icon-border-purple rounded">
+                                                           <div class="icon iq-icon-box-2 py-3 icon-border-purple rounded">
                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-16" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.701 2.701 0 00-1.5-.454M9 6v2m3-2v2m3-2v2M9 3h.01M12 3h.01M15 3h.01M21 21v-7a2 2 0 00-2-2H5a2 2 0 00-2 2v7h18zm-3-9v-2a2 2 0 00-2-2H8a2 2 0 00-2 2v2h12z" />
                                                                </svg>
@@ -1235,7 +1235,7 @@
                                                <div class="col-lg-4 col-md-6">
                                                    <div class="card card-block card-stretch card-height card-bottom-border-primary note-detail">
                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                           <div class="icon iq-icon-box-2 icon-border-primary rounded">
+                                                           <div class="icon iq-icon-box-2 py-3 icon-border-primary rounded">
                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-17" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                                                                </svg>
@@ -1370,7 +1370,7 @@
                                                <div class="col-lg-4 col-md-6">
                                                    <div class="card card-block card-stretch card-height card-bottom-border-info note-detail">
                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                           <div class="icon iq-icon-box-2 icon-border-info rounded">
+                                                           <div class="icon iq-icon-box-2 icon-border-info py-3 rounded">
                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                                                                    <path fill-rule="evenodd" d="M5 3a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2V5a2 2 0 00-2-2H5zm0 2h10v7h-2l-1 2H8l-1-2H5V5z" clip-rule="evenodd" />
                                                                </svg>
@@ -1676,7 +1676,7 @@
                                                <div class="col-lg-4 col-md-6">
                                                    <div class="card card-block card-stretch card-height card-bottom-border-info note-detail">
                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                           <div class="icon iq-icon-box-2 icon-border-info rounded">
+                                                           <div class="icon iq-icon-box-2 icon-border-info py-3 rounded">
                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                                                                    <path fill-rule="evenodd" d="M5 3a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2V5a2 2 0 00-2-2H5zm0 2h10v7h-2l-1 2H8l-1-2H5V5z" clip-rule="evenodd" />
                                                                </svg>
