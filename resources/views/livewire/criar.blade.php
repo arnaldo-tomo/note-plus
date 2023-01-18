@@ -23,6 +23,18 @@
                         </div>
                     </div>
                 </div>
+                @if (session('message'))
+                <div class="alert alert-success" role="alert">
+                    {{ session('message') }}
+                </div>
+            @endif
+            @if (Session::has('errors'))
+    <div class="alert alert-danger">
+        @foreach (Session::get('errors') as $error)
+            Test<br />
+        @endforeach
+    </div>
+@endif
                 <div class="card topnav-right">
 
                     <div class="card-body card-content-right">
@@ -191,7 +203,8 @@
                         <div class="card-body write-card pb-4">
                             <div class="row">
                                 <div class="col-md-8">
-                                    <form action="#" wire:submit.prevent="storenotes">
+                                    <form  wire:submit.prevent="storenotes">
+                                        <input type="hidden" wire:model='user_id' value="{{ Auth::user()->id }}">
                                         <div class="form-group">
                                             <label class="label-control">Titulo</label>
                                             <input type="text" class="form-control" name="title"
