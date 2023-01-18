@@ -223,9 +223,9 @@
                                             <div id="icon-button">
                                                 <div class="form-check form-check-inline">
                                                     <input class="form-check-input" type="radio" wire:model="icon"
-                                                        id="inlineRadio1" value="option1">
-                                                    <label class="form-check-label" for="inlineRadio1">
-                                                        <a class="btn btn-outline-primary" data-change="click"
+                                                        id="inlineRadio1" value="option1" checked>
+                                                    <label class="form-check-label" for="inlineRadio1" checked >
+                                                        <a class="btn btn-outline-primary" data-change="click" checked 
                                                             data-custom-target="#note-icon">
                                                             <svg width="23" class="svg-icon"
                                                                 xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -371,7 +371,7 @@
                                         <div class="form-group">
                                             <label class="label-control">Prioridade</label>
                                             <div>
-                                                <select id="priority" name="priority" class="form-control"
+                                                <select id="priority" wire:model="priority" class="form-control"
                                                     data-change="select" data-custom-target="color">
                                                     <option value="primary">Default</option>
                                                     <option value="success">Very Low</option>
