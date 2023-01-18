@@ -362,6 +362,9 @@
                                                         </a>
                                                     </label>
                                                 </div>
+                                                @error('icon')
+                                                    <span class="text-danger">{{ $message }}</span>
+                                                @enderror
                                             </div>
                                         </div>
                                         <div class="form-group">
@@ -515,7 +518,7 @@
                         </div>
                     </div>
                     <div class="card-body rounded ">
-                        <h4 class="card-title text-ellipsis short-1" id="note-title">Example Note</h4>
+                        <h4 class="card-title text-ellipsis short-1" id="note-title">Nota de exemplo</h4>
                         <p class="mb-3 text-ellipsis short-6" id="note-description">Lorem Ipsum is simply dummy text
                             of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
                             text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
