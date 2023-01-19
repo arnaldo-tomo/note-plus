@@ -13,7 +13,7 @@ class Index extends Component
     protected $paginationTheme = 'bootstrap';
     public function render()
     {
-        $notes = notes::paginate(2);
+        $notes = notes::ORDERBY('id', 'DESC')->paginate(6);
         if (!Auth::check()) {
             return redirect()->back();
         } else {
