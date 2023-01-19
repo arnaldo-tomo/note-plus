@@ -386,8 +386,8 @@
                                              
                                            </div>
 
-                                           {{ $note->links() }}
                                        </div>
+                                       {{ $note->links() }}
 
 
                                        <div class="icon active animate__animated animate__fadeIn i-list">
