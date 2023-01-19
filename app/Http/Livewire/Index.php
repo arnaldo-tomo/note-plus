@@ -11,6 +11,9 @@ class Index extends Component
 {
     use WithPagination;
     protected $paginationTheme = 'bootstrap';
+    public $user_id, $title, $description, $remenber, $icon, $priority;
+    public $updateMode = false;
+
     public function render()
     {
         $notes = notes::ORDERBY('id', 'DESC')->paginate(6);
@@ -18,6 +21,21 @@ class Index extends Component
             return redirect()->back();
         } else {
             return view('livewire.index', compact('notes'))->layout('livewire.root');
+        }
     }
-}
+
+    public function ver($id)
+    {
+        $this->updateMode = true;
+        $notes = notes::where('id', $id)->first();
+        $notes->user_id = Auth::user()->id;
+        $notes->title = $this->title;
+        $notes->remenber = $this->remenber;
+        $notes->icon = $this->icon;
+        $notes->description = $this->description;
+        $notes->priority = $this->priority;
+        // $this->limpar();
+
+    }
+
 }
