@@ -44,4 +44,6 @@ class Criar extends Component
         session()->flash('message', 'New student has been added successfully');
         redirect()->to('index');
     }
+
+   
 }
