@@ -319,7 +319,7 @@
                                                           </div>
                                                       </div>
                                                       <div class="card-body rounded">
-                                                          <h4 class="card-title">Birthday Celebration</h4>
+                                                          <h4 class="card-title">{{ $note->title }}</h4>
                                                           <p class="mb-3 card-description short">You can easily share via message, WhatsApp, emails etc. You can also save your notes and edit it later or can easily delete the note.</p>
                                                       </div>
                                                       <div class="card-footer">
