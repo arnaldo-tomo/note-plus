@@ -386,7 +386,7 @@
                                              
                                            </div>
 
-                                           
+                                           {{ $note->links() }}
                                        </div>
 
 
