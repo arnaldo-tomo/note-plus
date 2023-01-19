@@ -209,7 +209,7 @@
                </div>
                <div class="col-lg-12">                
                    <div class="card card-block card-stretch">
-                    
+
                        <div class="card-body custom-notes-space">
                            <h3 class="">Suas anotações</h3>
                            <div class="iq-tab-content">
@@ -283,7 +283,7 @@
                                        </div>
                                    </div>          
                                </div>  
-
+{{-- all notes --}}
                                <div class="note-content tab-content">                                
                                    <div id="note1" class="tab-pane fade active show">
                                        <div class="icon active animate__animated animate__fadeIn i-grid">
@@ -542,6 +542,7 @@
                                                    </div>
                                                </div>   
                                            </div>
+
                                            <div class="row">
                                                <div class="col-lg-4 col-md-6">
                                                    <div class="card card-block card-stretch card-height card-bottom-border-success note-detail">
@@ -657,6 +658,8 @@
                                                </div>
                                            </div>
                                        </div>
+
+
                                        <div class="icon active animate__animated animate__fadeIn i-list">
                                            <div class="row">
                                                <div class="col-lg-12">
@@ -831,6 +834,7 @@
                                            </div>
                                        </div>
                                    </div>
+{{-- Notas compartilhadas --}}
                                    <div id="note2" class="tab-pane fade">
                                        <div class="icon active animate__animated animate__fadeIn i-grid">
                                            <div class="row">
@@ -1066,6 +1070,7 @@
                                                </div> 
                                            </div>  
                                        </div>
+
                                        <div class="icon active animate__animated animate__fadeIn i-list">
                                            <div class="row">   
                                                <div class="col-lg-12">
@@ -1189,6 +1194,7 @@
                                            </div>
                                        </div>
                                    </div>
+{{-- Fixar anotações --}}
                                    <div id="note3" class="tab-pane fade">
                                        <div class="icon active animate__animated animate__fadeIn i-grid">
                                            <div class="row">
@@ -1457,6 +1463,7 @@
                                                </div>
                                            </div> 
                                        </div>
+
                                        <div class="icon active animate__animated animate__fadeIn i-list">
                                            <div class="row">                                            
                                                <div class="col-lg-12">
@@ -1580,6 +1587,8 @@
                                            </div>
                                        </div>
                                    </div>
+
+                                   {{-- Fixar Favoritas --}}
                                    <div id="note4" class="tab-pane fade">
                                        <div class="icon active animate__animated animate__fadeIn i-grid">
                                            <div class="row">
@@ -1848,6 +1857,7 @@
                                                </div>     
                                            </div>
                                        </div>
+
                                        <div class="icon active animate__animated animate__fadeIn i-list">
                                            <div class="row">                                            
                                                <div class="col-lg-12">
