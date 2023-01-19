@@ -39,6 +39,7 @@
                         </div>
                     </div>
                 </div>
+                
                 <div class="card topnav-right">
 
                     <div class="card-body card-content-right">
@@ -351,6 +352,7 @@
                                         <div class="icon active animate__animated animate__fadeIn i-grid">
                                             <div class="row">
                                                     @forelse ($notes as $note)
+
                                                     <div class="col-lg-4 col-md-6">
                                                         <div
                                                             class="card card-block card-stretch card-height card-bottom-border-{{ $note->priority }} note-detail">
@@ -449,11 +451,12 @@
                                                                             <div class="dropdown-menu dropdown-menu-right"
                                                                                 aria-labelledby="note-dropdownMenuButton5"
                                                                                 style="">
-                                                                                <a href="#"
+                                                                                <a wire:click="ver({{ $note->id }})"
                                                                                     class="dropdown-item new-note2"
                                                                                     data-toggle="modal"
                                                                                     data-target="#new-note2"><i
                                                                                         class="las la-eye mr-3"></i>View</a>
+
                                                                                 <a href="#"
                                                                                     class="dropdown-item edit-note1"
                                                                                     data-toggle="modal"
@@ -496,6 +499,8 @@
 
                                                     {{-- Modal include --}}
                                                     {{-- Modal include --}}
+    @include('livewire.modal')
+
                                                     @empty
                                                 @endforelse
 
@@ -2712,6 +2717,5 @@
 
 
 
-    @include('modal.index')
 
     </div>
