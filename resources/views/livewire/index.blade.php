@@ -289,6 +289,8 @@
                                        <div class="icon active animate__animated animate__fadeIn i-grid">
                                            <div class="row">
                                               @forelse ($notes as $note)
+                                              @include('modal.index')
+
                                               <div class="col-lg-4 col-md-6">
                                                   <div class="card card-block card-stretch card-height card-bottom-border-{{ $note->priority }} note-detail">
                                                       <div class="card-header d-flex justify-content-between pb-1">
@@ -360,7 +362,7 @@
                                                                       </span>
                                                                       <div class="dropdown-menu dropdown-menu-right"
                                                                           aria-labelledby="note-dropdownMenuButton5" style="">
-                                                                          <a href="#" class="dropdown-item new-note2" data-toggle="modal" data-target="#new-note2"><i class="las la-eye mr-3"></i>View</a>
+                                                                          <a href="#" class="dropdown-item new-note2" data-toggle="modal" data-target="#new-note2{{ $note->id }}"><i class="las la-eye mr-3"></i>View</a>
                                                                           <a href="#" class="dropdown-item edit-note1" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-3"></i>Edit</a>
                                                                           <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".card" href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
                                                                       </div>
@@ -368,6 +370,8 @@
                                                               </div>
                                                           </div>
                                                       </div>
+
+
                                                       <div class="card-body rounded">
                                                           <h4 class="card-title">{{ $note->title }}</h4>
                                                           <p class="mb-3 card-description short">{{ $note->description }}</p>
@@ -380,6 +384,9 @@
                                                       </div>
                                                   </div>
                                               </div>
+
+                                              {{-- Modal include --}}
+                                              {{-- Modal include --}}
                                               @empty
                                                   
                                               @endforelse
@@ -1753,7 +1760,7 @@
          </div>
 
 
-@include('modal.index')
+
 
          
 </div>
