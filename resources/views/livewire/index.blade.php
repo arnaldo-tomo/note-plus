@@ -290,9 +290,9 @@
                                            <div class="row">
                                               @forelse ($notes as $note)
                                               <div class="col-lg-4 col-md-6">
-                                                  <div class="card card-block card-stretch card-height card-bottom-border-purple note-detail">
+                                                  <div class="card card-block card-stretch card-height card-bottom-border-{{ $note->priority }} note-detail">
                                                       <div class="card-header d-flex justify-content-between pb-1">
-                                                          <div class="icon iq-icon-box-2 py-3 icon-border-purple rounded">
+                                                          <div class="icon iq-icon-box-2 py-3 icon-border-{{ $note->priority }} rounded">
                                                               <svg width="23" height="23" class="svg-icon" id="iq-main-02" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.701 2.701 0 00-1.5-.454M9 6v2m3-2v2m3-2v2M9 3h.01M12 3h.01M15 3h.01M21 21v-7a2 2 0 00-2-2H5a2 2 0 00-2 2v7h18zm-3-9v-2a2 2 0 00-2-2H8a2 2 0 00-2 2v2h12z" />
                                                               </svg>
@@ -323,7 +323,7 @@
                                                           <p class="mb-3 card-description short">You can easily share via message, WhatsApp, emails etc. You can also save your notes and edit it later or can easily delete the note.</p>
                                                       </div>
                                                       <div class="card-footer">
-                                                          <div class="d-flex align-items-center justify-content-between note-text note-text-purple"> 
+                                                          <div class="d-flex align-items-center justify-content-between note-text note-text-{{ $note->priority }}"> 
                                                               <a href="#" class=""><i class="las la-user mr-2 font-size-20"></i>Only You</a>
                                                               <a href="#" class=""><i class="las la-calendar mr-2 font-size-20"></i>10 Jan 2021</a>
                                                           </div>
