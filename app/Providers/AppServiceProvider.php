@@ -24,12 +24,12 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        // Paginator::defaultView('view-name');
+        Paginator::defaultView('view-name');
 
         // Paginator::defaultSimpleView('view-name');
         // Paginator::useBootstrapFive();
         // Paginator::useBootstrapFour();
 
-        Paginator::useBootstrap();
+        // Paginator::useBootstrap();
     }
 }
