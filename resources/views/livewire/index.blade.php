@@ -362,7 +362,7 @@
                                                                       </span>
                                                                       <div class="dropdown-menu dropdown-menu-right"
                                                                           aria-labelledby="note-dropdownMenuButton5" style="">
-                                                                          <a href="#" class="dropdown-item new-note2" data-toggle="modal" data-target="#new-note2{{ $note->id }}"><i class="las la-eye mr-3"></i>View</a>
+                                                                          <a href="#" class="dropdown-item new-note2" data-toggle="modal" data-target="#new-note2"><i class="las la-eye mr-3"></i>View</a>
                                                                           <a href="#" class="dropdown-item edit-note1" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-3"></i>Edit</a>
                                                                           <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".card" href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
                                                                       </div>
