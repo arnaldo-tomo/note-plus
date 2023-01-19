@@ -10,7 +10,7 @@ use Livewire\WithPagination;
 class Index extends Component
 {
     use WithPagination;
-    protected $paginationTheme = 'tailwind';
+    protected $paginationTheme = 'bootstrap';
     public function render()
     {
         $notes = notes::ORDERBY('id', 'DESC')->paginate(6);
