@@ -13,10 +13,10 @@ class Index extends Component
     protected $paginationTheme = 'bootstrap';
     public function render()
     {
+        $notes = notes::ORDERBY('id', 'DESC')->paginate(4);
         if (!Auth::check()) {
             return redirect()->back();
         } else {
-            $notes = notes::ORDERBY('id', 'DESC')->paginate(4);
             return view('livewire.index', compact('notes'))->layout('livewire.root');
     }
 }
