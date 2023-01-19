@@ -324,8 +324,8 @@
                                                       </div>
                                                       <div class="card-footer">
                                                           <div class="d-flex align-items-center justify-content-between note-text note-text-{{ $note->priority }}"> 
-                                                              <a href="#" class=""><i class="las la-user mr-2 font-size-20"></i>Only You</a>
-                                                              <a href="#" class=""><i class="las la-calendar mr-2 font-size-20"></i>10 Jan 2021</a>
+                                                              <a href="#" class=""><i class="las la-user mr-2 font-size-20"></i>{{ $note->user->name }}</a>
+                                                              <a href="#" class=""><i class="las la-calendar mr-2 font-size-20"></i>{{ $note }}</a>
                                                           </div>
                                                       </div>
                                                   </div>
