@@ -383,11 +383,11 @@
                                               @empty
                                                   
                                               @endforelse
-                                             
+                                              
                                            </div>
-
-                                       </div>
-                                       {{ $note->links() }}
+                                           
+                                        </div>
+                                        {{ $notes->links() }}
 
 
                                        <div class="icon active animate__animated animate__fadeIn i-list">
