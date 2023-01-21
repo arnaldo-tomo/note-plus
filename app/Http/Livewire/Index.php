@@ -26,14 +26,14 @@ class Index extends Component
 
     public function ver($id)
     {
-        $this->updateMode = true;
-        $notes = notes::where('id', $id)->first();
+        $notes = notes::find($id);
         $notes->user_id = Auth::user()->id;
         $notes->title = $this->title;
         $notes->remenber = $this->remenber;
         $notes->icon = $this->icon;
         $notes->description = $this->description;
         $notes->priority = $this->priority;
+        $this->dispatchBrowserEvent('new-note2');
         // $this->limpar();
 
     }
