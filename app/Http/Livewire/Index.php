@@ -30,10 +30,7 @@ class Index extends Component
     {
         $notes = notes::where('id', $id)->first();
         $this->title_ver = $notes->title;
-        $notes->title = $this->title_ver;
         $this->description_ver = $notes->description;
-
-
         $this->dispatchBrowserEvent('new-note');
     }
 
