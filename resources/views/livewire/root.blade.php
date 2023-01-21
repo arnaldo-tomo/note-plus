@@ -626,7 +626,8 @@
         </footer>
     
       
-    
+        @stack('scripts')
+
         @livewireScripts
         <!-- Backend Bundle JavaScript -->
         <script src="../assets/js/backend-bundle.min.js"></script>
