@@ -451,8 +451,8 @@ Index Of Script
           })
           
           swalWithBootstrapButtons.fire({
-            title: 'Are you sure?',
-            text: "You won't be able to revert this!",
+              title: 'Tens a certeza',
+              text: "BBY You won't be able to revert this!",
             icon: 'warning',
             showCancelButton: true,
             confirmButtonText: 'Yes, delete it!',
@@ -466,7 +466,7 @@ Index Of Script
         .then((willDelete) => {
             if (willDelete.isConfirmed) {
                 swalWithBootstrapButtons.fire({
-                        title: 'Deleted!',
+                    title: 'Deletedeeee!',
                         text: "Your note has been deleted.",
                         icon: 'success',
                         showClass: {
