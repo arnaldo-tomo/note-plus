@@ -26,8 +26,7 @@ class Index extends Component
 
     public function ver($id)
     {
-        $notes = notes::find($id);
-        $notes->user_id = Auth::user()->id;
+        $notes = notes::where('id', $id)->first();
         $notes->title = $this->title;
         $notes->remenber = $this->remenber;
         $notes->icon = $this->icon;
