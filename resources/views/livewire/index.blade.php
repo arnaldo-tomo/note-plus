@@ -651,25 +651,50 @@
                                                         <table class="table  tbl-server-info">
                                                             <thead>
                                                                 <tr class="ligth">
-                                                                    <th class="w-50" scope="col">Title</th>
-                                                                    <th scope="col">Permission</th>
-                                                                    <th scope="col">Created At</th>
-                                                                    <th scope="col">Action</th>
+                                                                    <th class="w-50" scope="col">Titulo</th>
+                                                                    <th scope="col">Permisao</th>
+
+                                                                    <th scope="col">Creado em</th>
+                                                                    <th scope="col">Accao</th>
+
+
                                                                 </tr>
                                                             </thead>
                                                             <tbody>
+@forelse ($notes as $item)
+
+
                                                                 <tr>
                                                                     <td>
-                                                                        <h4 class="mb-2">Weekly Planner</h4>
-                                                                        <span>Virtual Digital Marketing Course every
-                                                                            week on Monday, Wednesday and
-                                                                            Saturday</span>
+                                                                    <h4 class="mb-2">{{ $item->title }}<i class="las la-thumbtack ml-2 show-tab"></i>
+
+
+
+
+
+<i class="lar la-heart ml-2 show-tab"></i>
+
+
+
+
+                                                                        </h4>
+                                                                        <span>{{ $item->description }}</span>
+
                                                                     </td>
                                                                     <td>
+                                                                        <i class="las la-lock mr-2 font-size-20"></i>
+                                                                        Only You
                                                                         <i class="las la-user-friends mr-2 font-size-20"></i>
 
 
+
                                                                         03 share
+
+
+
+
+
+
                                                                     </td>
                                                                     <td>Dec 20</td>
                                                                     <td>
@@ -681,52 +706,12 @@
                                                                         </div>
                                                                     </td>
                                                                 </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <h4 class="mb-2">Birthday Celebration <i class="las la-thumbtack ml-2 show-tab" data-show-tab="[href='#note3']"></i>
+@empty
 
 
-                                                                        </h4>
-                                                                        <span>You can easily share via message,
-                                                                            WhatsApp, emails etc.</span>
-                                                                    </td>
-                                                                    <td>
-                                                                        <i class="las la-lock mr-2 font-size-20"></i>
-                                                                        Only You
-                                                                    </td>
-                                                                    <td>Dec 20</td>
-                                                                    <td>
-                                                                        <div>
-                                                                            <a href="#" class="badge badge-success mr-3" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-0"></i></a>
-                                                                            <a href="#" class="badge badge-danger" data-extra-toggle="delete" data-closest-elem="tr"><i class="las la-trash-alt mr-0"></i></a>
 
+@endforelse
 
-                                                                        </div>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <h4 class="mb-2">Essay Outline <i class="lar la-heart ml-2 show-tab" data-show-tab="[href='#note4']"></i>
-
-
-                                                                        </h4>
-                                                                        <span>Donec rutrum congue leo eget
-                                                                            malesuada.</span>
-                                                                    </td>
-                                                                    <td>
-                                                                        <i class="las la-lock mr-2 font-size-20"></i>
-                                                                        Only You
-                                                                    </td>
-                                                                    <td>Dec 20</td>
-                                                                    <td>
-                                                                        <div>
-                                                                            <a href="#" class="badge badge-success mr-3" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-0"></i></a>
-                                                                            <a href="#" class="badge badge-danger" data-extra-toggle="delete" data-closest-elem="tr"><i class="las la-trash-alt mr-0"></i></a>
-
-
-                                                                        </div>
-                                                                    </td>
-                                                                </tr>
 
 
 
