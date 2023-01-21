@@ -704,7 +704,9 @@
                                                                     <td>
                                                                         <div>
                                                                             <a href="#" class="badge badge-success mr-3" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-0"></i></a>
-                                                                            <a href="#" class="badge badge-danger" data-extra-toggle="delete" data-closest-elem="tr"><i class="las la-trash-alt mr-0"></i></a>
+<a href="#" class="badge badge-danger" wire:click='confirmarDelete({{ $note->id }})'><i class="las la-trash-alt mr-0"></i></a>
+
+
 
 
                                                                         </div>
