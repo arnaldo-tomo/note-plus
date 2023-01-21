@@ -2462,9 +2462,14 @@
 
 
 window.addEventListener('confirmarDelete', event => {
-alert('Arnaldo o acarra');
+     $('#bd-example-modal-sm').modal('show');
+
+
 });
 
 
 </script>
 @endpush
+
+
+
