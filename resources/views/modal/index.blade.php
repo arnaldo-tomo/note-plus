@@ -1,4 +1,4 @@
-     <div wire:ignore.self class="modal fade" id="new-note2" tabindex="-1" role="dialog" aria-hidden="true">
+<div wire:ignore.self class="modal fade" id="new-note20" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -50,7 +50,7 @@
    
 
   <!-- Modal Edit -->
-<div class="modal fade" id="edit-note1" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal fade" id="edit-note10" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-body">
