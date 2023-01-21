@@ -1,4 +1,7 @@
 <div>
+<div wire:offline.class="bg-red-300"></div>
+
+
 
     <div class="content-page">
         <div class="container-fluid note-details">
@@ -266,7 +269,9 @@
                     <div class="card card-block card-stretch">
 
                         <div class="card-body custom-notes-space">
-                            <h3 class="">Suas anotações</h3>
+                            <h3 class="">Suas anotações <i class="fa fa-spinner fa-pulse fa-1x fa-fw"> </i></h3>
+
+
                             <div class="iq-tab-content">
                                 <div class="d-flex flex-wrap align-items-top justify-content-between">
                                     <ul class="d-flex nav nav-pills text-center note-tab mb-3" id="note-pills-tab" role="tablist">
@@ -301,12 +306,15 @@
                                         <div class="view-btn rounded body-bg btn-dropdown filter-btn mr-3">
                                             <div class="dropdown">
                                                 <span class="dropdown-toggle cursor-pointer" id="dropdownMenuButton003" data-toggle="dropdown">
+                                                    <i class="las la-filter font-size-20 py-2"></i>
 
 
-                                                    <i class="las la-filter font-size-20"></i>
+
+
+
+
                                                 </span>
                                                 <div class="dropdown-menu dropdown-menu-right border-none" aria-labelledby="dropdownMenuButton003">
-
 
                                                     <div class="dropdown-item mb-3">
                                                         <div class="d-flex align-items-center justify-content-between">
@@ -719,141 +727,9 @@
                                                                         </div>
                                                                     </td>
                                                                 </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <h4 class="mb-2">Lecture Notes <i class="lar la-heart ml-2 show-tab" data-show-tab="[href='#note4']"></i>
 
 
-                                                                        </h4>
-                                                                        <span>Chapter 1 notes, Chapter 2 Assignment,
-                                                                            Chapter 3 practical File.</span>
-                                                                    </td>
-                                                                    <td>
-                                                                        <i class="las la-lock mr-2 font-size-20"></i>
-                                                                        Only You
-                                                                    </td>
-                                                                    <td>Dec 20</td>
-                                                                    <td>
-                                                                        <div>
-                                                                            <a href="#" class="badge badge-success mr-3" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-0"></i></a>
-                                                                            <a href="#" class="badge badge-danger" data-extra-toggle="delete" data-closest-elem="tr"><i class="las la-trash-alt mr-0"></i></a>
 
-
-                                                                        </div>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <h4 class="mb-2">Image Notes<i class="las la-thumbtack ml-2"></i></h4>
-
-
-                                                                        <span>NotePlus lets you do in on-the-go!</span>
-                                                                    </td>
-                                                                    <td>
-                                                                        <i class="las la-lock mr-2 font-size-20"></i>
-                                                                        Only You
-                                                                    </td>
-                                                                    <td>Dec 20</td>
-                                                                    <td>
-                                                                        <div>
-                                                                            <a href="#" class="badge badge-success mr-3" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-0"></i></a>
-                                                                            <a href="#" class="badge badge-danger" data-extra-toggle="delete" data-closest-elem="tr"><i class="las la-trash-alt mr-0"></i></a>
-
-
-                                                                        </div>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <h4 class="mb-2">Benefits of NotePlus</h4>
-                                                                        <span>Take organized notes and share later as
-                                                                            meeting minutes or check-list</span>
-                                                                    </td>
-                                                                    <td>
-                                                                        <i class="las la-user-friends mr-2 font-size-20"></i>
-
-
-                                                                        2 share
-                                                                    </td>
-                                                                    <td>Dec 20</td>
-                                                                    <td>
-                                                                        <div>
-                                                                            <a href="#" class="badge badge-success mr-3" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-0"></i></a>
-                                                                            <a href="#" class="badge badge-danger" data-extra-toggle="delete" data-closest-elem="tr"><i class="las la-trash-alt mr-0"></i></a>
-
-
-                                                                        </div>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <h4 class="mb-2">Quick Summary <i class="las la-thumbtack ml-2 show-tab" data-show-tab="[href='#note3']"></i>
-
-
-                                                                        </h4>
-                                                                        <span>Need to write a summary note of the
-                                                                            subject you just finished</span>
-                                                                    </td>
-                                                                    <td>
-                                                                        <i class="las la-lock mr-2 font-size-20"></i>
-                                                                        Only You
-                                                                    </td>
-                                                                    <td>Dec 19</td>
-                                                                    <td>
-                                                                        <div>
-                                                                            <a href="#" class="badge badge-success mr-3" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-0"></i></a>
-                                                                            <a href="#" class="badge badge-danger" data-extra-toggle="delete" data-closest-elem="tr"><i class="las la-trash-alt mr-0"></i></a>
-
-
-                                                                        </div>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <h4 class="mb-2">Address & Email</h4>
-                                                                        <span>Quickly note down the address and email
-                                                                            address on NotePlus</span>
-                                                                    </td>
-                                                                    <td>
-                                                                        <i class="las la-user-friends mr-2 font-size-20"></i>
-
-
-                                                                        04 share
-                                                                    </td>
-                                                                    <td>Dec 19</td>
-                                                                    <td>
-                                                                        <div>
-                                                                            <a href="#" class="badge badge-success mr-3" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-0"></i></a>
-                                                                            <a href="#" class="badge badge-danger" data-extra-toggle="delete" data-closest-elem="tr"><i class="las la-trash-alt mr-0"></i></a>
-
-
-                                                                        </div>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <h4 class="mb-2">NotePlus for Entrepreneurs
-                                                                            <i class="lar la-heart ml-2 show-tab" data-show-tab="[href='#note4']"></i>
-
-
-                                                                        </h4>
-                                                                        <span>With NotePlus, you can easily share via
-                                                                            message, WhatsApp, emails etc.</span>
-                                                                    </td>
-                                                                    <td>
-                                                                        <i class="las la-lock mr-2 font-size-20"></i>
-                                                                        Only You
-                                                                    </td>
-                                                                    <td>Dec 19</td>
-                                                                    <td>
-                                                                        <div>
-                                                                            <a href="#" class="badge badge-success mr-3" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-0"></i></a>
-                                                                            <a href="#" class="badge badge-danger" data-extra-toggle="delete" data-closest-elem="tr"><i class="las la-trash-alt mr-0"></i></a>
-
-
-                                                                        </div>
-                                                                    </td>
-                                                                </tr>
                                                             </tbody>
                                                         </table>
                                                     </div>
@@ -1259,93 +1135,11 @@
                                                                         </div>
                                                                     </td>
                                                                 </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <h4 class="mb-2">Address & Email</h4>
-                                                                        <span>Quickly note down the address and email
-                                                                            address on NotePlus</span>
-                                                                    </td>
-                                                                    <td>
-                                                                        <i class="las la-user-friends mr-2 font-size-20"></i>
 
 
-                                                                        04 share
-                                                                    </td>
-                                                                    <td>Dec 20</td>
-                                                                    <td>
-                                                                        <div>
-                                                                            <a href="#" class="badge badge-success mr-3" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-0"></i></a>
-                                                                            <a href="#" class="badge badge-danger" data-extra-toggle="delete" data-closest-elem="tr"><i class="las la-trash-alt mr-0"></i></a>
 
 
-                                                                        </div>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <h4 class="mb-2">Lecture Notes</h4>
-                                                                        <span>Chapter 1 notes, Chapter 2 Assignment,
-                                                                            Chapter 3 practical File.</span>
-                                                                    </td>
-                                                                    <td>
-                                                                        <i class="las la-user-friends mr-2 font-size-20"></i>
 
-
-                                                                        05 share
-                                                                    </td>
-                                                                    <td>Dec 20</td>
-                                                                    <td>
-                                                                        <div>
-                                                                            <a href="#" class="badge badge-success mr-3" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-0"></i></a>
-                                                                            <a href="#" class="badge badge-danger" data-extra-toggle="delete" data-closest-elem="tr"><i class="las la-trash-alt mr-0"></i></a>
-
-
-                                                                        </div>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <h4 class="mb-2">Birthday Celebration</h4>
-                                                                        <span>You can easily share via message,
-                                                                            WhatsApp, emails etc.</span>
-                                                                    </td>
-                                                                    <td>
-                                                                        <i class="las la-lock mr-2 font-size-20"></i>
-                                                                        Only You
-                                                                    </td>
-                                                                    <td>Dec 20</td>
-                                                                    <td>
-                                                                        <div>
-                                                                            <a href="#" class="badge badge-success mr-3" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-0"></i></a>
-                                                                            <a href="#" class="badge badge-danger" data-extra-toggle="delete" data-closest-elem="tr"><i class="las la-trash-alt mr-0"></i></a>
-
-
-                                                                        </div>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <h4 class="mb-2">NotePlus for Entrepreneurs
-                                                                        </h4>
-                                                                        <span>Quickly note down the address and email
-                                                                            address on NotePlus</span>
-                                                                    </td>
-                                                                    <td>
-                                                                        <i class="las la-user-friends mr-2 font-size-20"></i>
-
-
-                                                                        07 share
-                                                                    </td>
-                                                                    <td>Dec 20</td>
-                                                                    <td>
-                                                                        <div>
-                                                                            <a href="#" class="badge badge-success mr-3" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-0"></i></a>
-                                                                            <a href="#" class="badge badge-danger" data-extra-toggle="delete" data-closest-elem="tr"><i class="las la-trash-alt mr-0"></i></a>
-
-
-                                                                        </div>
-                                                                    </td>
-                                                                </tr>
                                                             </tbody>
                                                         </table>
                                                     </div>
@@ -2454,20 +2248,15 @@
         $('#new-note').modal('show');
 });
 
-
  window.addEventListener('confirmarDelete', event => {
  $('.bd-example-modal-sm').modal('show');
-
 
  });
  window.addEventListener('deletado', event => {
 
  $('.bd-example-modal-sm').modal('hide');
 
-
  });
-
-
 
 </script>
 
