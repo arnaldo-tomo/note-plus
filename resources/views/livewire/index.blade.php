@@ -379,15 +379,23 @@
 
                                                 <div class="col-lg-4 col-md-6">
 
-<div class="card card-block card-stretch card-height card-bottom-border-{{ $note->priority }} note-detail">
-    <div class="card-header d-flex justify-content-between pb-1">
-        <div class="icon iq-icon-box-2 py-3 icon-border-{{ $note->priority }} rounded">
-            <svg width="23" height="23" class="svg-icon" id="iq-main-02" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                @switch($note->icon)
-                @case('option1')
+                                                    <div class="card card-block card-stretch card-height card-bottom-border-{{ $note->priority }} note-detail">
+                                                        <div class="card-header d-flex justify-content-between pb-1">
+                                                            <div class="icon iq-icon-box-2 py-3 icon-border-{{ $note->priority }} rounded">
+                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-02" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                                    @switch($note->icon)
+                                                                    @case('option1')
 
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-@break
+
+
+
+
+                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                                                                    @break
+
+
+
+
 
 
 
@@ -395,8 +403,12 @@
 
                                                                     @case('option2')
 
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
-@break
+                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+                                                                    @break
+
+
+
+
 
 
 
@@ -404,8 +416,12 @@
 
                                                                     @case('option3')
 
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
-@break
+                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
+                                                                    @break
+
+
+
+
 
 
 
@@ -413,7 +429,11 @@
 
                                                                     @case('option4')
 
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704
+                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704
+
+
+
+
 
 
                                                                         2.704 0 01-3 0 2.701 2.701 0 00-1.5-.454M9 6v2m3-2v2m3-2v2M9
@@ -426,7 +446,11 @@
 
                                                                     @case('option5')
 
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07
+                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07
+
+
+
+
 
 
                                                                         4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" />
@@ -438,8 +462,12 @@
 
                                                                     @case('option6')
 
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
-@break
+                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                                                                    @break
+
+
+
+
 
 
 
@@ -447,8 +475,12 @@
 
                                                                     @case('option7')
 
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
-@break
+                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                                                                    @break
+
+
+
+
 
 
 
@@ -456,8 +488,12 @@
 
                                                                     @case('option8')
 
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-@break
+                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                                                    @break
+
+
+
+
 
 
 
@@ -465,8 +501,12 @@
 
                                                                     @default
 
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.701 2.701 0 00-1.5-.454M9 6v2m3-2v2m3-2v2M9 3h.01M12 3h.01M15 3h.01M21 21v-7a2 2 0 00-2-2H5a2 2 0 00-2 2v7h18zm-3-9v-2a2 2 0 00-2-2H8a2 2 0 00-2 2v2h12z" />
-@endswitch
+                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.701 2.701 0 00-1.5-.454M9 6v2m3-2v2m3-2v2M9 3h.01M12 3h.01M15 3h.01M21 21v-7a2 2 0 00-2-2H5a2 2 0 00-2 2v7h18zm-3-9v-2a2 2 0 00-2-2H8a2 2 0 00-2 2v2h12z" />
+                                                                    @endswitch
+
+
+
+
 
 
 
@@ -476,38 +516,65 @@
 
 
 
-                                                                </div>
+                                                            </div>
 
 
-<div class="card-header-toolbar d-flex align-items-center">
-    <a href="#" data-toggle="tooltip" data-placement="top" class="show-tab" data-show-tab="[href='#note3']" title="" data-original-title="pin content"><i class="las la-thumbtack mr-2"></i></a>
-    <a href="#" data-toggle="tooltip" data-placement="top" title="" class="show-tab" data-show-tab="[href='#note4']" data-original-title="favorite"><i class="lar la-heart mr-2"></i></a>
 
 
-    <div class="card-header-toolbar d-flex align-items-center">
+
+
+                                                            <div class="card-header-toolbar d-flex align-items-center">
+                                                                <a href="#" data-toggle="tooltip" data-placement="top" class="show-tab" data-show-tab="[href='#note3']" title="" data-original-title="pin content"><i class="las la-thumbtack mr-2"></i></a>
+                                                                <a href="#" data-toggle="tooltip" data-placement="top" title="" class="show-tab" data-show-tab="[href='#note4']" data-original-title="favorite"><i class="lar la-heart mr-2"></i></a>
+
+
+
+
+
+
+                                                                <div class="card-header-toolbar d-flex align-items-center">
+
+
+
+
 
 
 
                                                                     <div class="dropdown">
 
-<span class="dropdown-toggle dropdown-bg" id="note-dropdownMenuButton5" data-toggle="dropdown" aria-expanded="false" role="button">
-    <i class="ri-more-fill"></i>
-</span>
+                                                                        <span class="dropdown-toggle dropdown-bg" id="note-dropdownMenuButton5" data-toggle="dropdown" aria-expanded="false" role="button">
+                                                                            <i class="ri-more-fill"></i>
+                                                                        </span>
 
 
-<div class="dropdown-menu dropdown-menu-right" aria-labelledby="note-dropdownMenuButton5" style="">
-    <a wire:click="ver({{ $note->id }})" class="dropdown-item new-note2"><i class="las la-eye mr-3"></i>View</a>
 
 
-    <a href="#" class="dropdown-item edit-note1" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-3"></i>Edit</a>
-    <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".card" href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
 
 
-</div>
-</div>
-</div>
-</div>
-</div>
+                                                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="note-dropdownMenuButton5" style="">
+
+<a href="#" wire:click="ver({{ $note->id }})" class="dropdown-item new-note2"><i class="las la-eye mr-3"></i>View</a>
+
+
+
+
+                                                                            <a href="#" class="dropdown-item edit-note1" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-3"></i>Edit</a>
+                                                                            <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".card" href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
+
+
+
+
+
+
+                                                                        </div>
+                                                                        </div>
+                                                                        </div>
+                                                                        </div>
+                                                                        </div>
+
+
+
+
 
 
 
@@ -521,10 +588,14 @@
                                                         </div>
                                                         <div class="card-footer">
 
-<div class="d-flex align-items-center justify-content-between note-text note-text-{{ $note->priority }}">
-    <a href="#" class=""><i class="las la-user mr-2 font-size-20"></i>{{ $note->user->name }}</a>
-    <a href="#" class=""><i class="las la-calendar mr-2 font-size-20"></i>{{ $note->remenber }}</a>
-</div>
+                                                            <div class="d-flex align-items-center justify-content-between note-text note-text-{{ $note->priority }}">
+                                                                <a href="#" class=""><i class="las la-user mr-2 font-size-20"></i>{{ $note->user->name }}</a>
+                                                                <a href="#" class=""><i class="las la-calendar mr-2 font-size-20"></i>{{ $note->remenber }}</a>
+                                                            </div>
+
+
+
+
 
 
 
@@ -1854,7 +1925,9 @@
                                                                         </span>
                                                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="note-dropdownMenuButton25" style="">
                                                                             <a href="#" class="dropdown-item new-note3" data-toggle="modal" data-target="#new-note3"><i class="las la-eye mr-3"></i>View</a>
+
                                                                             <a href="#" class="dropdown-item edit-note1" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-3"></i>Edit</a>
+
                                                                             <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".card" href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
 
 
@@ -2038,7 +2111,9 @@
                                                                         </span>
                                                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="note-dropdownMenuButton28" style="">
                                                                             <a href="#" class="dropdown-item new-note2" data-toggle="modal" data-target="#new-note2"><i class="las la-eye mr-3"></i>View</a>
+
                                                                             <a href="#" class="dropdown-item edit-note1" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-3"></i>Edit</a>
+
                                                                             <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".card" href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
 
 
@@ -2398,27 +2473,36 @@
                 </div>
             </div>
         </div>
-</div>
-
-
-
-</div>
+    </div>
 
 
 
 
 
 
-<div wire:ignore.self class="modal fade" id="new-note2" tabindex="-1" role="dialog" aria-hidden="true">
+
+
+
+
+
+
+
+<div wire:ignore.self class="modal fade" id="new-note" tabindex="-1" role="dialog" aria-hidden="true">
+
+
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="popup text-left">
                     <div class="media align-items-top justify-content-between">
 
+                        <h3 class="mb-3">{{ $this->title_ver  }}</h3>
 
 
-                        <h3 class="mb-3">{{ $note->title }}</h3>
+
+
+
+
 
                         <div class="media align-items-center">
                             <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="pin content"><i class="las la-thumbtack mr-2"></i></a>
@@ -2426,7 +2510,9 @@
                         </div>
                     </div>
                     <div class="content create-workform">
-                        <p>{{ $note->description }}</p>
+                        <p>{{ $description_ver}}</p>
+
+
 
                         <ul class="pl-3 mb-0">
                             <li class="note-list">Cakes and Balloons.</li>
@@ -2439,14 +2525,18 @@
 
 
 </div>
+</div>
+
+
 
 
 @push('scripts')
 <script>
-    window.addEventListener('new-note2', event => {
-        $('#new-note2').modal('show');
+    window.addEventListener('new-note', event => {
+    $('#new-note').modal('show');
+
+
     });
 
 </script>
 @endpush
-
