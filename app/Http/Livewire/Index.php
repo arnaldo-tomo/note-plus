@@ -13,7 +13,7 @@ class Index extends Component
     protected $paginationTheme = 'bootstrap';
     public $user_id, $title, $description, $remenber, $icon, $priority;
     public $user_idVER, $title_ver,  $description_ver, $remenberVER, $iconVER, $priorityVER;
-    public $idDelete;
+    public $idDelete, $titleDelete;
     public $updateMode = false;
 
     public function render()
@@ -42,6 +42,7 @@ class Index extends Component
     {
         $notes = notes::find($id);
         $this->idDelete = $notes->id;
+        $this->titleDelete = $notes->title;
         $this->dispatchBrowserEvent('confirmarDelete');
     }
 
