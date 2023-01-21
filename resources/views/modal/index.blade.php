@@ -111,3 +111,35 @@
 
 </div>
 
+<!-- Share Modal -->
+<div class="modal fade" id="share-note" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="popup text-left">
+                    <h4 class="mb-3">Share</h4>
+                    <div class="content create-workform bg-body">
+                        <div class="mb-3">
+                            <h5 class="mb-2">Shareable Link</h5>
+                            <input type="text" class="form-control" placeholder="" value="https://dribble.com/Shots/6387620">
+
+
+                        </div>
+                        <div class="pb-3">
+                            <h5 class="mb-2">Invite Someone</h5>
+                            <input type="text" class="form-control" placeholder="Enter Name or Email">
+                        </div>
+                        <div class="col-lg-12 mt-4">
+                            <div class="d-flex flex-wrap align-items-ceter justify-content-center">
+                                <div class="btn btn-primary mr-4" data-dismiss="modal">Cancel</div>
+                                <div class="btn btn-outline-primary" data-dismiss="modal">Create</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
