@@ -553,13 +553,26 @@
 
                                                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="note-dropdownMenuButton5" style="">
 
-<a href="#" wire:click="ver({{ $note->id }})" class="dropdown-item new-note2"><i class="las la-eye mr-3"></i>View</a>
+                                                                            <a href="#" wire:click="ver({{ $note->id }})" class="dropdown-item new-note2"><i class="las la-eye mr-3"></i>View</a>
+
+
+
+
 
 
 
 
                                                                             <a href="#" class="dropdown-item edit-note1" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-3"></i>Edit</a>
-                                                                            <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".card" href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
+<a class="dropdown-item" wire:click='confirmarDelete({{ $note->id }})' href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
+
+
+
+
+
+
+{{-- <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".card" href="#"><i class="las la-trash-alt mr-3"></i>Delete</a> --}}
+
+
 
 
 
@@ -567,10 +580,14 @@
 
 
                                                                         </div>
-                                                                        </div>
-                                                                        </div>
-                                                                        </div>
-                                                                        </div>
+                                                                    </div>
+                                                                    </div>
+                                                                    </div>
+                                                                    </div>
+
+
+
+
 
 
 
@@ -600,7 +617,11 @@
                                                 </div>
 
                                                 @empty
-Sem POst
+                                                Sem POst
+
+
+
+
 
 
 
@@ -2419,7 +2440,11 @@ Sem POst
 
 
     </div>
-@include('modal.index')
+    @include('modal.index')
+
+
+
+
 
 
 </div>
@@ -2429,9 +2454,17 @@ Sem POst
 @push('scripts')
 <script>
     window.addEventListener('new-note', event => {
-    $('#new-note').modal('show');
+        $('#new-note').modal('show');
 
-    });
+
+
+});
+
+
+window.addEventListener('confirmarDelete', event => {
+alert('Arnaldo o acarra');
+});
+
 
 </script>
 @endpush
