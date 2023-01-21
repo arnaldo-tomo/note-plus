@@ -155,9 +155,12 @@
                      <span aria-hidden="true">&times;</span>
                  </button>
              </div>
-             <div class="modal-body  rounded-0 text-center">
+             <div class="modal-body  rounded-0 ">
 
-                 <Strong>{{ $titleDelete }}</Strong>
+                 <Strong><i class="fa fa-tasks"></i> {{ $titleDelete }}</Strong>
+
+
+
 
 
 
