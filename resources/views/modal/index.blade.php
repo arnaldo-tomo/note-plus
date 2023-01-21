@@ -164,7 +164,11 @@
              <div class="modal-footer  rounded-0">
 
 
-                 <button type="button" wire:click='delete({{ $idDelete }})' class="btn btn-primary btn-block rounded-0">sim</button>
+                 <button type="button" wire:click='delete({{ $idDelete }})' class="btn btn-primary btn-block rounded-0">
+                     <div wire:loading> <i class="fa fa-spinner fa-pulse fa-1x fa-fw"> </i> </div> sim
+                 </button>
+
+
 
 
              </div>
