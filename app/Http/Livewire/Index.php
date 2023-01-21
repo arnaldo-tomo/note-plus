@@ -12,6 +12,8 @@ class Index extends Component
     use WithPagination;
     protected $paginationTheme = 'bootstrap';
     public $user_id, $title, $description, $remenber, $icon, $priority;
+    public $user_idVER,  $description_ver, $remenberVER, $iconVER, $priorityVER;
+    public $title_ver;
     public $updateMode = false;
 
     public function render()
@@ -27,12 +29,12 @@ class Index extends Component
     public function ver($id)
     {
         $notes = notes::where('id', $id)->first();
-        $notes->title = $this->title;
-        $notes->remenber = $this->remenber;
-        $notes->icon = $this->icon;
-        $notes->description = $this->description;
-        $notes->priority = $this->priority;
-        $this->dispatchBrowserEvent('new-note2');
+        $this->title_ver = $notes->title;
+        $notes->title = $this->title_ver;
+        $this->description_ver = $notes->description;
+
+
+        $this->dispatchBrowserEvent('new-note');
     }
 
 }
