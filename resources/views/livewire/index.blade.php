@@ -2444,13 +2444,6 @@
     </div>
     @include('modal.index')
 
-
-<button type="button" class="btn btn-primary mt-2" data-toggle="modal" data-target=".bd-example-modal-sm">Small modal</button>
-
-
-
-
-
 </div>
 
 
@@ -2460,24 +2453,16 @@
     window.addEventListener('new-note', event => {
         $('#new-note').modal('show');
 });
+
+
+ window.addEventListener('confirmarDelete', event => {
+ $('.bd-example-modal-sm').modal('show');
+
+
+ });
+
+
 </script>
-
-
-<Script>
-    window.addEventListener('confirmarDelete', event => {
-        $('.bd-example-modal-sm').modal('show');
-
-    });
-
-
-</Script>
-
-
-
-
-
-
-
 
 @endpush
 
