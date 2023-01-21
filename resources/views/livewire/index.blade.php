@@ -2418,7 +2418,8 @@
 
 
 
-                        <h3 class="mb-3">nado44</h3>
+                        <h3 class="mb-3">{{ $note->title }}</h3>
+
                         <div class="media align-items-center">
                             <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="pin content"><i class="las la-thumbtack mr-2"></i></a>
                             <div class="btn-cancel p-0" data-dismiss="modal"><i class="las la-times"></i></div>
