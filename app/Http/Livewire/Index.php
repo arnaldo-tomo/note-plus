@@ -34,4 +34,9 @@ class Index extends Component
         $this->dispatchBrowserEvent('new-note');
     }
 
+    public function confirmarDelete($id)
+    {
+        dd($id);
+    }
+
 }
