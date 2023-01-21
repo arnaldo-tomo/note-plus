@@ -25,6 +25,10 @@ class Index extends Component
             return view('livewire.index', compact('notes'))->layout('livewire.root');
         }
     }
+    public function limpar()
+    {
+        $this->idDelete = "";
+    }
 
     public function ver($id)
     {
@@ -39,7 +43,13 @@ class Index extends Component
         $notes = notes::find($id);
         $this->idDelete = $notes->id;
         $this->dispatchBrowserEvent('confirmarDelete');
+    }
 
+    public function delete($id)
+    {
+        $notes = notes::find($id);
+        $notes->delete();
+        $this->limpar();
     }
 
 }
