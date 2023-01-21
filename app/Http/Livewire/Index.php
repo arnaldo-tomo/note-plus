@@ -12,8 +12,8 @@ class Index extends Component
     use WithPagination;
     protected $paginationTheme = 'bootstrap';
     public $user_id, $title, $description, $remenber, $icon, $priority;
-    public $user_idVER,  $description_ver, $remenberVER, $iconVER, $priorityVER;
-    public $title_ver;
+    public $user_idVER, $title_ver,  $description_ver, $remenberVER, $iconVER, $priorityVER;
+    public $idDelete;
     public $updateMode = false;
 
     public function render()
@@ -36,7 +36,10 @@ class Index extends Component
 
     public function confirmarDelete($id)
     {
-        dd($id);
+        $notes = notes::find($id);
+        $this->idDelete = $notes->id;
+        $this->dispatchBrowserEvent('confirmarDelete');
+
     }
 
 }
