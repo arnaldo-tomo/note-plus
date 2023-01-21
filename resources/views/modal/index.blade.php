@@ -143,22 +143,30 @@
 </div>
 
  <!-- confirmar delete -->
- <button type="button" class="btn btn-primary mt-2" data-toggle="modal" data-target=".bd-example-modal-sm">Small modal</button>
+
  <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-hidden="true">
      <div class="modal-dialog modal-sm">
          <div class="modal-content">
-             <div class="modal-header">
-                 <h5 class="modal-title">Modal title</h5>
+             <div class="modal-header bg-danger rounded-0 ">
+
+
+
+                 <h5 class="modal-title text-white text-center"><strong class="text-center">Deletar esta nota</strong></h5>
+
+
                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                      <span aria-hidden="true">&times;</span>
                  </button>
              </div>
              <div class="modal-body">
-                 <p>Modal body text goes here.</p>
+                 <p>QUERES DELETAR? {{ $idDelete }}</p>
+
+
              </div>
              <div class="modal-footer">
-                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                 <button type="button" class="btn btn-primary">Save changes</button>
+                 <button type="button" wire:click='delete({{ $idDelete }})' class="btn btn-primary btn-block rounded-0">sim</button>
+
+
              </div>
          </div>
      </div>
