@@ -149,10 +149,7 @@
          <div class="modal-content">
              <div class="modal-header bg-danger rounded-0 ">
 
-
-
                  <h5 class="modal-title text-white text-center"><strong class="text-center">Deletar esta nota</strong></h5>
-
 
                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                      <span aria-hidden="true">&times;</span>
@@ -160,7 +157,6 @@
              </div>
              <div class="modal-body">
                  <p>QUERES DELETAR? {{ $idDelete }}</p>
-
 
              </div>
              <div class="modal-footer">
