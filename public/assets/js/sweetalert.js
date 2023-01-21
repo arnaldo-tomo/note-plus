@@ -40,14 +40,17 @@
                 showConfirmButton: false,                
             })
         });
+
         $('#confirmation').on('click', function () {
             Swal.fire({
-                title: "Are you sure?",
+                title: "Tens a certeza?",
                 text: "Once deleted, you will not be able to recover this imaginary file!",
                 icon: "warning",
                 buttons: true,
                 dangerMode: true,
             })
+
+
             .then((willDelete) => {
                 if (willDelete) {
                     Swal.fire("Poof! Your imaginary file has been deleted!", {
@@ -58,6 +61,8 @@
                 }
             });
         });
+
+
         $('#custom-buttons').on('click', function () {
             Swal.fire("A wild Pikachu appeared! What do you want to do?", {
                 buttons: {
