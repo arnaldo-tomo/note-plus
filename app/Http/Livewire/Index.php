@@ -34,8 +34,6 @@ class Index extends Component
         $notes->description = $this->description;
         $notes->priority = $this->priority;
         $this->dispatchBrowserEvent('new-note2');
-        // $this->limpar();
-
     }
 
 }
