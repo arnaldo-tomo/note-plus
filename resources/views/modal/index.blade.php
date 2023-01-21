@@ -159,7 +159,9 @@
                  <p>QUERES DELETAR? {{ $idDelete }}</p>
 
              </div>
-             <div class="modal-footer">
+             <div class="modal-footer  rounded-0">
+
+
                  <button type="button" wire:click='delete({{ $idDelete }})' class="btn btn-primary btn-block rounded-0">sim</button>
 
 
