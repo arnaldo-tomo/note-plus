@@ -696,7 +696,11 @@
 
 
                                                                     </td>
-                                                                    <td>Dec 20</td>
+                                                                    <td> {{ \Carbon\Carbon::now()->parse($item->created_at)->locale('pt')->diffForHumans() }}
+
+                                                                    </td>
+
+
                                                                     <td>
                                                                         <div>
                                                                             <a href="#" class="badge badge-success mr-3" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-0"></i></a>
