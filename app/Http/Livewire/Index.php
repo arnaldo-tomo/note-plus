@@ -50,6 +50,8 @@ class Index extends Component
         $notes = notes::find($id);
         $notes->delete();
         $this->limpar();
+        $this->dispatchBrowserEvent('deletado');
+        
     }
 
 }
