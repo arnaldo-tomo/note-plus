@@ -2455,20 +2455,25 @@
 <script>
     window.addEventListener('new-note', event => {
         $('#new-note').modal('show');
-
-
-
 });
-
-
-window.addEventListener('confirmarDelete', event => {
-     $('#bd-example-modal-sm').modal('show');
-
-
-});
-
-
 </script>
+
+
+<Script>
+    window.addEventListener('confirmarDelete', event => {
+        $('#.bd-example-modal-sm').modal('show');
+    });
+
+
+</Script>
+
+
+
+
+
+
+
+
 @endpush
 
 
