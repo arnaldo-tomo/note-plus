@@ -12,6 +12,8 @@
 
                                     <i class="las la-pencil-alt pr-2"></i>Escreva Suas anotaçao aki
                                 </a>
+
+
                                 <span class="hide-note-button d-none"><i class="las la-folder pr-2"></i>Folder</span>
                             </div>
                             <div class="note-right media align-items-top hide-note-button d-none">
@@ -2443,6 +2445,8 @@
     @include('modal.index')
 
 
+<button type="button" class="btn btn-primary mt-2" data-toggle="modal" data-target=".bd-example-modal-sm">Small modal</button>
+
 
 
 
@@ -2461,7 +2465,8 @@
 
 <Script>
     window.addEventListener('confirmarDelete', event => {
-        $('#.bd-example-modal-sm').modal('show');
+        $('.bd-example-modal-sm').modal('show');
+
     });
 
 
