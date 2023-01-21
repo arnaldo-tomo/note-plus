@@ -10,6 +10,11 @@
         <link rel="shortcut icon" href="https://templates.iqonic.design/note-plus/html/assets/images/favicon.ico" />
         <link rel="stylesheet" href="../assets/css/backend-plugin.mine209.css">
         <link rel="stylesheet" href="../assets/css/backende209.css">
+        <link rel="stylesheet" href="../assets/css/all.min.css">
+        <link rel="stylesheet" href="fontawesome.min.css" />
+        <link rel="stylesheet" href="all.min.css" />
+
+
         <link rel="stylesheet" href="../assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
         <link rel="stylesheet" href="../assets/vendor/line-awesome/dist/line-awesome/css/line-awesome.min.css">
         <link rel="stylesheet" href="../assets/vendor/remixicon/fonts/remixicon.css">
