@@ -155,10 +155,14 @@
                      <span aria-hidden="true">&times;</span>
                  </button>
              </div>
-             <div class="modal-body  rounded-0">
+             <div class="modal-body  rounded-0 text-center">
 
 
-                 <p>QUERES DELETAR? {{ $idDelete }}</p>
+                 <p>QUERES DELETAR? </p>
+                 <Strong>{{ $titleDelete }}</Strong>
+
+
+
 
              </div>
              <div class="modal-footer  rounded-0">
