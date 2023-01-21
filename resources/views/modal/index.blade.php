@@ -157,8 +157,6 @@
              </div>
              <div class="modal-body  rounded-0 text-center">
 
-
-                 <p>QUERES DELETAR? </p>
                  <Strong>{{ $titleDelete }}</Strong>
 
 
