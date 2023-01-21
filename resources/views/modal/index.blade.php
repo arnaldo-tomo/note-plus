@@ -83,3 +83,31 @@
         </div>
     </div>
 </div>
+<div wire:ignore.self class="modal fade" id="new-note" tabindex="-1" role="dialog" aria-hidden="true">
+
+
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="popup text-left">
+                    <div class="media align-items-top justify-content-between">
+
+                        <h3 class="mb-3">{{ $this->title_ver  }}</h3>
+
+                        <div class="media align-items-center">
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="pin content"><i class="las la-thumbtack mr-2"></i></a>
+                            <div class="btn-cancel p-0" data-dismiss="modal"><i class="las la-times"></i></div>
+                        </div>
+                    </div>
+                    <div class="content create-workform">
+                        <p>{{ $description_ver}}</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
