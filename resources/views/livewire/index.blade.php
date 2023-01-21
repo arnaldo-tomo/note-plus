@@ -2426,8 +2426,8 @@
                         </div>
                     </div>
                     <div class="content create-workform">
-                        <p>You can easily share via message, WhatsApp, emails etc. You can also save your notes and edit
-                            it later or can easily delete the note.</p>
+                        <p>{{ $note->description }}</p>
+
                         <ul class="pl-3 mb-0">
                             <li class="note-list">Cakes and Balloons.</li>
                         </ul>
