@@ -14,6 +14,7 @@ class Index extends Component
     public $user_id, $title, $description, $remenber, $icon, $priority;
     public $user_idVER, $title_ver,  $description_ver, $remenberVER, $iconVER, $priorityVER;
     public $idDelete, $titleDelete;
+    public $editarTitle, $editarDescription;
     public $updateMode = false;
 
     public function render()
@@ -44,6 +45,14 @@ class Index extends Component
         $this->idDelete = $notes->id;
         $this->titleDelete = $notes->title;
         $this->dispatchBrowserEvent('confirmarDelete');
+    }
+
+    public function editar($id)
+    {
+        $notes = notes::find($id);
+        $this->editarTitle = $notes->title;
+        $this->editarDescription = $notes->description;
+        $this->dispatchBrowserEvent('modaleditar');
     }
 
     public function delete($id)
