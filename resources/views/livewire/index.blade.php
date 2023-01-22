@@ -1,5 +1,5 @@
 <div>
-<div wire:offline.class="bg-red-300"></div>
+    <div wire:offline.class="bg-red-300"></div>
 
 
 
@@ -10,7 +10,10 @@
                     <div class="card-body write-card">
                         <div class="d-flex align-items-center justify-content-between">
                             <div class="iq-note-callapse-menu">
-                                <a class="iq-note-callapse-btn show-note-button" data-toggle="collapse" href="#collapseMenu" role="button" data-extra-toggle="toggle" data-extra-class-show=".hide-note-button" data-extra-class-hide=".show-note-button" aria-expanded="false">
+                                <a class="iq-note-callapse-btn show-note-button" data-toggle="collapse"
+                                    href="#collapseMenu" role="button" data-extra-toggle="toggle"
+                                    data-extra-class-show=".hide-note-button" data-extra-class-hide=".show-note-button"
+                                    aria-expanded="false">
 
 
                                     <i class="las la-pencil-alt pr-2"></i>Escreva Suas anotaçao aki
@@ -20,7 +23,8 @@
                                 <span class="hide-note-button d-none"><i class="las la-folder pr-2"></i>Folder</span>
                             </div>
                             <div class="note-right media align-items-top hide-note-button d-none">
-                                <div class="mr-2"><a href="#" class="btn view-btn body-bg" data-toggle="modal" data-target="#share-note">Share</a></div>
+                                <div class="mr-2"><a href="#" class="btn view-btn body-bg" data-toggle="modal"
+                                        data-target="#share-note">Share</a></div>
 
 
                                 <div class="view-btn btn-dropdown body-bg rounded">
@@ -28,13 +32,16 @@
                                         <span class="dropdown-toggle" id="dropdownMenuButton1" data-toggle="dropdown">
                                             <i class="ri-more-2-fill"></i>
                                         </span>
-                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton1">
+                                        <div class="dropdown-menu dropdown-menu-right"
+                                            aria-labelledby="dropdownMenuButton1">
 
 
                                             <a class="dropdown-item" href="#"><i class="lar la-heart mr-3"></i>Add
                                                 To Favourite</a>
-                                            <a class="dropdown-item" href="#"><i class="las la-thumbtack mr-3"></i>Mark As Pin</a>
-                                            <a class="dropdown-item" href="#"><i class="las la-trash-alt mr-3"></i>Move to Trash</a>
+                                            <a class="dropdown-item" href="#"><i
+                                                    class="las la-thumbtack mr-3"></i>Mark As Pin</a>
+                                            <a class="dropdown-item" href="#"><i
+                                                    class="las la-trash-alt mr-3"></i>Move to Trash</a>
 
 
                                         </div>
@@ -50,12 +57,17 @@
                     <div class="card-body card-content-right">
                         <ul class="list-inline m-0 p-0 d-flex align-items-center justify-content-around">
                             <li class="nav-item nav-icon dropdown">
-                                <a href="#" class="search-toggle dropdown-toggle nav-icon-1" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a href="#" class="search-toggle dropdown-toggle nav-icon-1"
+                                    id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
 
 
                                     <i class="">
-                                        <svg width="20" class="svg-icon" id="main-n-01" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                        <svg width="20" class="svg-icon" id="main-n-01"
+                                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
 
 
                                         </svg>
@@ -70,12 +82,14 @@
                                                 <a href="#" class="iq-sub-card">
                                                     <div class="media align-items-center cust-card pb-3 border-bottom">
                                                         <div class="">
-                                                            <img class="avatar-50 rounded-small" src="../assets/images/user/01.jpg" alt="01">
+                                                            <img class="avatar-50 rounded-small"
+                                                                src="../assets/images/user/01.jpg" alt="01">
 
 
                                                         </div>
                                                         <div class="media-body ml-3">
-                                                            <div class="d-flex align-items-center justify-content-between">
+                                                            <div
+                                                                class="d-flex align-items-center justify-content-between">
 
 
                                                                 <h5 class="mb-0">Emma Watson</h5>
@@ -88,12 +102,14 @@
                                                 <a href="#" class="iq-sub-card">
                                                     <div class="media align-items-center cust-card py-3 border-bottom">
                                                         <div class="">
-                                                            <img class="avatar-50 rounded-small" src="../assets/images/user/02.jpg" alt="02">
+                                                            <img class="avatar-50 rounded-small"
+                                                                src="../assets/images/user/02.jpg" alt="02">
 
 
                                                         </div>
                                                         <div class="media-body ml-3">
-                                                            <div class="d-flex align-items-center justify-content-between">
+                                                            <div
+                                                                class="d-flex align-items-center justify-content-between">
 
 
                                                                 <h5 class="mb-0">Ashlynn Franci</h5>
@@ -106,12 +122,14 @@
                                                 <a href="#" class="iq-sub-card">
                                                     <div class="media align-items-center cust-card pt-3">
                                                         <div class="">
-                                                            <img class="avatar-50 rounded-small" src="../assets/images/user/03.jpg" alt="03">
+                                                            <img class="avatar-50 rounded-small"
+                                                                src="../assets/images/user/03.jpg" alt="03">
 
 
                                                         </div>
                                                         <div class="media-body ml-3">
-                                                            <div class="d-flex align-items-center justify-content-between">
+                                                            <div
+                                                                class="d-flex align-items-center justify-content-between">
 
 
                                                                 <h5 class="mb-0">Kianna Carder</h5>
@@ -122,7 +140,8 @@
                                                     </div>
                                                 </a>
                                             </div>
-                                            <a class="btn btn-block btn-primary position-relative text-center" href="#" role="button">
+                                            <a class="btn btn-block btn-primary position-relative text-center"
+                                                href="#" role="button">
 
 
                                                 View All
@@ -132,12 +151,17 @@
                                 </div>
                             </li>
                             <li class="nav-item nav-icon dropdown pl-3">
-                                <a href="#" class="search-toggle dropdown-toggle nav-icon-1" id="dropdownMenuButton002" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a href="#" class="search-toggle dropdown-toggle nav-icon-1"
+                                    id="dropdownMenuButton002" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
 
 
                                     <i class="">
-                                        <svg width="20" class="svg-icon" id="main-n-02" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+                                        <svg width="20" class="svg-icon" id="main-n-02"
+                                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
 
 
                                         </svg>
@@ -152,12 +176,14 @@
                                                 <a href="#" class="iq-sub-card">
                                                     <div class="media align-items-center cust-card pb-3 border-bottom">
                                                         <div class="">
-                                                            <img class="avatar-50 rounded-small" src="../assets/images/user/01.jpg" alt="01">
+                                                            <img class="avatar-50 rounded-small"
+                                                                src="../assets/images/user/01.jpg" alt="01">
 
 
                                                         </div>
                                                         <div class="media-body ml-3">
-                                                            <div class="d-flex align-items-center justify-content-between">
+                                                            <div
+                                                                class="d-flex align-items-center justify-content-between">
 
 
                                                                 <h5 class="mb-0">Emma Watson</h5>
@@ -170,12 +196,14 @@
                                                 <a href="#" class="iq-sub-card">
                                                     <div class="media align-items-center cust-card py-3 border-bottom">
                                                         <div class="">
-                                                            <img class="avatar-50 rounded-small" src="../assets/images/user/02.jpg" alt="02">
+                                                            <img class="avatar-50 rounded-small"
+                                                                src="../assets/images/user/02.jpg" alt="02">
 
 
                                                         </div>
                                                         <div class="media-body ml-3">
-                                                            <div class="d-flex align-items-center justify-content-between">
+                                                            <div
+                                                                class="d-flex align-items-center justify-content-between">
 
 
                                                                 <h5 class="mb-0">Ashlynn Franci</h5>
@@ -188,12 +216,14 @@
                                                 <a href="#" class="iq-sub-card">
                                                     <div class="media align-items-center cust-card pt-3">
                                                         <div class="">
-                                                            <img class="avatar-50 rounded-small" src="../assets/images/user/03.jpg" alt="03">
+                                                            <img class="avatar-50 rounded-small"
+                                                                src="../assets/images/user/03.jpg" alt="03">
 
 
                                                         </div>
                                                         <div class="media-body ml-3">
-                                                            <div class="d-flex align-items-center justify-content-between">
+                                                            <div
+                                                                class="d-flex align-items-center justify-content-between">
 
 
                                                                 <h5 class="mb-0">Kianna Carder</h5>
@@ -204,7 +234,8 @@
                                                     </div>
                                                 </a>
                                             </div>
-                                            <a class="btn btn-block btn-primary position-relative text-center" href="#" role="button">
+                                            <a class="btn btn-block btn-primary position-relative text-center"
+                                                href="#" role="button">
 
 
                                                 View All
@@ -227,12 +258,15 @@
                                         <div class="col-md-12 col-lg-12 p-0">
                                             <div class="card card-transparent card-block card-stretch event-note">
                                                 <div class="card-body px-0 bukmark">
-                                                    <div class="d-flex align-items-center justify-content-between pb-2 mb-3 border-bottom">
+                                                    <div
+                                                        class="d-flex align-items-center justify-content-between pb-2 mb-3 border-bottom">
 
 
                                                         <div class="quill-tool">
                                                         </div>
-                                                        <div class="iq-full-screen"><a href="#" class="" id="btnFullscreen"><i class="las la-expand-arrows-alt font-size-18"></i></a>
+                                                        <div class="iq-full-screen"><a href="#" class=""
+                                                                id="btnFullscreen"><i
+                                                                    class="las la-expand-arrows-alt font-size-18"></i></a>
 
 
                                                         </div>
@@ -245,8 +279,10 @@
                                                             <li>Balloons</li>
                                                             <li>Cold Drinks</li>
                                                         </ul>
-                                                        <img src="../assets/images/event-note/01.png" class="img-fluid image-1" alt="image">
-                                                        <img src="../assets/images/event-note/02.png" class="img-fluid image-2" alt="image">
+                                                        <img src="../assets/images/event-note/01.png"
+                                                            class="img-fluid image-1" alt="image">
+                                                        <img src="../assets/images/event-note/02.png"
+                                                            class="img-fluid image-2" alt="image">
 
 
                                                     </div>
@@ -254,8 +290,12 @@
                                             </div>
                                         </div>
                                         <div class="col-lg-12 p-0 d-flex justify-content-end">
-                                            <button class="btn btn-outline-primary" data-extra-toggle="toggle" data-extra-class-show=".show-note-button" data-extra-class-hide=".hide-note-button">Close</button>
-                                            <button class="btn btn-primary ml-2" data-extra-toggle="toggle" data-extra-class-show=".show-note-button" data-extra-class-hide=".hide-note-button">Save</button>
+                                            <button class="btn btn-outline-primary" data-extra-toggle="toggle"
+                                                data-extra-class-show=".show-note-button"
+                                                data-extra-class-hide=".hide-note-button">Close</button>
+                                            <button class="btn btn-primary ml-2" data-extra-toggle="toggle"
+                                                data-extra-class-show=".show-note-button"
+                                                data-extra-class-hide=".hide-note-button">Save</button>
 
 
                                         </div>
@@ -274,28 +314,33 @@
 
                             <div class="iq-tab-content">
                                 <div class="d-flex flex-wrap align-items-top justify-content-between">
-                                    <ul class="d-flex nav nav-pills text-center note-tab mb-3" id="note-pills-tab" role="tablist">
+                                    <ul class="d-flex nav nav-pills text-center note-tab mb-3" id="note-pills-tab"
+                                        role="tablist">
 
 
                                         <li class="nav-item">
-                                            <a class="nav-link home active show" data-toggle="pill" data-init="note" href="#note1" role="tab" aria-selected="false">All</a>
+                                            <a class="nav-link home active show" data-toggle="pill" data-init="note"
+                                                href="#note1" role="tab" aria-selected="false">All</a>
 
 
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link home" data-toggle="pill" data-init="shared-note" href="#note2" role="tab" aria-selected="true">Notas
+                                            <a class="nav-link home" data-toggle="pill" data-init="shared-note"
+                                                href="#note2" role="tab" aria-selected="true">Notas
 
 
                                                 compartilhadas</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link home" data-toggle="pill" data-init="pin-note" href="#note3" role="tab" aria-selected="false">Fixar
+                                            <a class="nav-link home" data-toggle="pill" data-init="pin-note"
+                                                href="#note3" role="tab" aria-selected="false">Fixar
 
 
                                                 anotações</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link home" data-toggle="pill" data-init="fav-note" href="#note4" role="tab" aria-selected="false">Notas
+                                            <a class="nav-link home" data-toggle="pill" data-init="fav-note"
+                                                href="#note4" role="tab" aria-selected="false">Notas
 
 
                                                 favoritas</a>
@@ -305,7 +350,8 @@
                                     <div class="media align-items-top iq-grid">
                                         <div class="view-btn rounded body-bg btn-dropdown filter-btn mr-3">
                                             <div class="dropdown">
-                                                <span class="dropdown-toggle cursor-pointer" id="dropdownMenuButton003" data-toggle="dropdown">
+                                                <span class="dropdown-toggle cursor-pointer"
+                                                    id="dropdownMenuButton003" data-toggle="dropdown">
                                                     <i class="las la-filter font-size-20 py-2"></i>
 
 
@@ -314,14 +360,17 @@
 
 
                                                 </span>
-                                                <div class="dropdown-menu dropdown-menu-right border-none" aria-labelledby="dropdownMenuButton003">
+                                                <div class="dropdown-menu dropdown-menu-right border-none"
+                                                    aria-labelledby="dropdownMenuButton003">
 
                                                     <div class="dropdown-item mb-3">
                                                         <div class="d-flex align-items-center justify-content-between">
                                                             <h6 class="mr-4"><i class="las la-book mr-3"></i>Located
                                                                 In</h6>
                                                             <div class="form-group mb-0">
-                                                                <select name="type" class="basic-select form-control dropdown-toggle" data-style="py-0">
+                                                                <select name="type"
+                                                                    class="basic-select form-control dropdown-toggle"
+                                                                    data-style="py-0">
 
 
                                                                     <option value="1">Project Plans</option>
@@ -333,11 +382,14 @@
                                                     </div>
                                                     <div class="dropdown-item mb-3">
                                                         <div class="d-flex align-items-center justify-content-between">
-                                                            <h6 class="mr-4"><i class="las la-paste mr-3"></i>Contains</h6>
+                                                            <h6 class="mr-4"><i
+                                                                    class="las la-paste mr-3"></i>Contains</h6>
 
 
                                                             <div class="form-group mb-0">
-                                                                <select name="type" class="basic-select form-control dropdown-toggle" data-style="py-0">
+                                                                <select name="type"
+                                                                    class="basic-select form-control dropdown-toggle"
+                                                                    data-style="py-0">
 
 
                                                                     <option value="1">Address</option>
@@ -349,11 +401,14 @@
                                                     </div>
                                                     <div class="dropdown-item mb-2">
                                                         <div class="d-flex align-items-center justify-content-between">
-                                                            <h6 class="mr-4"><i class="las la-calendar mr-3"></i>Created</h6>
+                                                            <h6 class="mr-4"><i
+                                                                    class="las la-calendar mr-3"></i>Created</h6>
 
 
                                                             <div class="form-group mb-0">
-                                                                <select id="date-select" name="type" class="basic-select form-control dropdown-toggle" data-style="py-0">
+                                                                <select id="date-select" name="type"
+                                                                    class="basic-select form-control dropdown-toggle"
+                                                                    data-style="py-0">
 
 
                                                                     <option value="today">Today</option>
@@ -368,8 +423,10 @@
                                             </div>
                                         </div>
                                         <div class="list-grid-toggle cursor-pointer">
-                                            <span class="icon active i-grid rounded"><i class="ri-layout-grid-line font-size-20"></i></span>
-                                            <span class="icon active i-list rounded"><i class="ri-list-check font-size-20"></i></span>
+                                            <span class="icon active i-grid rounded"><i
+                                                    class="ri-layout-grid-line font-size-20"></i></span>
+                                            <span class="icon active i-list rounded"><i
+                                                    class="ri-list-check font-size-20"></i></span>
 
 
                                             <span class="label label-list">List</span>
@@ -382,64 +439,42 @@
                                         <div class="icon active animate__animated animate__fadeIn i-grid">
                                             <div class="row">
                                                 @forelse ($notes as $note)
+                                                    <div class="col-lg-4 col-md-6">
 
+                                                        <div
+                                                            class="card card-block card-stretch card-height card-bottom-border-{{ $note->priority }} note-detail">
+                                                            <div
+                                                                class="card-header d-flex justify-content-between pb-1">
+                                                                <div
+                                                                    class="icon iq-icon-box-2 py-3 icon-border-{{ $note->priority }} rounded">
+                                                                    <svg width="23" height="23"
+                                                                        class="svg-icon" id="iq-main-02"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        fill="none" viewBox="0 0 24 24"
+                                                                        stroke="currentColor">
+                                                                        @switch($note->icon)
+                                                                            @case('option1')
+                                                                                <path stroke-linecap="round"
+                                                                                    stroke-linejoin="round" stroke-width="2"
+                                                                                    d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                                                                            @break
 
+                                                                            @case('option2')
+                                                                                <path stroke-linecap="round"
+                                                                                    stroke-linejoin="round" stroke-width="2"
+                                                                                    d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+                                                                            @break
 
+                                                                            @case('option3')
+                                                                                <path stroke-linecap="round"
+                                                                                    stroke-linejoin="round" stroke-width="2"
+                                                                                    d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
+                                                                            @break
 
-
-                                                <div class="col-lg-4 col-md-6">
-
-                                                    <div class="card card-block card-stretch card-height card-bottom-border-{{ $note->priority }} note-detail">
-                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                            <div class="icon iq-icon-box-2 py-3 icon-border-{{ $note->priority }} rounded">
-                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-02" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                                    @switch($note->icon)
-                                                                    @case('option1')
-
-
-
-
-
-                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                                                                    @break
-
-
-
-
-
-
-
-
-
-                                                                    @case('option2')
-
-                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
-                                                                    @break
-
-
-
-
-
-
-
-
-
-                                                                    @case('option3')
-
-                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
-                                                                    @break
-
-
-
-
-
-
-
-
-
-                                                                    @case('option4')
-
-                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704
+                                                                            @case('option4')
+                                                                                <path stroke-linecap="round"
+                                                                                    stroke-linejoin="round" stroke-width="2"
+                                                                                    d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704
 
 
 
@@ -448,15 +483,12 @@
 
                                                                         2.704 0 01-3 0 2.701 2.701 0 00-1.5-.454M9 6v2m3-2v2m3-2v2M9
                                                                          3h.01M12 3h.01M15 3h.01M21 21v-7a2 2 0 00-2-2H5a2 2 0 00-2 2v7h18zm-3-9v-2a2 2 0 00-2-2H8a2 2 0 00-2 2v2h12z" />
-                                                                    @break
+                                                                            @break
 
-
-
-
-
-                                                                    @case('option5')
-
-                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07
+                                                                            @case('option5')
+                                                                                <path stroke-linecap="round"
+                                                                                    stroke-linejoin="round" stroke-width="2"
+                                                                                    d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07
 
 
 
@@ -464,42 +496,31 @@
 
 
                                                                         4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" />
-                                                                    @break
+                                                                            @break
 
+                                                                            @case('option6')
+                                                                                <path stroke-linecap="round"
+                                                                                    stroke-linejoin="round" stroke-width="2"
+                                                                                    d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                                                                            @break
 
+                                                                            @case('option7')
+                                                                                <path stroke-linecap="round"
+                                                                                    stroke-linejoin="round" stroke-width="2"
+                                                                                    d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                                                                            @break
 
+                                                                            @case('option8')
+                                                                                <path stroke-linecap="round"
+                                                                                    stroke-linejoin="round" stroke-width="2"
+                                                                                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                                                            @break
 
-
-                                                                    @case('option6')
-
-                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
-                                                                    @break
-
-
-
-
-
-
-
-
-
-                                                                    @case('option7')
-
-                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
-                                                                    @break
-
-
-
-
-
-
-
-
-
-                                                                    @case('option8')
-
-                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                                                                    @break
+                                                                            @default
+                                                                                <path stroke-linecap="round"
+                                                                                    stroke-linejoin="round" stroke-width="2"
+                                                                                    d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.701 2.701 0 00-1.5-.454M9 6v2m3-2v2m3-2v2M9 3h.01M12 3h.01M15 3h.01M21 21v-7a2 2 0 00-2-2H5a2 2 0 00-2 2v7h18zm-3-9v-2a2 2 0 00-2-2H8a2 2 0 00-2 2v2h12z" />
+                                                                        @endswitch
 
 
 
@@ -508,24 +529,105 @@
 
 
 
-
-                                                                    @default
-
-                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.701 2.701 0 00-1.5-.454M9 6v2m3-2v2m3-2v2M9 3h.01M12 3h.01M15 3h.01M21 21v-7a2 2 0 00-2-2H5a2 2 0 00-2 2v7h18zm-3-9v-2a2 2 0 00-2-2H8a2 2 0 00-2 2v2h12z" />
-                                                                    @endswitch
+                                                                    </svg>
 
 
 
+
+                                                                </div>
 
 
 
 
 
-                                                                </svg>
+
+                                                                <div
+                                                                    class="card-header-toolbar d-flex align-items-center">
+                                                                    <a href="#" data-toggle="tooltip"
+                                                                        data-placement="top" class="show-tab"
+                                                                        data-show-tab="[href='#note3']" title=""
+                                                                        data-original-title="pin content"><i
+                                                                            class="las la-thumbtack mr-2"></i></a>
+                                                                    <a href="#" data-toggle="tooltip"
+                                                                        data-placement="top" title=""
+                                                                        class="show-tab"
+                                                                        data-show-tab="[href='#note4']"
+                                                                        data-original-title="favorite"><i
+                                                                            class="lar la-heart mr-2"></i></a>
 
 
 
 
+
+
+                                                                    <div
+                                                                        class="card-header-toolbar d-flex align-items-center">
+
+
+
+
+
+
+
+                                                                        <div class="dropdown">
+
+                                                                            <span class="dropdown-toggle dropdown-bg"
+                                                                                id="note-dropdownMenuButton5"
+                                                                                data-toggle="dropdown"
+                                                                                aria-expanded="false" role="button">
+                                                                                <i class="ri-more-fill"></i>
+                                                                            </span>
+
+
+
+
+
+
+                                                                            <div class="dropdown-menu dropdown-menu-right"
+                                                                                aria-labelledby="note-dropdownMenuButton5"
+                                                                                style="">
+
+                                                                                <a href="#"
+                                                                                    wire:click="ver({{ $note->id }})"
+                                                                                    class="dropdown-item new-note2"><i
+                                                                                        class="las la-eye mr-3"></i>View</a>
+
+
+
+
+
+
+
+
+                                                                                <a href="#"
+                                                                                    class="dropdown-item"
+                                                                                    wire:click="editar({{ $note->id }})"><i
+                                                                                        class="las la-pen mr-3"></i>Edit</a>
+
+
+                                                                                <a class="dropdown-item"
+                                                                                    wire:click='confirmarDelete({{ $note->id }})'
+                                                                                    href="#"><i
+                                                                                        class="las la-trash-alt mr-3"></i>Delete</a>
+
+
+
+
+
+
+                                                                                {{-- <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".card" href="#"><i class="las la-trash-alt mr-3"></i>Delete</a> --}}
+
+
+
+
+
+
+
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
                                                             </div>
 
 
@@ -533,37 +635,6 @@
 
 
 
-                                                            <div class="card-header-toolbar d-flex align-items-center">
-                                                                <a href="#" data-toggle="tooltip" data-placement="top" class="show-tab" data-show-tab="[href='#note3']" title="" data-original-title="pin content"><i class="las la-thumbtack mr-2"></i></a>
-                                                                <a href="#" data-toggle="tooltip" data-placement="top" title="" class="show-tab" data-show-tab="[href='#note4']" data-original-title="favorite"><i class="lar la-heart mr-2"></i></a>
-
-
-
-
-
-
-                                                                <div class="card-header-toolbar d-flex align-items-center">
-
-
-
-
-
-
-
-                                                                    <div class="dropdown">
-
-                                                                        <span class="dropdown-toggle dropdown-bg" id="note-dropdownMenuButton5" data-toggle="dropdown" aria-expanded="false" role="button">
-                                                                            <i class="ri-more-fill"></i>
-                                                                        </span>
-
-
-
-
-
-
-                                                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="note-dropdownMenuButton5" style="">
-
-                                                                            <a href="#" wire:click="ver({{ $note->id }})" class="dropdown-item new-note2"><i class="las la-eye mr-3"></i>View</a>
 
 
 
@@ -572,1645 +643,2316 @@
 
 
 
-                                                                            <a href="#" class="dropdown-item" wire:click="editar({{ $note->id }})"><i class="las la-pen mr-3"></i>Edit</a>
+                                                            <div class="card-body rounded">
+                                                                <h4 class="card-title">{{ $note->title }}</h4>
+                                                                <p class="mb-3 card-description short">
+                                                                    {{ $note->description }}</p>
+                                                            </div>
+                                                            <div class="card-footer">
 
+                                                                <div
+                                                                    class="d-flex align-items-center justify-content-between note-text note-text-{{ $note->priority }}">
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-user mr-2 font-size-20"></i>{{ $note->user->name }}</a>
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-calendar mr-2 font-size-20"></i>{{ $note->remenber }}</a>
+                                                                </div>
 
-<a class="dropdown-item" wire:click='confirmarDelete({{ $note->id }})' href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
-
-
-
-
-
-
-{{-- <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".card" href="#"><i class="las la-trash-alt mr-3"></i>Delete</a> --}}
-
-
-
-
-
-
-
-
-                                                                        </div>
-                                                                    </div>
-                                                                    </div>
-                                                                    </div>
-                                                                    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                        <div class="card-body rounded">
-                                                            <h4 class="card-title">{{ $note->title }}</h4>
-                                                            <p class="mb-3 card-description short">
-                                                                {{ $note->description }}</p>
-                                                        </div>
-                                                        <div class="card-footer">
-
-                                                            <div class="d-flex align-items-center justify-content-between note-text note-text-{{ $note->priority }}">
-                                                                <a href="#" class=""><i class="las la-user mr-2 font-size-20"></i>{{ $note->user->name }}</a>
-                                                                <a href="#" class=""><i class="las la-calendar mr-2 font-size-20"></i>{{ $note->remenber }}</a>
                                                             </div>
 
                                                         </div>
 
                                                     </div>
 
+                                                    @empty
+                                                        Sem POst
+                                                    @endforelse
+
                                                 </div>
-
-                                                @empty
-                                                Sem POst
-
-
-
-
-
-
-
-
-
-                                                @endforelse
 
                                             </div>
+                                            {{ $notes->links() }}
 
-                                        </div>
-                                        {{ $notes->links() }}
+                                            <div class="icon active animate__animated animate__fadeIn i-list">
+                                                <div class="row">
+                                                    <div class="col-lg-12">
+                                                        <div class="table-responsive">
+                                                            <table class="table  tbl-server-info">
+                                                                <thead>
+                                                                    <tr class="ligth">
+                                                                        <th class="w-50" scope="col">Titulo</th>
+                                                                        <th scope="col">Permisao</th>
 
-                                        <div class="icon active animate__animated animate__fadeIn i-list">
-                                            <div class="row">
-                                                <div class="col-lg-12">
-                                                    <div class="table-responsive">
-                                                        <table class="table  tbl-server-info">
-                                                            <thead>
-                                                                <tr class="ligth">
-                                                                    <th class="w-50" scope="col">Titulo</th>
-                                                                    <th scope="col">Permisao</th>
+                                                                        <th scope="col">Creado em</th>
+                                                                        <th scope="col">Accao</th>
 
-                                                                    <th scope="col">Creado em</th>
-                                                                    <th scope="col">Accao</th>
 
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    @forelse ($notes as $item)
+                                                                        <tr>
+                                                                            <td>
+                                                                                <h4 class="mb-2">{{ $item->title }}<i
+                                                                                        class="las la-thumbtack ml-2 show-tab"></i>
 
-                                                                </tr>
-                                                            </thead>
-                                                            <tbody>
-@forelse ($notes as $item)
 
 
-                                                                <tr>
-                                                                    <td>
-                                                                    <h4 class="mb-2">{{ $item->title }}<i class="las la-thumbtack ml-2 show-tab"></i>
 
 
+                                                                                    <i
+                                                                                        class="lar la-heart ml-2 show-tab"></i>
 
 
 
-<i class="lar la-heart ml-2 show-tab"></i>
 
+                                                                                </h4>
+                                                                                <span>{{ $item->description }}</span>
 
+                                                                            </td>
+                                                                            <td>
+                                                                                <i
+                                                                                    class="las la-lock mr-2 font-size-20"></i>
+                                                                                Only You
+                                                                                <i
+                                                                                    class="las la-user-friends mr-2 font-size-20"></i>
 
 
-                                                                        </h4>
-                                                                        <span>{{ $item->description }}</span>
 
-                                                                    </td>
-                                                                    <td>
-                                                                        <i class="las la-lock mr-2 font-size-20"></i>
-                                                                        Only You
-                                                                        <i class="las la-user-friends mr-2 font-size-20"></i>
+                                                                                03 share
 
 
 
-                                                                        03 share
 
 
 
+                                                                            </td>
+                                                                            <td> {{ \Carbon\Carbon::now()->parse($item->created_at)->locale('pt')->diffForHumans() }}
 
+                                                                            </td>
 
 
-                                                                    </td>
-                                                                    <td> {{ \Carbon\Carbon::now()->parse($item->created_at)->locale('pt')->diffForHumans() }}
+                                                                            <td>
+                                                                                <div>
+                                                                                    <a href="#"
+                                                                                        class="badge badge-success mr-3"
+                                                                                        wire:click="editar({{ $note->id }})"><i
+                                                                                            class="las la-pen mr-0"></i></a>
+                                                                                    <a href="#"
+                                                                                        class="badge badge-danger"
+                                                                                        wire:click='confirmarDelete({{ $note->id }})'><i
+                                                                                            class="las la-trash-alt mr-0"></i></a>
 
-                                                                    </td>
 
 
-                                                                    <td>
-                                                                        <div>
-                                                                            <a href="#" class="badge badge-success mr-3" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-0"></i></a>
-<a href="#" class="badge badge-danger" wire:click='confirmarDelete({{ $note->id }})'><i class="las la-trash-alt mr-0"></i></a>
 
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    @empty
+                                                                    @endforelse
 
 
 
-                                                                        </div>
-                                                                    </td>
-                                                                </tr>
-@empty
 
-
-
-@endforelse
-
-
-
-
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {{-- Notas compartilhadas --}}
-                                    <div id="note2" class="tab-pane fade">
-                                        <div class="icon active animate__animated animate__fadeIn i-grid">
-                                            <div class="row">
-                                                <div class="col-lg-4 col-md-6">
-                                                    <div class="card card-block card-stretch card-height card-bottom-border-info note-detail">
-
-
-                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                            <div class="icon iq-icon-box-2 py-3 icon-border-info py-3 rounded">
-                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-10" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-
-
-                                                                </svg>
-                                                            </div>
-                                                            <div class="card-header-toolbar d-flex align-items-center">
-                                                                <div class="dropdown">
-                                                                    <span class="dropdown-toggle dropdown-bg" id="note-dropdownMenuButton13" data-toggle="dropdown" aria-expanded="false" role="button">
-
-
-                                                                        <i class="ri-more-fill"></i>
-                                                                    </span>
-                                                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="note-dropdownMenuButton13" style="">
-                                                                        <a href="#" class="dropdown-item new-note1" data-toggle="modal" data-target="#new-note1"><i class="las la-eye mr-3"></i>View</a>
-                                                                        <a href="#" class="dropdown-item edit-note1" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-3"></i>Edit</a>
-                                                                        <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".card" href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
-
-
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card-body rounded">
-                                                            <h4 class="card-title">Weekly Planner</h4>
-                                                            <p class="mb-3 card-description short">Virtual Digital
-                                                                Marketing Course every week on Monday, Wednesday and
-                                                                Saturday.Virtual Digital Marketing Course every week on
-                                                                Monday</p>
-                                                        </div>
-                                                        <div class="card-footer">
-                                                            <div class="d-flex align-items-center justify-content-between note-text note-text-info">
-                                                                <a href="#" class=""><i class="las la-user-friends mr-2 font-size-20"></i>03
-
-
-                                                                    share</a>
-                                                                <a href="#" class=""><i class="las la-calendar mr-2 font-size-20"></i>12
-
-
-                                                                    Jan 2021</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-4 col-md-6">
-                                                    <div class="card card-block card-stretch card-height card-bottom-border-success note-detail">
-
-
-                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                            <div class="icon iq-icon-box-2 py-3 icon-border-success rounded">
-                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-11" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
-
-
-                                                                </svg>
-                                                            </div>
-                                                            <div class="card-header-toolbar d-flex align-items-center">
-                                                                <div class="dropdown">
-                                                                    <span class="dropdown-toggle dropdown-bg" id="note-dropdownMenuButton14" data-toggle="dropdown" aria-expanded="false" role="button">
-
-
-                                                                        <i class="ri-more-fill"></i>
-                                                                    </span>
-                                                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="note-dropdownMenuButton14" style="">
-                                                                        <a href="#" class="dropdown-item new-note6" data-toggle="modal" data-target="#new-note6"><i class="las la-eye mr-3"></i>View</a>
-                                                                        <a href="#" class="dropdown-item edit-note1" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-3"></i>Edit</a>
-                                                                        <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".card" href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
-
-
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card-body rounded">
-                                                            <h4 class="card-title">Benefits of NotePlus</h4>
-                                                            <p class="mb-3 card-description short">Take organized notes
-                                                                and share later as meeting minutes or check-list with
-                                                                this simple accessible Noteplus. Each note you create
-                                                                will be stored on a virtual page of the NotePlus. You
-                                                                can store groups of seperate notes. You can store an
-                                                                unlimited number of separate notes within the NotePlus.
-                                                            </p>
-                                                        </div>
-                                                        <div class="card-footer">
-                                                            <div class="d-flex align-items-center justify-content-between note-text note-text-success">
-                                                                <a href="#" class=""><i class="las la-user-friends mr-2 font-size-20"></i>02
-
-
-                                                                    share</a>
-                                                                <a href="#" class=""><i class="las la-calendar mr-2 font-size-20"></i>10
-
-
-                                                                    Jan 2021</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-4 col-md-6">
-                                                    <div class="card card-block card-stretch card-height card-bottom-border-warning note-detail">
-
-
-                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                            <div class="icon iq-icon-box-2 py-3 icon-border-warning rounded">
-                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-12" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 19v-8.93a2 2 0 01.89-1.664l7-4.666a2 2 0 012.22 0l7 4.666A2 2 0 0121 10.07V19M3 19a2 2 0 002 2h14a2 2 0 002-2M3 19l6.75-4.5M21 19l-6.75-4.5M3 10l6.75 4.5M21 10l-6.75 4.5m0 0l-1.14.76a2 2 0 01-2.22 0l-1.14-.76" />
-
-
-                                                                </svg>
-                                                            </div>
-                                                            <div class="card-header-toolbar d-flex align-items-center">
-                                                                <div class="dropdown">
-                                                                    <span class="dropdown-toggle dropdown-bg" id="note-dropdownMenuButton15" data-toggle="dropdown" aria-expanded="false" role="button">
-
-
-                                                                        <i class="ri-more-fill"></i>
-                                                                    </span>
-                                                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="note-dropdownMenuButton15" style="">
-                                                                        <a href="#" class="dropdown-item new-note8" data-toggle="modal" data-target="#new-note8"><i class="las la-eye mr-3"></i>View</a>
-                                                                        <a href="#" class="dropdown-item edit-note1" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-3"></i>Edit</a>
-                                                                        <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".card" href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
-
-
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card-body rounded">
-                                                            <h4 class="card-title">Address & Email</h4>
-                                                            <p class="mb-3 card-description short">Quickly note down
-                                                                the address and email address on NotePlus so that you
-                                                                can access it from anywhere.</p>
-                                                        </div>
-                                                        <div class="card-footer">
-                                                            <div class="d-flex align-items-center justify-content-between note-text note-text-warning">
-                                                                <a href="#" class=""><i class="las la-user-friends mr-2 font-size-20"></i>04
-
-
-                                                                    share</a>
-                                                                <a href="#" class=""><i class="las la-calendar mr-2 font-size-20"></i>8
-
-
-                                                                    Jan 2021</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-4 col-md-6">
-                                                    <div class="card card-block card-stretch card-height card-bottom-border-danger note-detail">
-
-
-                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                            <div class="icon iq-icon-box-2 py-3 icon-border-danger rounded">
-                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-13" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
-
-
-                                                                </svg>
-                                                            </div>
-                                                            <div class="card-header-toolbar d-flex align-items-center">
-                                                                <div class="card-header-toolbar d-flex align-items-center">
-                                                                    <div class="dropdown">
-                                                                        <span class="dropdown-toggle dropdown-bg" id="note-dropdownMenuButton16" data-toggle="dropdown" aria-expanded="false" role="button">
-
-
-                                                                            <i class="ri-more-fill"></i>
-                                                                        </span>
-                                                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="note-dropdownMenuButton16" style="">
-                                                                            <a href="#" class="dropdown-item new-note4" data-toggle="modal" data-target="#new-note4"><i class="las la-eye mr-3"></i>View</a>
-                                                                            <a href="#" class="dropdown-item edit-note1" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-3"></i>Edit</a>
-                                                                            <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".card" href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
-
-
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card-body rounded">
-                                                            <h4 class="card-title">Lecture Notes</h4>
-                                                            <div class="checkbox mb-2">
-                                                                <input type="checkbox" class="checkbox-input mr-3" id="checkbox4">
-
-
-                                                                <label for="checkbox4" class="note-checkbox mb-0">Chapter
-                                                                    1 notes.</label>
-                                                            </div>
-                                                            <div class="checkbox mb-2">
-                                                                <input type="checkbox" class="checkbox-input mr-3" id="checkbox5">
-
-
-                                                                <label for="checkbox5" class="note-checkbox mb-0">Chapter
-                                                                    2
-                                                                    Assignment.</label>
-                                                            </div>
-                                                            <div class="checkbox mb-2">
-                                                                <input type="checkbox" class="checkbox-input mr-3" id="checkbox6">
-
-
-                                                                <label for="checkbox6" class="note-checkbox mb-0">Chapter
-                                                                    3 practical
-                                                                    File.</label>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card-footer">
-                                                            <div class="d-flex align-items-center justify-content-between note-text note-text-danger">
-                                                                <a href="#" class=""><i class="las la-user-friends mr-2 font-size-20"></i>05
-
-
-                                                                    share</a>
-                                                                <a href="#" class=""><i class="las la-calendar mr-2 font-size-20"></i>09
-
-
-                                                                    Jan 2021</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-4 col-md-6">
-                                                    <div class="card card-block card-stretch card-height card-bottom-border-purple note-detail">
-
-
-                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                            <div class="icon iq-icon-box-2 py-3 icon-border-purple rounded">
-                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-14" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.701 2.701 0 00-1.5-.454M9 6v2m3-2v2m3-2v2M9 3h.01M12 3h.01M15 3h.01M21 21v-7a2 2 0 00-2-2H5a2 2 0 00-2 2v7h18zm-3-9v-2a2 2 0 00-2-2H8a2 2 0 00-2 2v2h12z" />
-
-
-                                                                </svg>
-                                                            </div>
-                                                            <div class="card-header-toolbar d-flex align-items-center">
-                                                                <div class="card-header-toolbar d-flex align-items-center">
-                                                                    <div class="dropdown">
-                                                                        <span class="dropdown-toggle dropdown-bg" id="note-dropdownMenuButton17" data-toggle="dropdown" aria-expanded="false" role="button">
-
-
-                                                                            <i class="ri-more-fill"></i>
-                                                                        </span>
-                                                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="note-dropdownMenuButton17" style="">
-                                                                            <a href="#" class="dropdown-item new-note2" data-toggle="modal" data-target="#new-note2"><i class="las la-eye mr-3"></i>View</a>
-                                                                            <a href="#" class="dropdown-item edit-note1" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-3"></i>Edit</a>
-                                                                            <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".card" href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
-
-
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card-body rounded">
-                                                            <h4 class="card-title">Birthday Celebration</h4>
-                                                            <p class="mb-3 card-description short">You can easily share
-                                                                via message, WhatsApp, emails etc. You can also save
-                                                                your notes and edit it later or can easily delete the
-                                                                note.</p>
-                                                            <ul class="pl-3 mb-0">
-                                                                <li class="note-list">Cakes and Balloons.</li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="card-footer">
-                                                            <div class="d-flex align-items-center justify-content-between note-text note-text-purple">
-                                                                <a href="#" class=""><i class="las la-lock mr-2 font-size-20"></i>Only
-
-
-                                                                    You</a>
-                                                                <a href="#" class=""><i class="las la-calendar mr-2 font-size-20"></i>10
-
-
-                                                                    Jan 2021</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-4 col-md-6">
-                                                    <div class="card card-block card-stretch card-height card-bottom-border-info note-detail">
-
-
-                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                            <div class="icon iq-icon-box-2 py-3 icon-border-info py-3 rounded">
-                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                                                    <path fill-rule="evenodd" d="M5 3a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2V5a2 2 0 00-2-2H5zm0 2h10v7h-2l-1 2H8l-1-2H5V5z" clip-rule="evenodd" />
-
-
-                                                                </svg>
-                                                            </div>
-                                                            <div class="card-header-toolbar d-flex align-items-center">
-                                                                <div class="card-header-toolbar d-flex align-items-center">
-                                                                    <div class="dropdown">
-                                                                        <span class="dropdown-toggle dropdown-bg" id="note-dropdownMenuButton18" data-toggle="dropdown" aria-expanded="false" role="button">
-
-
-                                                                            <i class="ri-more-fill"></i>
-                                                                        </span>
-                                                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="note-dropdownMenuButton18" style="">
-                                                                            <a href="#" class="dropdown-item new-note9" data-toggle="modal" data-target="#new-note9"><i class="las la-eye mr-3"></i>View</a>
-                                                                            <a href="#" class="dropdown-item edit-note1" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-3"></i>Edit</a>
-                                                                            <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".card" href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
-
-
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card-body rounded">
-                                                            <h4 class="card-title">NotePlus for Entrepreneurs</h4>
-                                                            <p class="mb-3 card-description short">With NotePlus, you
-                                                                can easily share via message, WhatsApp, emails etc. You
-                                                                can also save your notes and edit it later or can easily
-                                                                delete the note.</p>
-                                                        </div>
-                                                        <div class="card-footer">
-                                                            <div class="d-flex align-items-center justify-content-between note-text note-text-info">
-                                                                <a href="#" class=""><i class="las la-user-friends mr-2 font-size-20"></i>07
-
-
-                                                                    share</a>
-                                                                <a href="#" class=""><i class="las la-calendar mr-2 font-size-20"></i>16
-
-
-                                                                    Jan 2021</a>
-                                                            </div>
+                                                                </tbody>
+                                                            </table>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-
-                                        <div class="icon active animate__animated animate__fadeIn i-list">
-                                            <div class="row">
-                                                <div class="col-lg-12">
-                                                    <div class="table-responsive">
-                                                        <table class="table  tbl-server-info">
-                                                            <thead>
-                                                                <tr class="ligth">
-                                                                    <th class="w-50" scope="col">Title</th>
-                                                                    <th scope="col">Permission</th>
-                                                                    <th scope="col">Created At</th>
-                                                                    <th scope="col">Action</th>
-                                                                </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>
-                                                                        <h4 class="mb-2">Weekly Planner</h4>
-                                                                        <span>dddddVirtual Digital Marketing Course every
+                                        {{-- Notas compartilhadas --}}
+                                        <div id="note2" class="tab-pane fade">
+                                            <div class="icon active animate__animated animate__fadeIn i-grid">
+                                                <div class="row">
+                                                    <div class="col-lg-4 col-md-6">
+                                                        <div
+                                                            class="card card-block card-stretch card-height card-bottom-border-info note-detail">
 
 
-                                                                            week on Monday, Wednesday and
-                                                                            Saturday</span>
-                                                                    </td>
-                                                                    <td>
-                                                                        <i class="las la-user-friends mr-2 font-size-20"></i>
+                                                            <div class="card-header d-flex justify-content-between pb-1">
+                                                                <div
+                                                                    class="icon iq-icon-box-2 py-3 icon-border-info py-3 rounded">
+                                                                    <svg width="23" height="23" class="svg-icon"
+                                                                        id="iq-main-10" xmlns="http://www.w3.org/2000/svg"
+                                                                        fill="none" viewBox="0 0 24 24"
+                                                                        stroke="currentColor">
+                                                                        <path stroke-linecap="round"
+                                                                            stroke-linejoin="round" stroke-width="2"
+                                                                            d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
 
 
-                                                                        03 share
-                                                                    </td>
-                                                                    <td>Dec 20</td>
-                                                                    <td>
-                                                                        <div>
-                                                                            <a href="#" class="badge badge-success mr-3" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-0"></i></a>
-                                                                            <a href="#" class="badge badge-danger" data-extra-toggle="delete" data-closest-elem="tr"><i class="las la-trash-alt mr-0"></i></a>
-
-
-                                                                        </div>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <h4 class="mb-2">Benefits of NotePlus</h4>
-                                                                        <span>Take organized notes and share later as
-                                                                            meeting minutes or check-list</span>
-                                                                    </td>
-                                                                    <td>
-                                                                        <i class="las la-user-friends mr-2 font-size-20"></i>
-
-
-                                                                        2 share
-                                                                    </td>
-                                                                    <td>Dec 20</td>
-                                                                    <td>
-                                                                        <div>
-                                                                            <a href="#" class="badge badge-success mr-3" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-0"></i></a>
-                                                                            <a href="#" class="badge badge-danger" data-extra-toggle="delete" data-closest-elem="tr"><i class="las la-trash-alt mr-0"></i></a>
-
-
-                                                                        </div>
-                                                                    </td>
-                                                                </tr>
-
-
-
-
-
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {{-- Fixar anotações --}}
-                                    <div id="note3" class="tab-pane fade">
-                                        <div class="icon active animate__animated animate__fadeIn i-grid">
-                                            <div class="row">
-                                                <div class="col-lg-4 col-md-6">
-                                                    <div class="card card-block card-stretch card-height card-bottom-border-purple note-detail">
-
-
-                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                            <div class="icon iq-icon-box-2 py-3 icon-border-purple rounded">
-                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-16" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.701 2.701 0 00-1.5-.454M9 6v2m3-2v2m3-2v2M9 3h.01M12 3h.01M15 3h.01M21 21v-7a2 2 0 00-2-2H5a2 2 0 00-2 2v7h18zm-3-9v-2a2 2 0 00-2-2H8a2 2 0 00-2 2v2h12z" />
-
-
-                                                                </svg>
-                                                            </div>
-                                                            <div class="card-header-toolbar d-flex align-items-center">
-                                                                <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="pin content"><i class="las la-thumbtack mr-2"></i></a>
-
-
+                                                                    </svg>
+                                                                </div>
                                                                 <div class="card-header-toolbar d-flex align-items-center">
                                                                     <div class="dropdown">
-                                                                        <span class="dropdown-toggle dropdown-bg" id="note-dropdownMenuButton19" data-toggle="dropdown" aria-expanded="false" role="button">
+                                                                        <span class="dropdown-toggle dropdown-bg"
+                                                                            id="note-dropdownMenuButton13"
+                                                                            data-toggle="dropdown" aria-expanded="false"
+                                                                            role="button">
 
 
                                                                             <i class="ri-more-fill"></i>
                                                                         </span>
-                                                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="note-dropdownMenuButton19" style="">
-                                                                            <a href="#" class="dropdown-item new-note2" data-toggle="modal" data-target="#new-note2"><i class="las la-eye mr-3"></i>View</a>
-                                                                            <a href="#" class="dropdown-item edit-note1" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-3"></i>Edit</a>
-                                                                            <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".card" href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
+                                                                        <div class="dropdown-menu dropdown-menu-right"
+                                                                            aria-labelledby="note-dropdownMenuButton13"
+                                                                            style="">
+                                                                            <a href="#"
+                                                                                class="dropdown-item new-note1"
+                                                                                data-toggle="modal"
+                                                                                data-target="#new-note1"><i
+                                                                                    class="las la-eye mr-3"></i>View</a>
+                                                                            <a href="#"
+                                                                                class="dropdown-item edit-note1"
+                                                                                data-toggle="modal"
+                                                                                data-target="#edit-note1"><i
+                                                                                    class="las la-pen mr-3"></i>Edit</a>
+                                                                            <a class="dropdown-item"
+                                                                                data-extra-toggle="delete"
+                                                                                data-closest-elem=".card"
+                                                                                href="#"><i
+                                                                                    class="las la-trash-alt mr-3"></i>Delete</a>
 
 
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="card-body rounded">
-                                                            <h4 class="card-title">Birthday Celebration</h4>
-                                                            <p class="mb-3 card-description short">You can easily
-                                                                share via message, WhatsApp, emails etc. You can also
-                                                                save your notes and edit it later or can easily delete
-                                                                the note.</p>
-                                                            <ul class="pl-3 mb-0">
-                                                                <li class="note-list">Cakes and Balloons.</li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="card-footer">
-                                                            <div class="d-flex align-items-center justify-content-between note-text note-text-purple">
-                                                                <a href="#" class=""><i class="las la-user mr-2 font-size-20"></i>Only
+                                                            <div class="card-body rounded">
+                                                                <h4 class="card-title">Weekly Planner</h4>
+                                                                <p class="mb-3 card-description short">Virtual Digital
+                                                                    Marketing Course every week on Monday, Wednesday and
+                                                                    Saturday.Virtual Digital Marketing Course every week on
+                                                                    Monday</p>
+                                                            </div>
+                                                            <div class="card-footer">
+                                                                <div
+                                                                    class="d-flex align-items-center justify-content-between note-text note-text-info">
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-user-friends mr-2 font-size-20"></i>03
 
 
-                                                                    You</a>
-                                                                <a href="#" class=""><i class="las la-calendar mr-2 font-size-20"></i>10
+                                                                        share</a>
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-calendar mr-2 font-size-20"></i>12
 
 
-                                                                    Jan 2021</a>
+                                                                        Jan 2021</a>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <div class="col-lg-4 col-md-6">
-                                                    <div class="card card-block card-stretch card-height card-bottom-border-primary note-detail">
+                                                    <div class="col-lg-4 col-md-6">
+                                                        <div
+                                                            class="card card-block card-stretch card-height card-bottom-border-success note-detail">
 
 
-                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                            <div class="icon iq-icon-box-2 py-3 icon-border-primary rounded">
-                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-17" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                                                            <div class="card-header d-flex justify-content-between pb-1">
+                                                                <div
+                                                                    class="icon iq-icon-box-2 py-3 icon-border-success rounded">
+                                                                    <svg width="23" height="23" class="svg-icon"
+                                                                        id="iq-main-11" xmlns="http://www.w3.org/2000/svg"
+                                                                        fill="none" viewBox="0 0 24 24"
+                                                                        stroke="currentColor">
+                                                                        <path stroke-linecap="round"
+                                                                            stroke-linejoin="round" stroke-width="2"
+                                                                            d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
 
 
-                                                                </svg>
-                                                            </div>
-                                                            <div class="card-header-toolbar d-flex align-items-center">
-                                                                <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="pin content"><i class="las la-thumbtack mr-2"></i></a>
+                                                                    </svg>
+                                                                </div>
                                                                 <div class="card-header-toolbar d-flex align-items-center">
-
-
                                                                     <div class="dropdown">
-                                                                        <span class="dropdown-toggle dropdown-bg" id="note-dropdownMenuButton20" data-toggle="dropdown" aria-expanded="false" role="button">
+                                                                        <span class="dropdown-toggle dropdown-bg"
+                                                                            id="note-dropdownMenuButton14"
+                                                                            data-toggle="dropdown" aria-expanded="false"
+                                                                            role="button">
 
 
                                                                             <i class="ri-more-fill"></i>
                                                                         </span>
-                                                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="note-dropdownMenuButton20" style="">
-                                                                            <a href="#" class="dropdown-item new-note5" data-toggle="modal" data-target="#new-note5"><i class="las la-eye mr-3"></i>View</a>
-                                                                            <a href="#" class="dropdown-item edit-note1" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-3"></i>Edit</a>
-                                                                            <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".card" href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
+                                                                        <div class="dropdown-menu dropdown-menu-right"
+                                                                            aria-labelledby="note-dropdownMenuButton14"
+                                                                            style="">
+                                                                            <a href="#"
+                                                                                class="dropdown-item new-note6"
+                                                                                data-toggle="modal"
+                                                                                data-target="#new-note6"><i
+                                                                                    class="las la-eye mr-3"></i>View</a>
+                                                                            <a href="#"
+                                                                                class="dropdown-item edit-note1"
+                                                                                data-toggle="modal"
+                                                                                data-target="#edit-note1"><i
+                                                                                    class="las la-pen mr-3"></i>Edit</a>
+                                                                            <a class="dropdown-item"
+                                                                                data-extra-toggle="delete"
+                                                                                data-closest-elem=".card"
+                                                                                href="#"><i
+                                                                                    class="las la-trash-alt mr-3"></i>Delete</a>
 
 
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="card-body rounded">
-                                                            <h4 class="card-title">Image Notes</h4>
-                                                            <ul class="row mb-0 p-0 list-inline flex-wrap align-items-center">
+                                                            <div class="card-body rounded">
+                                                                <h4 class="card-title">Benefits of NotePlus</h4>
+                                                                <p class="mb-3 card-description short">Take organized notes
+                                                                    and share later as meeting minutes or check-list with
+                                                                    this simple accessible Noteplus. Each note you create
+                                                                    will be stored on a virtual page of the NotePlus. You
+                                                                    can store groups of seperate notes. You can store an
+                                                                    unlimited number of separate notes within the NotePlus.
+                                                                </p>
+                                                            </div>
+                                                            <div class="card-footer">
+                                                                <div
+                                                                    class="d-flex align-items-center justify-content-between note-text note-text-success">
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-user-friends mr-2 font-size-20"></i>02
 
 
-                                                                <li class="col-4">
-                                                                    <a href="#">
-                                                                        <img src="../assets/images/gallery/grid/01.jpg" class="img-fluid rounded" alt="" />
+                                                                        share</a>
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-calendar mr-2 font-size-20"></i>10
 
 
-                                                                    </a>
-                                                                </li>
-                                                                <li class="col-4">
-                                                                    <a href="#">
-                                                                        <img src="../assets/images/gallery/grid/02.jpg" class="img-fluid rounded" alt="" />
-
-
-                                                                    </a>
-                                                                </li>
-                                                                <li class="col-4">
-                                                                    <a href="#">
-                                                                        <img src="../assets/images/gallery/grid/03.jpg" class="img-fluid rounded" alt="" />
-
-
-                                                                    </a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="card-footer">
-                                                            <div class="d-flex align-items-center justify-content-between note-text note-text-primary">
-                                                                <a href="#" class=""><i class="las la-user mr-2 font-size-20"></i>Only
-
-
-                                                                    You</a>
-                                                                <a href="#" class=""><i class="las la-calendar mr-2 font-size-20"></i>05
-
-
-                                                                    Jan 2021</a>
+                                                                        Jan 2021</a>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <div class="col-lg-4 col-md-6">
-                                                    <div class="card card-block card-stretch card-height card-bottom-border-success note-detail mb-0">
+                                                    <div class="col-lg-4 col-md-6">
+                                                        <div
+                                                            class="card card-block card-stretch card-height card-bottom-border-warning note-detail">
 
 
-                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                            <div class="icon iq-icon-box-2 icon-border-success rounded">
-                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-18" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
+                                                            <div class="card-header d-flex justify-content-between pb-1">
+                                                                <div
+                                                                    class="icon iq-icon-box-2 py-3 icon-border-warning rounded">
+                                                                    <svg width="23" height="23" class="svg-icon"
+                                                                        id="iq-main-12" xmlns="http://www.w3.org/2000/svg"
+                                                                        fill="none" viewBox="0 0 24 24"
+                                                                        stroke="currentColor">
+                                                                        <path stroke-linecap="round"
+                                                                            stroke-linejoin="round" stroke-width="2"
+                                                                            d="M3 19v-8.93a2 2 0 01.89-1.664l7-4.666a2 2 0 012.22 0l7 4.666A2 2 0 0121 10.07V19M3 19a2 2 0 002 2h14a2 2 0 002-2M3 19l6.75-4.5M21 19l-6.75-4.5M3 10l6.75 4.5M21 10l-6.75 4.5m0 0l-1.14.76a2 2 0 01-2.22 0l-1.14-.76" />
 
 
-                                                                </svg>
-                                                            </div>
-                                                            <div class="card-header-toolbar d-flex align-items-center">
-                                                                <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="pin content"><i class="las la-thumbtack mr-2"></i></a>
+                                                                    </svg>
+                                                                </div>
                                                                 <div class="card-header-toolbar d-flex align-items-center">
-
-
                                                                     <div class="dropdown">
-                                                                        <span class="dropdown-toggle dropdown-bg" id="note-dropdownMenuButton21" data-toggle="dropdown" aria-expanded="false" role="button">
+                                                                        <span class="dropdown-toggle dropdown-bg"
+                                                                            id="note-dropdownMenuButton15"
+                                                                            data-toggle="dropdown" aria-expanded="false"
+                                                                            role="button">
 
 
                                                                             <i class="ri-more-fill"></i>
                                                                         </span>
-                                                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="note-dropdownMenuButton21" style="">
-                                                                            <a href="#" class="dropdown-item new-note7" data-toggle="modal" data-target="#new-note7"><i class="las la-eye mr-3"></i>View</a>
-                                                                            <a href="#" class="dropdown-item edit-note1" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-3"></i>Edit</a>
-                                                                            <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".card" href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
+                                                                        <div class="dropdown-menu dropdown-menu-right"
+                                                                            aria-labelledby="note-dropdownMenuButton15"
+                                                                            style="">
+                                                                            <a href="#"
+                                                                                class="dropdown-item new-note8"
+                                                                                data-toggle="modal"
+                                                                                data-target="#new-note8"><i
+                                                                                    class="las la-eye mr-3"></i>View</a>
+                                                                            <a href="#"
+                                                                                class="dropdown-item edit-note1"
+                                                                                data-toggle="modal"
+                                                                                data-target="#edit-note1"><i
+                                                                                    class="las la-pen mr-3"></i>Edit</a>
+                                                                            <a class="dropdown-item"
+                                                                                data-extra-toggle="delete"
+                                                                                data-closest-elem=".card"
+                                                                                href="#"><i
+                                                                                    class="las la-trash-alt mr-3"></i>Delete</a>
 
 
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="card-body rounded">
-                                                            <h4 class="card-title">Quick Summary</h4>
-                                                            <p class="mb-3 card-description short">Need to write a
-                                                                summary note of the subject you just finished? NotePlus
-                                                                lets you do in on-the-go!</p>
-                                                            <p class="text-underline ellipsis-text short">
-                                                                Https://Dribble.com/Shots/6387620</p>
-                                                        </div>
-                                                        <div class="card-footer">
-                                                            <div class="d-flex align-items-center justify-content-between note-text note-text-success">
-                                                                <a href="#" class=""><i class="las la-user mr-2 font-size-20"></i>Only
+                                                            <div class="card-body rounded">
+                                                                <h4 class="card-title">Address & Email</h4>
+                                                                <p class="mb-3 card-description short">Quickly note down
+                                                                    the address and email address on NotePlus so that you
+                                                                    can access it from anywhere.</p>
+                                                            </div>
+                                                            <div class="card-footer">
+                                                                <div
+                                                                    class="d-flex align-items-center justify-content-between note-text note-text-warning">
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-user-friends mr-2 font-size-20"></i>04
 
 
-                                                                    You</a>
-                                                                <a href="#" class=""><i class="las la-calendar mr-2 font-size-20"></i>12
+                                                                        share</a>
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-calendar mr-2 font-size-20"></i>8
 
 
-                                                                    Jan 2021</a>
+                                                                        Jan 2021</a>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <div class="col-lg-4 col-md-6">
-                                                    <div class="card card-block card-stretch card-height card-bottom-border-warning note-detail">
+                                                    <div class="col-lg-4 col-md-6">
+                                                        <div
+                                                            class="card card-block card-stretch card-height card-bottom-border-danger note-detail">
 
 
-                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                            <div class="icon iq-icon-box-2 icon-border-warning rounded">
-                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-19" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+                                                            <div class="card-header d-flex justify-content-between pb-1">
+                                                                <div
+                                                                    class="icon iq-icon-box-2 py-3 icon-border-danger rounded">
+                                                                    <svg width="23" height="23" class="svg-icon"
+                                                                        id="iq-main-13" xmlns="http://www.w3.org/2000/svg"
+                                                                        fill="none" viewBox="0 0 24 24"
+                                                                        stroke="currentColor">
+                                                                        <path stroke-linecap="round"
+                                                                            stroke-linejoin="round" stroke-width="2"
+                                                                            d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
 
 
-                                                                </svg>
-                                                            </div>
-                                                            <div class="card-header-toolbar d-flex align-items-center">
-                                                                <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="pin content"><i class="las la-thumbtack mr-2"></i></a>
+                                                                    </svg>
+                                                                </div>
                                                                 <div class="card-header-toolbar d-flex align-items-center">
+                                                                    <div
+                                                                        class="card-header-toolbar d-flex align-items-center">
+                                                                        <div class="dropdown">
+                                                                            <span class="dropdown-toggle dropdown-bg"
+                                                                                id="note-dropdownMenuButton16"
+                                                                                data-toggle="dropdown"
+                                                                                aria-expanded="false" role="button">
 
 
-                                                                    <div class="dropdown">
-                                                                        <span class="dropdown-toggle dropdown-bg" id="note-dropdownMenuButton22" data-toggle="dropdown" aria-expanded="false" role="button">
+                                                                                <i class="ri-more-fill"></i>
+                                                                            </span>
+                                                                            <div class="dropdown-menu dropdown-menu-right"
+                                                                                aria-labelledby="note-dropdownMenuButton16"
+                                                                                style="">
+                                                                                <a href="#"
+                                                                                    class="dropdown-item new-note4"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#new-note4"><i
+                                                                                        class="las la-eye mr-3"></i>View</a>
+                                                                                <a href="#"
+                                                                                    class="dropdown-item edit-note1"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#edit-note1"><i
+                                                                                        class="las la-pen mr-3"></i>Edit</a>
+                                                                                <a class="dropdown-item"
+                                                                                    data-extra-toggle="delete"
+                                                                                    data-closest-elem=".card"
+                                                                                    href="#"><i
+                                                                                        class="las la-trash-alt mr-3"></i>Delete</a>
 
 
-                                                                            <i class="ri-more-fill"></i>
-                                                                        </span>
-                                                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="note-dropdownMenuButton22" style="">
-                                                                            <a href="#" class="dropdown-item new-note3" data-toggle="modal" data-target="#new-note3"><i class="las la-eye mr-3"></i>View</a>
-                                                                            <a href="#" class="dropdown-item edit-note1" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-3"></i>Edit</a>
-                                                                            <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".card" href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
-
-
+                                                                            </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="card-body rounded">
-                                                            <h4 class="card-title">Essay Outline</h4>
-                                                            <ul class="pl-3 mb-0">
-                                                                <li class="note-list mb-2">Content should be of topic.
-                                                                </li>
-                                                                <li class="note-list mb-2">300 Words only.</li>
-                                                                <li class="note-list">Make presentation.</li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="card-footer">
-                                                            <div class="d-flex align-items-center justify-content-between note-text note-text-warning">
-                                                                <a href="#" class=""><i class="las la-user mr-2 font-size-20"></i>Only
+                                                            <div class="card-body rounded">
+                                                                <h4 class="card-title">Lecture Notes</h4>
+                                                                <div class="checkbox mb-2">
+                                                                    <input type="checkbox" class="checkbox-input mr-3"
+                                                                        id="checkbox4">
 
 
-                                                                    You</a>
-                                                                <a href="#" class=""><i class="las la-calendar mr-2 font-size-20"></i>13
+                                                                    <label for="checkbox4"
+                                                                        class="note-checkbox mb-0">Chapter
+                                                                        1 notes.</label>
+                                                                </div>
+                                                                <div class="checkbox mb-2">
+                                                                    <input type="checkbox" class="checkbox-input mr-3"
+                                                                        id="checkbox5">
 
 
-                                                                    Jan 2021</a>
+                                                                    <label for="checkbox5"
+                                                                        class="note-checkbox mb-0">Chapter
+                                                                        2
+                                                                        Assignment.</label>
+                                                                </div>
+                                                                <div class="checkbox mb-2">
+                                                                    <input type="checkbox" class="checkbox-input mr-3"
+                                                                        id="checkbox6">
+
+
+                                                                    <label for="checkbox6"
+                                                                        class="note-checkbox mb-0">Chapter
+                                                                        3 practical
+                                                                        File.</label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="card-footer">
+                                                                <div
+                                                                    class="d-flex align-items-center justify-content-between note-text note-text-danger">
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-user-friends mr-2 font-size-20"></i>05
+
+
+                                                                        share</a>
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-calendar mr-2 font-size-20"></i>09
+
+
+                                                                        Jan 2021</a>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <div class="col-lg-4 col-md-6">
-                                                    <div class="card card-block card-stretch card-height card-bottom-border-info note-detail">
+                                                    <div class="col-lg-4 col-md-6">
+                                                        <div
+                                                            class="card card-block card-stretch card-height card-bottom-border-purple note-detail">
 
 
-                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                            <div class="icon iq-icon-box-2 icon-border-info py-3 rounded">
-                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                                                    <path fill-rule="evenodd" d="M5 3a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2V5a2 2 0 00-2-2H5zm0 2h10v7h-2l-1 2H8l-1-2H5V5z" clip-rule="evenodd" />
+                                                            <div class="card-header d-flex justify-content-between pb-1">
+                                                                <div
+                                                                    class="icon iq-icon-box-2 py-3 icon-border-purple rounded">
+                                                                    <svg width="23" height="23" class="svg-icon"
+                                                                        id="iq-main-14" xmlns="http://www.w3.org/2000/svg"
+                                                                        fill="none" viewBox="0 0 24 24"
+                                                                        stroke="currentColor">
+                                                                        <path stroke-linecap="round"
+                                                                            stroke-linejoin="round" stroke-width="2"
+                                                                            d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.701 2.701 0 00-1.5-.454M9 6v2m3-2v2m3-2v2M9 3h.01M12 3h.01M15 3h.01M21 21v-7a2 2 0 00-2-2H5a2 2 0 00-2 2v7h18zm-3-9v-2a2 2 0 00-2-2H8a2 2 0 00-2 2v2h12z" />
 
 
-                                                                </svg>
-                                                            </div>
-                                                            <div class="card-header-toolbar d-flex align-items-center">
-                                                                <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="pin content"><i class="las la-thumbtack mr-2"></i></a>
+                                                                    </svg>
+                                                                </div>
                                                                 <div class="card-header-toolbar d-flex align-items-center">
+                                                                    <div
+                                                                        class="card-header-toolbar d-flex align-items-center">
+                                                                        <div class="dropdown">
+                                                                            <span class="dropdown-toggle dropdown-bg"
+                                                                                id="note-dropdownMenuButton17"
+                                                                                data-toggle="dropdown"
+                                                                                aria-expanded="false" role="button">
 
 
-                                                                    <div class="dropdown">
-                                                                        <span class="dropdown-toggle dropdown-bg" id="note-dropdownMenuButton23" data-toggle="dropdown" aria-expanded="false" role="button">
+                                                                                <i class="ri-more-fill"></i>
+                                                                            </span>
+                                                                            <div class="dropdown-menu dropdown-menu-right"
+                                                                                aria-labelledby="note-dropdownMenuButton17"
+                                                                                style="">
+                                                                                <a href="#"
+                                                                                    class="dropdown-item new-note2"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#new-note2"><i
+                                                                                        class="las la-eye mr-3"></i>View</a>
+                                                                                <a href="#"
+                                                                                    class="dropdown-item edit-note1"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#edit-note1"><i
+                                                                                        class="las la-pen mr-3"></i>Edit</a>
+                                                                                <a class="dropdown-item"
+                                                                                    data-extra-toggle="delete"
+                                                                                    data-closest-elem=".card"
+                                                                                    href="#"><i
+                                                                                        class="las la-trash-alt mr-3"></i>Delete</a>
 
 
-                                                                            <i class="ri-more-fill"></i>
-                                                                        </span>
-                                                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="note-dropdownMenuButton23" style="">
-                                                                            <a href="#" class="dropdown-item new-note9" data-toggle="modal" data-target="#new-note9"><i class="las la-eye mr-3"></i>View</a>
-                                                                            <a href="#" class="dropdown-item edit-note1" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-3"></i>Edit</a>
-                                                                            <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".card" href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
-
-
+                                                                            </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="card-body rounded">
-                                                            <h4 class="card-title">NotePlus for Entrepreneurs</h4>
-                                                            <p class="mb-3 card-description short">With NotePlus, you
-                                                                can easily share via message, WhatsApp, emails etc. You
-                                                                can also save your notes and edit it later or can easily
-                                                                delete the note.</p>
-                                                        </div>
-                                                        <div class="card-footer">
-                                                            <div class="d-flex align-items-center justify-content-between note-text note-text-info">
-                                                                <a href="#" class=""><i class="las la-user mr-2 font-size-20"></i>Only
+                                                            <div class="card-body rounded">
+                                                                <h4 class="card-title">Birthday Celebration</h4>
+                                                                <p class="mb-3 card-description short">You can easily share
+                                                                    via message, WhatsApp, emails etc. You can also save
+                                                                    your notes and edit it later or can easily delete the
+                                                                    note.</p>
+                                                                <ul class="pl-3 mb-0">
+                                                                    <li class="note-list">Cakes and Balloons.</li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="card-footer">
+                                                                <div
+                                                                    class="d-flex align-items-center justify-content-between note-text note-text-purple">
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-lock mr-2 font-size-20"></i>Only
 
 
-                                                                    You</a>
-                                                                <a href="#" class=""><i class="las la-calendar mr-2 font-size-20"></i>12
+                                                                        You</a>
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-calendar mr-2 font-size-20"></i>10
 
 
-                                                                    Jan 2021</a>
+                                                                        Jan 2021</a>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <div class="col-lg-4 col-md-6">
-                                                    <div class="card card-block card-stretch card-height card-bottom-border-danger note-detail">
+                                                    <div class="col-lg-4 col-md-6">
+                                                        <div
+                                                            class="card card-block card-stretch card-height card-bottom-border-info note-detail">
 
 
-                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                            <div class="icon iq-icon-box-2 icon-border-danger rounded">
-                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-21" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                                                            <div class="card-header d-flex justify-content-between pb-1">
+                                                                <div
+                                                                    class="icon iq-icon-box-2 py-3 icon-border-info py-3 rounded">
+                                                                    <svg width="23" height="23" class="svg-icon"
+                                                                        id="iq-main-15" xmlns="http://www.w3.org/2000/svg"
+                                                                        viewBox="0 0 20 20" fill="currentColor">
+                                                                        <path fill-rule="evenodd"
+                                                                            d="M5 3a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2V5a2 2 0 00-2-2H5zm0 2h10v7h-2l-1 2H8l-1-2H5V5z"
+                                                                            clip-rule="evenodd" />
 
 
-                                                                </svg>
-                                                            </div>
-                                                            <div class="card-header-toolbar d-flex align-items-center">
-                                                                <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="pin content"><i class="las la-thumbtack mr-2"></i></a>
+                                                                    </svg>
+                                                                </div>
                                                                 <div class="card-header-toolbar d-flex align-items-center">
+                                                                    <div
+                                                                        class="card-header-toolbar d-flex align-items-center">
+                                                                        <div class="dropdown">
+                                                                            <span class="dropdown-toggle dropdown-bg"
+                                                                                id="note-dropdownMenuButton18"
+                                                                                data-toggle="dropdown"
+                                                                                aria-expanded="false" role="button">
 
 
-                                                                    <div class="dropdown">
-                                                                        <span class="dropdown-toggle dropdown-bg" id="note-dropdownMenuButton24" data-toggle="dropdown" aria-expanded="false" role="button">
+                                                                                <i class="ri-more-fill"></i>
+                                                                            </span>
+                                                                            <div class="dropdown-menu dropdown-menu-right"
+                                                                                aria-labelledby="note-dropdownMenuButton18"
+                                                                                style="">
+                                                                                <a href="#"
+                                                                                    class="dropdown-item new-note9"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#new-note9"><i
+                                                                                        class="las la-eye mr-3"></i>View</a>
+                                                                                <a href="#"
+                                                                                    class="dropdown-item edit-note1"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#edit-note1"><i
+                                                                                        class="las la-pen mr-3"></i>Edit</a>
+                                                                                <a class="dropdown-item"
+                                                                                    data-extra-toggle="delete"
+                                                                                    data-closest-elem=".card"
+                                                                                    href="#"><i
+                                                                                        class="las la-trash-alt mr-3"></i>Delete</a>
 
 
-                                                                            <i class="ri-more-fill"></i>
-                                                                        </span>
-                                                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="note-dropdownMenuButton24" style="">
-                                                                            <a href="#" class="dropdown-item new-note4" data-toggle="modal" data-target="#new-note4"><i class="las la-eye mr-3"></i>View</a>
-                                                                            <a href="#" class="dropdown-item edit-note1" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-3"></i>Edit</a>
-                                                                            <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".card" href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
-
-
+                                                                            </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="card-body rounded">
-                                                            <h4 class="card-title">Lecture Notes</h4>
-                                                            <div class="checkbox mb-2">
-                                                                <input type="checkbox" class="checkbox-input mr-3" id="checkbox7">
-                                                                <label for="checkbox7" class="note-checkbox mb-0">Chapter 1
-
-
-                                                                    notes.</label>
+                                                            <div class="card-body rounded">
+                                                                <h4 class="card-title">NotePlus for Entrepreneurs</h4>
+                                                                <p class="mb-3 card-description short">With NotePlus, you
+                                                                    can easily share via message, WhatsApp, emails etc. You
+                                                                    can also save your notes and edit it later or can easily
+                                                                    delete the note.</p>
                                                             </div>
-                                                            <div class="checkbox mb-2">
-                                                                <input type="checkbox" class="checkbox-input mr-3" id="checkbox8">
-                                                                <label for="checkbox8" class="note-checkbox mb-0">Chapter 2
+                                                            <div class="card-footer">
+                                                                <div
+                                                                    class="d-flex align-items-center justify-content-between note-text note-text-info">
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-user-friends mr-2 font-size-20"></i>07
 
 
-                                                                    Assignment.</label>
-                                                            </div>
-                                                            <div class="checkbox mb-2">
-                                                                <input type="checkbox" class="checkbox-input mr-3" id="checkbox9">
-                                                                <label for="checkbox9" class="note-checkbox mb-0">Chapter 3 practical
+                                                                        share</a>
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-calendar mr-2 font-size-20"></i>16
 
 
-                                                                    File.</label>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card-footer">
-                                                            <div class="d-flex align-items-center justify-content-between note-text note-text-danger">
-                                                                <a href="#" class=""><i class="las la-user mr-2 font-size-20"></i>Only
-
-
-                                                                    You</a>
-                                                                <a href="#" class=""><i class="las la-calendar mr-2 font-size-20"></i>9
-
-
-                                                                    Jan 2021</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="icon active animate__animated animate__fadeIn i-list">
-                                            <div class="row">
-                                                <div class="col-lg-12">
-                                                    <div class="table-responsive">
-                                                        <table class="table  tbl-server-info">
-                                                            <thead>
-                                                                <tr class="ligth">
-                                                                    <th class="w-50" scope="col">Title</th>
-                                                                    <th scope="col">Permission</th>
-                                                                    <th scope="col">Created At</th>
-                                                                    <th scope="col">Action</th>
-                                                                </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>
-                                                                        <h4 class="mb-2">Birthday Celebration <i class="las la-thumbtack ml-2"></i>
-
-
-                                                                        </h4>
-                                                                        <span>You can easily share via message,
-                                                                            WhatsApp, emails etc.</span>
-                                                                    </td>
-                                                                    <td>
-                                                                        <i class="las la-lock mr-2 font-size-20"></i>
-                                                                        Only You
-                                                                    </td>
-                                                                    <td>Dec 20</td>
-                                                                    <td>
-                                                                        <div>
-                                                                            <a href="#" class="badge badge-success mr-3" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-0"></i></a>
-                                                                            <a href="#" class="badge badge-danger" data-extra-toggle="delete" data-closest-elem="tr"><i class="las la-trash-alt mr-0"></i></a>
-
-
-                                                                        </div>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <h4 class="mb-2">Image Notes<i class="las la-thumbtack ml-2"></i>
-
-
-                                                                        </h4>
-                                                                        <span>NotePlus lets you do in on-the-go!</span>
-                                                                    </td>
-                                                                    <td>
-                                                                        <i class="las la-lock mr-2 font-size-20"></i>
-                                                                        Only You
-                                                                    </td>
-                                                                    <td>Dec 20</td>
-                                                                    <td>
-                                                                        <div>
-                                                                            <a href="#" class="badge badge-success mr-3" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-0"></i></a>
-                                                                            <a href="#" class="badge badge-danger" data-extra-toggle="delete" data-closest-elem="tr"><i class="las la-trash-alt mr-0"></i></a>
-
-
-                                                                        </div>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <h4 class="mb-2">Quick Summary <i class="las la-thumbtack ml-2"></i>
-
-
-                                                                        </h4>
-                                                                        <span>Need to write a summary note of the
-                                                                            subject you just finished</span>
-                                                                    </td>
-                                                                    <td>
-                                                                        <i class="las la-lock mr-2 font-size-20"></i>
-                                                                        Only You
-                                                                    </td>
-                                                                    <td>Dec 20</td>
-                                                                    <td>
-                                                                        <div>
-                                                                            <a href="#" class="badge badge-success mr-3" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-0"></i></a>
-                                                                            <a href="#" class="badge badge-danger" data-extra-toggle="delete" data-closest-elem="tr"><i class="las la-trash-alt mr-0"></i></a>
-
-
-                                                                        </div>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <h4 class="mb-2">Essay Outline <i class="las la-thumbtack ml-2"></i>
-
-
-                                                                        </h4>
-                                                                        <span>Donec rutrum congue leo eget
-                                                                            malesuada.</span>
-                                                                    </td>
-                                                                    <td>
-                                                                        <i class="las la-lock mr-2 font-size-20"></i>
-                                                                        Only You
-                                                                    </td>
-                                                                    <td>Dec 20</td>
-                                                                    <td>
-                                                                        <div>
-                                                                            <a href="#" class="badge badge-success mr-3" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-0"></i></a>
-                                                                            <a href="#" class="badge badge-danger" data-extra-toggle="delete" data-closest-elem="tr"><i class="las la-trash-alt mr-0"></i></a>
-
-
-                                                                        </div>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <h4 class="mb-2">NotePlus for Entrepreneurs
-                                                                            <i class="las la-thumbtack ml-2"></i>
-                                                                        </h4>
-                                                                        <span>With NotePlus, you can easily share via
-                                                                            message, WhatsApp, emails etc.</span>
-                                                                    </td>
-                                                                    <td>
-                                                                        <i class="las la-lock mr-2 font-size-20"></i>
-                                                                        Only You
-                                                                    </td>
-                                                                    <td>Dec 20</td>
-                                                                    <td>
-                                                                        <div>
-                                                                            <a href="#" class="badge badge-success mr-3" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-0"></i></a>
-                                                                            <a href="#" class="badge badge-danger" data-extra-toggle="delete" data-closest-elem="tr"><i class="las la-trash-alt mr-0"></i></a>
-
-
-                                                                        </div>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <h4 class="mb-2">Lecture Notes <i class="las la-thumbtack ml-2"></i>
-
-
-                                                                        </h4>
-                                                                        <span>Chapter 1 notes, Chapter 2 Assignment,
-                                                                            Chapter 3 practical File.</span>
-                                                                    </td>
-                                                                    <td>
-                                                                        <i class="las la-lock mr-2 font-size-20"></i>
-                                                                        Only You
-                                                                    </td>
-                                                                    <td>Dec 20</td>
-                                                                    <td>
-                                                                        <div>
-                                                                            <a href="#" class="badge badge-success mr-3" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-0"></i></a>
-                                                                            <a href="#" class="badge badge-danger" data-extra-toggle="delete" data-closest-elem="tr"><i class="las la-trash-alt mr-0"></i></a>
-
-
-                                                                        </div>
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    {{-- Fixar Favoritas --}}
-                                    <div id="note4" class="tab-pane fade">
-                                        <div class="icon active animate__animated animate__fadeIn i-grid">
-                                            <div class="row">
-                                                <div class="col-lg-4 col-md-6">
-                                                    <div class="card card-block card-stretch card-height card-bottom-border-warning note-detail">
-
-
-                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                            <div class="icon iq-icon-box-2 icon-border-warning rounded">
-                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-22" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
-
-
-                                                                </svg>
-                                                            </div>
-                                                            <div class="card-header-toolbar d-flex align-items-center">
-                                                                <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="favorite"><i class="lar la-heart mr-2"></i></a>
-                                                                <div class="card-header-toolbar d-flex align-items-center">
-
-
-                                                                    <div class="dropdown">
-                                                                        <span class="dropdown-toggle dropdown-bg" id="note-dropdownMenuButton25" data-toggle="dropdown" aria-expanded="false" role="button">
-
-
-                                                                            <i class="ri-more-fill"></i>
-                                                                        </span>
-                                                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="note-dropdownMenuButton25" style="">
-                                                                            <a href="#" class="dropdown-item new-note3" data-toggle="modal" data-target="#new-note3"><i class="las la-eye mr-3"></i>View</a>
-
-                                                                            <a href="#" class="dropdown-item edit-note1" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-3"></i>Edit</a>
-
-                                                                            <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".card" href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
-
-
-                                                                        </div>
-                                                                    </div>
+                                                                        Jan 2021</a>
                                                                 </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card-body rounded">
-                                                            <h4 class="card-title">Essay Outline</h4>
-                                                            <ul class="pl-3 mb-0">
-                                                                <li class="note-list mb-2">Content should be of topic.
-                                                                </li>
-                                                                <li class="note-list mb-2">300 Words only.</li>
-                                                                <li class="note-list">Make presentation.</li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="card-footer">
-                                                            <div class="d-flex align-items-center justify-content-between note-text note-text-warning">
-                                                                <a href="#" class=""><i class="las la-user mr-2 font-size-20"></i>Only
-
-
-                                                                    You</a>
-                                                                <a href="#" class=""><i class="las la-calendar mr-2 font-size-20"></i>09
-
-
-                                                                    Jan 2021</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-4 col-md-6">
-                                                    <div class="card card-block card-stretch card-height card-bottom-border-danger note-detail">
-
-
-                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                            <div class="icon iq-icon-box-2 icon-border-danger rounded">
-                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-23" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
-
-
-                                                                </svg>
-                                                            </div>
-                                                            <div class="card-header-toolbar d-flex align-items-center">
-                                                                <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="favorite"><i class="lar la-heart mr-2"></i></a>
-                                                                <div class="card-header-toolbar d-flex align-items-center">
-
-
-                                                                    <div class="dropdown">
-                                                                        <span class="dropdown-toggle dropdown-bg" id="note-dropdownMenuButton26" data-toggle="dropdown" aria-expanded="false" role="button">
-
-
-                                                                            <i class="ri-more-fill"></i>
-                                                                        </span>
-                                                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="note-dropdownMenuButton26" style="">
-                                                                            <a href="#" class="dropdown-item new-note4" data-toggle="modal" data-target="#new-note4"><i class="las la-eye mr-3"></i>View</a>
-                                                                            <a href="#" class="dropdown-item edit-note1" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-3"></i>Edit</a>
-                                                                            <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".card" href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
-
-
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card-body rounded">
-                                                            <h4 class="card-title">Lecture Notes</h4>
-                                                            <div class="checkbox mb-2">
-                                                                <input type="checkbox" class="checkbox-input mr-3" id="checkbox10">
-                                                                <label for="checkbox10" class="note-checkbox mb-0">Chapter 1
-
-
-                                                                    notes.</label>
-                                                            </div>
-                                                            <div class="checkbox mb-2">
-                                                                <input type="checkbox" class="checkbox-input mr-3" id="checkbox11">
-                                                                <label for="checkbox11" class="note-checkbox mb-0">Chapter 2
-
-
-                                                                    Assignment.</label>
-                                                            </div>
-                                                            <div class="checkbox mb-2">
-                                                                <input type="checkbox" class="checkbox-input mr-3" id="checkbox12">
-                                                                <label for="checkbox12" class="note-checkbox mb-0">Chapter 3 practical
-
-
-                                                                    File.</label>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card-footer">
-                                                            <div class="d-flex align-items-center justify-content-between note-text note-text-danger">
-                                                                <a href="#" class=""><i class="las la-user mr-2 font-size-20"></i>Only
-
-
-                                                                    You</a>
-                                                                <a href="#" class=""><i class="las la-calendar mr-2 font-size-20"></i>15
-
-
-                                                                    Jan 2021</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-4 col-md-6">
-                                                    <div class="card card-block card-stretch card-height card-bottom-border-info note-detail">
-
-
-                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                            <div class="icon iq-icon-box-2 icon-border-info py-3 rounded">
-                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                                                    <path fill-rule="evenodd" d="M5 3a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2V5a2 2 0 00-2-2H5zm0 2h10v7h-2l-1 2H8l-1-2H5V5z" clip-rule="evenodd" />
-
-
-                                                                </svg>
-                                                            </div>
-                                                            <div class="card-header-toolbar d-flex align-items-center">
-                                                                <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="favorite"><i class="lar la-heart mr-2"></i></a>
-                                                                <div class="card-header-toolbar d-flex align-items-center">
-
-
-                                                                    <div class="dropdown">
-                                                                        <span class="dropdown-toggle dropdown-bg" id="note-dropdownMenuButton27" data-toggle="dropdown" aria-expanded="false" role="button">
-
-
-                                                                            <i class="ri-more-fill"></i>
-                                                                        </span>
-                                                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="note-dropdownMenuButton27" style="">
-                                                                            <a href="#" class="dropdown-item new-note9" data-toggle="modal" data-target="#new-note9"><i class="las la-eye mr-3"></i>View</a>
-                                                                            <a href="#" class="dropdown-item edit-note1" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-3"></i>Edit</a>
-                                                                            <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".card" href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
-
-
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card-body rounded">
-                                                            <h4 class="card-title">NotePlus for Entrepreneurs</h4>
-                                                            <p class="mb-3 card-description short">With NotePlus, you
-                                                                can easily share via message, WhatsApp, emails etc. You
-                                                                can also save your notes and edit it later or can easily
-                                                                delete the note.</p>
-                                                        </div>
-                                                        <div class="card-footer">
-                                                            <div class="d-flex align-items-center justify-content-between note-text note-text-info">
-                                                                <a href="#" class=""><i class="las la-user mr-2 font-size-20"></i>Only
-
-
-                                                                    You</a>
-                                                                <a href="#" class=""><i class="las la-calendar mr-2 font-size-20"></i>18
-
-
-                                                                    Jan 2021</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-4 col-md-6">
-                                                    <div class="card card-block card-stretch card-height card-bottom-border-purple note-detail">
-
-
-                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                            <div class="icon iq-icon-box-2 icon-border-purple rounded">
-                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-25" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.701 2.701 0 00-1.5-.454M9 6v2m3-2v2m3-2v2M9 3h.01M12 3h.01M15 3h.01M21 21v-7a2 2 0 00-2-2H5a2 2 0 00-2 2v7h18zm-3-9v-2a2 2 0 00-2-2H8a2 2 0 00-2 2v2h12z" />
-
-
-                                                                </svg>
-                                                            </div>
-                                                            <div class="card-header-toolbar d-flex align-items-center">
-                                                                <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="favorite"><i class="lar la-heart mr-2"></i></a>
-                                                                <div class="card-header-toolbar d-flex align-items-center">
-
-
-                                                                    <div class="dropdown">
-                                                                        <span class="dropdown-toggle dropdown-bg" id="note-dropdownMenuButton28" data-toggle="dropdown" aria-expanded="false" role="button">
-
-
-                                                                            <i class="ri-more-fill"></i>
-                                                                        </span>
-                                                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="note-dropdownMenuButton28" style="">
-                                                                            <a href="#" class="dropdown-item new-note2" data-toggle="modal" data-target="#new-note2"><i class="las la-eye mr-3"></i>View</a>
-
-                                                                            <a href="#" class="dropdown-item edit-note1" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-3"></i>Edit</a>
-
-                                                                            <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".card" href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
-
-
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card-body rounded">
-                                                            <h4 class="card-title">Birthday Celebration</h4>
-                                                            <p class="mb-3 card-description short">You can easily
-                                                                share via message, WhatsApp, emails etc. You can also
-                                                                save your notes and edit it later or can easily delete
-                                                                the note.</p>
-                                                            <ul class="pl-3 mb-0">
-                                                                <li class="note-list">Cakes and Balloons.</li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="card-footer">
-                                                            <div class="d-flex align-items-center justify-content-between note-text note-text-purple">
-                                                                <a href="#" class=""><i class="las la-user mr-2 font-size-20"></i>Only
-
-
-                                                                    You</a>
-                                                                <a href="#" class=""><i class="las la-calendar mr-2 font-size-20"></i>10
-
-
-                                                                    Jan 2021</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-4 col-md-6">
-                                                    <div class="card card-block card-stretch card-height card-bottom-border-primary note-detail">
-
-
-                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                            <div class="icon iq-icon-box-2 icon-border-primary rounded">
-                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-26" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-
-
-                                                                </svg>
-                                                            </div>
-                                                            <div class="card-header-toolbar d-flex align-items-center">
-                                                                <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="favorite"><i class="lar la-heart mr-2"></i></a>
-                                                                <div class="card-header-toolbar d-flex align-items-center">
-
-
-                                                                    <div class="dropdown">
-                                                                        <span class="dropdown-toggle dropdown-bg" id="note-dropdownMenuButton29" data-toggle="dropdown" aria-expanded="false" role="button">
-
-
-                                                                            <i class="ri-more-fill"></i>
-                                                                        </span>
-                                                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="note-dropdownMenuButton29" style="">
-                                                                            <a href="#" class="dropdown-item new-note5" data-toggle="modal" data-target="#new-note5"><i class="las la-eye mr-3"></i>View</a>
-                                                                            <a href="#" class="dropdown-item edit-note1" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-3"></i>Edit</a>
-                                                                            <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".card" href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
-
-
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card-body rounded">
-                                                            <h4 class="card-title">Image Notes</h4>
-                                                            <ul class="row mb-0 p-0 list-inline flex-wrap align-items-center">
-
-
-                                                                <li class="col-4">
-                                                                    <a href="#">
-                                                                        <img src="../assets/images/gallery/grid/01.jpg" class="img-fluid rounded" alt="" />
-
-
-                                                                    </a>
-                                                                </li>
-                                                                <li class="col-4">
-                                                                    <a href="#">
-                                                                        <img src="../assets/images/gallery/grid/02.jpg" class="img-fluid rounded" alt="" />
-
-
-                                                                    </a>
-                                                                </li>
-                                                                <li class="col-4">
-                                                                    <a href="#">
-                                                                        <img src="../assets/images/gallery/grid/03.jpg" class="img-fluid rounded" alt="" />
-
-
-                                                                    </a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="card-footer">
-                                                            <div class="d-flex align-items-center justify-content-between note-text note-text-primary">
-                                                                <a href="#" class=""><i class="las la-user mr-2 font-size-20"></i>Only
-
-
-                                                                    You</a>
-                                                                <a href="#" class=""><i class="las la-calendar mr-2 font-size-20"></i>5
-
-
-                                                                    Jan 2021</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-4 col-md-6">
-                                                    <div class="card card-block card-stretch card-height card-bottom-border-success note-detail mb-0">
-
-
-                                                        <div class="card-header d-flex justify-content-between pb-1">
-                                                            <div class="icon iq-icon-box-2 icon-border-success rounded">
-                                                                <svg width="23" height="23" class="svg-icon" id="iq-main-27" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
-
-
-                                                                </svg>
-                                                            </div>
-                                                            <div class="card-header-toolbar d-flex align-items-center">
-                                                                <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="favorite"><i class="lar la-heart mr-2"></i></a>
-                                                                <div class="card-header-toolbar d-flex align-items-center">
-
-
-                                                                    <div class="dropdown">
-                                                                        <span class="dropdown-toggle dropdown-bg" id="note-dropdownMenuButton30" data-toggle="dropdown" aria-expanded="false" role="button">
-
-
-                                                                            <i class="ri-more-fill"></i>
-                                                                        </span>
-                                                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="note-dropdownMenuButton30" style="">
-                                                                            <a href="#" class="dropdown-item new-note7" data-toggle="modal" data-target="#new-note7"><i class="las la-eye mr-3"></i>View</a>
-                                                                            <a href="#" class="dropdown-item edit-note1" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-3"></i>Edit</a>
-                                                                            <a class="dropdown-item" data-extra-toggle="delete" data-closest-elem=".card" href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
-
-
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card-body rounded">
-                                                            <h4 class="card-title">Quick Summary</h4>
-                                                            <p class="mb-3 card-description short">Need to write a
-                                                                summary note of the subject you just finished? NotePlus
-                                                                lets you do in on-the-go!</p>
-                                                            <p class="text-underline ellipsis-text short">
-                                                                Https://Dribble.com/Shots/6387620</p>
-                                                        </div>
-                                                        <div class="card-footer">
-                                                            <div class="d-flex align-items-center justify-content-between note-text note-text-success">
-                                                                <a href="#" class=""><i class="las la-user mr-2 font-size-20"></i>Only
-
-
-                                                                    You</a>
-                                                                <a href="#" class=""><i class="las la-calendar mr-2 font-size-20"></i>12
-
-
-                                                                    Jan 2021</a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
+
+                                            <div class="icon active animate__animated animate__fadeIn i-list">
+                                                <div class="row">
+                                                    <div class="col-lg-12">
+                                                        <div class="table-responsive">
+                                                            <table class="table  tbl-server-info">
+                                                                <thead>
+                                                                    <tr class="ligth">
+                                                                        <th class="w-50" scope="col">Title</th>
+                                                                        <th scope="col">Permission</th>
+                                                                        <th scope="col">Created At</th>
+                                                                        <th scope="col">Action</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <h4 class="mb-2">Weekly Planner</h4>
+                                                                            <span>dddddVirtual Digital Marketing Course
+                                                                                every
+
+
+                                                                                week on Monday, Wednesday and
+                                                                                Saturday</span>
+                                                                        </td>
+                                                                        <td>
+                                                                            <i
+                                                                                class="las la-user-friends mr-2 font-size-20"></i>
+
+
+                                                                            03 share
+                                                                        </td>
+                                                                        <td>Dec 20</td>
+                                                                        <td>
+                                                                            <div>
+                                                                                <a href="#"
+                                                                                    class="badge badge-success mr-3"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#edit-note1"><i
+                                                                                        class="las la-pen mr-0"></i></a>
+                                                                                <a href="#"
+                                                                                    class="badge badge-danger"
+                                                                                    data-extra-toggle="delete"
+                                                                                    data-closest-elem="tr"><i
+                                                                                        class="las la-trash-alt mr-0"></i></a>
+
+
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <h4 class="mb-2">Benefits of NotePlus</h4>
+                                                                            <span>Take organized notes and share later as
+                                                                                meeting minutes or check-list</span>
+                                                                        </td>
+                                                                        <td>
+                                                                            <i
+                                                                                class="las la-user-friends mr-2 font-size-20"></i>
+
+
+                                                                            2 share
+                                                                        </td>
+                                                                        <td>Dec 20</td>
+                                                                        <td>
+                                                                            <div>
+                                                                                <a href="#"
+                                                                                    class="badge badge-success mr-3"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#edit-note1"><i
+                                                                                        class="las la-pen mr-0"></i></a>
+                                                                                <a href="#"
+                                                                                    class="badge badge-danger"
+                                                                                    data-extra-toggle="delete"
+                                                                                    data-closest-elem="tr"><i
+                                                                                        class="las la-trash-alt mr-0"></i></a>
+
+
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+
+
+
+
+
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        {{-- Fixar anotações --}}
+                                        <div id="note3" class="tab-pane fade">
+                                            <div class="icon active animate__animated animate__fadeIn i-grid">
+                                                <div class="row">
+                                                    <div class="col-lg-4 col-md-6">
+                                                        <div
+                                                            class="card card-block card-stretch card-height card-bottom-border-purple note-detail">
+
+
+                                                            <div class="card-header d-flex justify-content-between pb-1">
+                                                                <div
+                                                                    class="icon iq-icon-box-2 py-3 icon-border-purple rounded">
+                                                                    <svg width="23" height="23" class="svg-icon"
+                                                                        id="iq-main-16" xmlns="http://www.w3.org/2000/svg"
+                                                                        fill="none" viewBox="0 0 24 24"
+                                                                        stroke="currentColor">
+                                                                        <path stroke-linecap="round"
+                                                                            stroke-linejoin="round" stroke-width="2"
+                                                                            d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.701 2.701 0 00-1.5-.454M9 6v2m3-2v2m3-2v2M9 3h.01M12 3h.01M15 3h.01M21 21v-7a2 2 0 00-2-2H5a2 2 0 00-2 2v7h18zm-3-9v-2a2 2 0 00-2-2H8a2 2 0 00-2 2v2h12z" />
+
+
+                                                                    </svg>
+                                                                </div>
+                                                                <div class="card-header-toolbar d-flex align-items-center">
+                                                                    <a href="#" data-toggle="tooltip"
+                                                                        data-placement="top" title=""
+                                                                        data-original-title="pin content"><i
+                                                                            class="las la-thumbtack mr-2"></i></a>
+
+
+                                                                    <div
+                                                                        class="card-header-toolbar d-flex align-items-center">
+                                                                        <div class="dropdown">
+                                                                            <span class="dropdown-toggle dropdown-bg"
+                                                                                id="note-dropdownMenuButton19"
+                                                                                data-toggle="dropdown"
+                                                                                aria-expanded="false" role="button">
+
+
+                                                                                <i class="ri-more-fill"></i>
+                                                                            </span>
+                                                                            <div class="dropdown-menu dropdown-menu-right"
+                                                                                aria-labelledby="note-dropdownMenuButton19"
+                                                                                style="">
+                                                                                <a href="#"
+                                                                                    class="dropdown-item new-note2"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#new-note2"><i
+                                                                                        class="las la-eye mr-3"></i>View</a>
+                                                                                <a href="#"
+                                                                                    class="dropdown-item edit-note1"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#edit-note1"><i
+                                                                                        class="las la-pen mr-3"></i>Edit</a>
+                                                                                <a class="dropdown-item"
+                                                                                    data-extra-toggle="delete"
+                                                                                    data-closest-elem=".card"
+                                                                                    href="#"><i
+                                                                                        class="las la-trash-alt mr-3"></i>Delete</a>
+
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="card-body rounded">
+                                                                <h4 class="card-title">Birthday Celebration</h4>
+                                                                <p class="mb-3 card-description short">You can easily
+                                                                    share via message, WhatsApp, emails etc. You can also
+                                                                    save your notes and edit it later or can easily delete
+                                                                    the note.</p>
+                                                                <ul class="pl-3 mb-0">
+                                                                    <li class="note-list">Cakes and Balloons.</li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="card-footer">
+                                                                <div
+                                                                    class="d-flex align-items-center justify-content-between note-text note-text-purple">
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-user mr-2 font-size-20"></i>Only
+
+
+                                                                        You</a>
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-calendar mr-2 font-size-20"></i>10
+
+
+                                                                        Jan 2021</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6">
+                                                        <div
+                                                            class="card card-block card-stretch card-height card-bottom-border-primary note-detail">
+
+
+                                                            <div class="card-header d-flex justify-content-between pb-1">
+                                                                <div
+                                                                    class="icon iq-icon-box-2 py-3 icon-border-primary rounded">
+                                                                    <svg width="23" height="23" class="svg-icon"
+                                                                        id="iq-main-17" xmlns="http://www.w3.org/2000/svg"
+                                                                        fill="none" viewBox="0 0 24 24"
+                                                                        stroke="currentColor">
+                                                                        <path stroke-linecap="round"
+                                                                            stroke-linejoin="round" stroke-width="2"
+                                                                            d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+
+
+                                                                    </svg>
+                                                                </div>
+                                                                <div class="card-header-toolbar d-flex align-items-center">
+                                                                    <a href="#" data-toggle="tooltip"
+                                                                        data-placement="top" title=""
+                                                                        data-original-title="pin content"><i
+                                                                            class="las la-thumbtack mr-2"></i></a>
+                                                                    <div
+                                                                        class="card-header-toolbar d-flex align-items-center">
+
+
+                                                                        <div class="dropdown">
+                                                                            <span class="dropdown-toggle dropdown-bg"
+                                                                                id="note-dropdownMenuButton20"
+                                                                                data-toggle="dropdown"
+                                                                                aria-expanded="false" role="button">
+
+
+                                                                                <i class="ri-more-fill"></i>
+                                                                            </span>
+                                                                            <div class="dropdown-menu dropdown-menu-right"
+                                                                                aria-labelledby="note-dropdownMenuButton20"
+                                                                                style="">
+                                                                                <a href="#"
+                                                                                    class="dropdown-item new-note5"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#new-note5"><i
+                                                                                        class="las la-eye mr-3"></i>View</a>
+                                                                                <a href="#"
+                                                                                    class="dropdown-item edit-note1"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#edit-note1"><i
+                                                                                        class="las la-pen mr-3"></i>Edit</a>
+                                                                                <a class="dropdown-item"
+                                                                                    data-extra-toggle="delete"
+                                                                                    data-closest-elem=".card"
+                                                                                    href="#"><i
+                                                                                        class="las la-trash-alt mr-3"></i>Delete</a>
+
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="card-body rounded">
+                                                                <h4 class="card-title">Image Notes</h4>
+                                                                <ul
+                                                                    class="row mb-0 p-0 list-inline flex-wrap align-items-center">
+
+
+                                                                    <li class="col-4">
+                                                                        <a href="#">
+                                                                            <img src="../assets/images/gallery/grid/01.jpg"
+                                                                                class="img-fluid rounded"
+                                                                                alt="" />
+
+
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="col-4">
+                                                                        <a href="#">
+                                                                            <img src="../assets/images/gallery/grid/02.jpg"
+                                                                                class="img-fluid rounded"
+                                                                                alt="" />
+
+
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="col-4">
+                                                                        <a href="#">
+                                                                            <img src="../assets/images/gallery/grid/03.jpg"
+                                                                                class="img-fluid rounded"
+                                                                                alt="" />
+
+
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="card-footer">
+                                                                <div
+                                                                    class="d-flex align-items-center justify-content-between note-text note-text-primary">
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-user mr-2 font-size-20"></i>Only
+
+
+                                                                        You</a>
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-calendar mr-2 font-size-20"></i>05
+
+
+                                                                        Jan 2021</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6">
+                                                        <div
+                                                            class="card card-block card-stretch card-height card-bottom-border-success note-detail mb-0">
+
+
+                                                            <div class="card-header d-flex justify-content-between pb-1">
+                                                                <div
+                                                                    class="icon iq-icon-box-2 icon-border-success rounded">
+                                                                    <svg width="23" height="23" class="svg-icon"
+                                                                        id="iq-main-18" xmlns="http://www.w3.org/2000/svg"
+                                                                        fill="none" viewBox="0 0 24 24"
+                                                                        stroke="currentColor">
+                                                                        <path stroke-linecap="round"
+                                                                            stroke-linejoin="round" stroke-width="2"
+                                                                            d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
+
+
+                                                                    </svg>
+                                                                </div>
+                                                                <div class="card-header-toolbar d-flex align-items-center">
+                                                                    <a href="#" data-toggle="tooltip"
+                                                                        data-placement="top" title=""
+                                                                        data-original-title="pin content"><i
+                                                                            class="las la-thumbtack mr-2"></i></a>
+                                                                    <div
+                                                                        class="card-header-toolbar d-flex align-items-center">
+
+
+                                                                        <div class="dropdown">
+                                                                            <span class="dropdown-toggle dropdown-bg"
+                                                                                id="note-dropdownMenuButton21"
+                                                                                data-toggle="dropdown"
+                                                                                aria-expanded="false" role="button">
+
+
+                                                                                <i class="ri-more-fill"></i>
+                                                                            </span>
+                                                                            <div class="dropdown-menu dropdown-menu-right"
+                                                                                aria-labelledby="note-dropdownMenuButton21"
+                                                                                style="">
+                                                                                <a href="#"
+                                                                                    class="dropdown-item new-note7"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#new-note7"><i
+                                                                                        class="las la-eye mr-3"></i>View</a>
+                                                                                <a href="#"
+                                                                                    class="dropdown-item edit-note1"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#edit-note1"><i
+                                                                                        class="las la-pen mr-3"></i>Edit</a>
+                                                                                <a class="dropdown-item"
+                                                                                    data-extra-toggle="delete"
+                                                                                    data-closest-elem=".card"
+                                                                                    href="#"><i
+                                                                                        class="las la-trash-alt mr-3"></i>Delete</a>
+
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="card-body rounded">
+                                                                <h4 class="card-title">Quick Summary</h4>
+                                                                <p class="mb-3 card-description short">Need to write a
+                                                                    summary note of the subject you just finished? NotePlus
+                                                                    lets you do in on-the-go!</p>
+                                                                <p class="text-underline ellipsis-text short">
+                                                                    Https://Dribble.com/Shots/6387620</p>
+                                                            </div>
+                                                            <div class="card-footer">
+                                                                <div
+                                                                    class="d-flex align-items-center justify-content-between note-text note-text-success">
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-user mr-2 font-size-20"></i>Only
+
+
+                                                                        You</a>
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-calendar mr-2 font-size-20"></i>12
+
+
+                                                                        Jan 2021</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6">
+                                                        <div
+                                                            class="card card-block card-stretch card-height card-bottom-border-warning note-detail">
+
+
+                                                            <div class="card-header d-flex justify-content-between pb-1">
+                                                                <div
+                                                                    class="icon iq-icon-box-2 icon-border-warning rounded">
+                                                                    <svg width="23" height="23"
+                                                                        class="svg-icon" id="iq-main-19"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        fill="none" viewBox="0 0 24 24"
+                                                                        stroke="currentColor">
+                                                                        <path stroke-linecap="round"
+                                                                            stroke-linejoin="round" stroke-width="2"
+                                                                            d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+
+
+                                                                    </svg>
+                                                                </div>
+                                                                <div
+                                                                    class="card-header-toolbar d-flex align-items-center">
+                                                                    <a href="#" data-toggle="tooltip"
+                                                                        data-placement="top" title=""
+                                                                        data-original-title="pin content"><i
+                                                                            class="las la-thumbtack mr-2"></i></a>
+                                                                    <div
+                                                                        class="card-header-toolbar d-flex align-items-center">
+
+
+                                                                        <div class="dropdown">
+                                                                            <span class="dropdown-toggle dropdown-bg"
+                                                                                id="note-dropdownMenuButton22"
+                                                                                data-toggle="dropdown"
+                                                                                aria-expanded="false" role="button">
+
+
+                                                                                <i class="ri-more-fill"></i>
+                                                                            </span>
+                                                                            <div class="dropdown-menu dropdown-menu-right"
+                                                                                aria-labelledby="note-dropdownMenuButton22"
+                                                                                style="">
+                                                                                <a href="#"
+                                                                                    class="dropdown-item new-note3"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#new-note3"><i
+                                                                                        class="las la-eye mr-3"></i>View</a>
+                                                                                <a href="#"
+                                                                                    class="dropdown-item edit-note1"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#edit-note1"><i
+                                                                                        class="las la-pen mr-3"></i>Edit</a>
+                                                                                <a class="dropdown-item"
+                                                                                    data-extra-toggle="delete"
+                                                                                    data-closest-elem=".card"
+                                                                                    href="#"><i
+                                                                                        class="las la-trash-alt mr-3"></i>Delete</a>
+
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="card-body rounded">
+                                                                <h4 class="card-title">Essay Outline</h4>
+                                                                <ul class="pl-3 mb-0">
+                                                                    <li class="note-list mb-2">Content should be of topic.
+                                                                    </li>
+                                                                    <li class="note-list mb-2">300 Words only.</li>
+                                                                    <li class="note-list">Make presentation.</li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="card-footer">
+                                                                <div
+                                                                    class="d-flex align-items-center justify-content-between note-text note-text-warning">
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-user mr-2 font-size-20"></i>Only
+
+
+                                                                        You</a>
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-calendar mr-2 font-size-20"></i>13
+
+
+                                                                        Jan 2021</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6">
+                                                        <div
+                                                            class="card card-block card-stretch card-height card-bottom-border-info note-detail">
+
+
+                                                            <div class="card-header d-flex justify-content-between pb-1">
+                                                                <div
+                                                                    class="icon iq-icon-box-2 icon-border-info py-3 rounded">
+                                                                    <svg width="23" height="23"
+                                                                        class="svg-icon" id="iq-main-20"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        viewBox="0 0 20 20" fill="currentColor">
+                                                                        <path fill-rule="evenodd"
+                                                                            d="M5 3a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2V5a2 2 0 00-2-2H5zm0 2h10v7h-2l-1 2H8l-1-2H5V5z"
+                                                                            clip-rule="evenodd" />
+
+
+                                                                    </svg>
+                                                                </div>
+                                                                <div
+                                                                    class="card-header-toolbar d-flex align-items-center">
+                                                                    <a href="#" data-toggle="tooltip"
+                                                                        data-placement="top" title=""
+                                                                        data-original-title="pin content"><i
+                                                                            class="las la-thumbtack mr-2"></i></a>
+                                                                    <div
+                                                                        class="card-header-toolbar d-flex align-items-center">
+
+
+                                                                        <div class="dropdown">
+                                                                            <span class="dropdown-toggle dropdown-bg"
+                                                                                id="note-dropdownMenuButton23"
+                                                                                data-toggle="dropdown"
+                                                                                aria-expanded="false" role="button">
+
+
+                                                                                <i class="ri-more-fill"></i>
+                                                                            </span>
+                                                                            <div class="dropdown-menu dropdown-menu-right"
+                                                                                aria-labelledby="note-dropdownMenuButton23"
+                                                                                style="">
+                                                                                <a href="#"
+                                                                                    class="dropdown-item new-note9"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#new-note9"><i
+                                                                                        class="las la-eye mr-3"></i>View</a>
+                                                                                <a href="#"
+                                                                                    class="dropdown-item edit-note1"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#edit-note1"><i
+                                                                                        class="las la-pen mr-3"></i>Edit</a>
+                                                                                <a class="dropdown-item"
+                                                                                    data-extra-toggle="delete"
+                                                                                    data-closest-elem=".card"
+                                                                                    href="#"><i
+                                                                                        class="las la-trash-alt mr-3"></i>Delete</a>
+
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="card-body rounded">
+                                                                <h4 class="card-title">NotePlus for Entrepreneurs</h4>
+                                                                <p class="mb-3 card-description short">With NotePlus, you
+                                                                    can easily share via message, WhatsApp, emails etc. You
+                                                                    can also save your notes and edit it later or can easily
+                                                                    delete the note.</p>
+                                                            </div>
+                                                            <div class="card-footer">
+                                                                <div
+                                                                    class="d-flex align-items-center justify-content-between note-text note-text-info">
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-user mr-2 font-size-20"></i>Only
+
+
+                                                                        You</a>
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-calendar mr-2 font-size-20"></i>12
+
+
+                                                                        Jan 2021</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6">
+                                                        <div
+                                                            class="card card-block card-stretch card-height card-bottom-border-danger note-detail">
+
+
+                                                            <div class="card-header d-flex justify-content-between pb-1">
+                                                                <div
+                                                                    class="icon iq-icon-box-2 icon-border-danger rounded">
+                                                                    <svg width="23" height="23"
+                                                                        class="svg-icon" id="iq-main-21"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        fill="none" viewBox="0 0 24 24"
+                                                                        stroke="currentColor">
+                                                                        <path stroke-linecap="round"
+                                                                            stroke-linejoin="round" stroke-width="2"
+                                                                            d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+
+
+                                                                    </svg>
+                                                                </div>
+                                                                <div
+                                                                    class="card-header-toolbar d-flex align-items-center">
+                                                                    <a href="#" data-toggle="tooltip"
+                                                                        data-placement="top" title=""
+                                                                        data-original-title="pin content"><i
+                                                                            class="las la-thumbtack mr-2"></i></a>
+                                                                    <div
+                                                                        class="card-header-toolbar d-flex align-items-center">
+
+
+                                                                        <div class="dropdown">
+                                                                            <span class="dropdown-toggle dropdown-bg"
+                                                                                id="note-dropdownMenuButton24"
+                                                                                data-toggle="dropdown"
+                                                                                aria-expanded="false" role="button">
+
+
+                                                                                <i class="ri-more-fill"></i>
+                                                                            </span>
+                                                                            <div class="dropdown-menu dropdown-menu-right"
+                                                                                aria-labelledby="note-dropdownMenuButton24"
+                                                                                style="">
+                                                                                <a href="#"
+                                                                                    class="dropdown-item new-note4"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#new-note4"><i
+                                                                                        class="las la-eye mr-3"></i>View</a>
+                                                                                <a href="#"
+                                                                                    class="dropdown-item edit-note1"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#edit-note1"><i
+                                                                                        class="las la-pen mr-3"></i>Edit</a>
+                                                                                <a class="dropdown-item"
+                                                                                    data-extra-toggle="delete"
+                                                                                    data-closest-elem=".card"
+                                                                                    href="#"><i
+                                                                                        class="las la-trash-alt mr-3"></i>Delete</a>
+
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="card-body rounded">
+                                                                <h4 class="card-title">Lecture Notes</h4>
+                                                                <div class="checkbox mb-2">
+                                                                    <input type="checkbox" class="checkbox-input mr-3"
+                                                                        id="checkbox7">
+                                                                    <label for="checkbox7"
+                                                                        class="note-checkbox mb-0">Chapter 1
+
+
+                                                                        notes.</label>
+                                                                </div>
+                                                                <div class="checkbox mb-2">
+                                                                    <input type="checkbox" class="checkbox-input mr-3"
+                                                                        id="checkbox8">
+                                                                    <label for="checkbox8"
+                                                                        class="note-checkbox mb-0">Chapter 2
+
+
+                                                                        Assignment.</label>
+                                                                </div>
+                                                                <div class="checkbox mb-2">
+                                                                    <input type="checkbox" class="checkbox-input mr-3"
+                                                                        id="checkbox9">
+                                                                    <label for="checkbox9"
+                                                                        class="note-checkbox mb-0">Chapter 3 practical
+
+
+                                                                        File.</label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="card-footer">
+                                                                <div
+                                                                    class="d-flex align-items-center justify-content-between note-text note-text-danger">
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-user mr-2 font-size-20"></i>Only
+
+
+                                                                        You</a>
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-calendar mr-2 font-size-20"></i>9
+
+
+                                                                        Jan 2021</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="icon active animate__animated animate__fadeIn i-list">
+                                                <div class="row">
+                                                    <div class="col-lg-12">
+                                                        <div class="table-responsive">
+                                                            <table class="table  tbl-server-info">
+                                                                <thead>
+                                                                    <tr class="ligth">
+                                                                        <th class="w-50" scope="col">Title</th>
+                                                                        <th scope="col">Permission</th>
+                                                                        <th scope="col">Created At</th>
+                                                                        <th scope="col">Action</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <h4 class="mb-2">Birthday Celebration <i
+                                                                                    class="las la-thumbtack ml-2"></i>
+
+
+                                                                            </h4>
+                                                                            <span>You can easily share via message,
+                                                                                WhatsApp, emails etc.</span>
+                                                                        </td>
+                                                                        <td>
+                                                                            <i class="las la-lock mr-2 font-size-20"></i>
+                                                                            Only You
+                                                                        </td>
+                                                                        <td>Dec 20</td>
+                                                                        <td>
+                                                                            <div>
+                                                                                <a href="#"
+                                                                                    class="badge badge-success mr-3"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#edit-note1"><i
+                                                                                        class="las la-pen mr-0"></i></a>
+                                                                                <a href="#"
+                                                                                    class="badge badge-danger"
+                                                                                    data-extra-toggle="delete"
+                                                                                    data-closest-elem="tr"><i
+                                                                                        class="las la-trash-alt mr-0"></i></a>
+
+
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <h4 class="mb-2">Image Notes<i
+                                                                                    class="las la-thumbtack ml-2"></i>
+
+
+                                                                            </h4>
+                                                                            <span>NotePlus lets you do in on-the-go!</span>
+                                                                        </td>
+                                                                        <td>
+                                                                            <i class="las la-lock mr-2 font-size-20"></i>
+                                                                            Only You
+                                                                        </td>
+                                                                        <td>Dec 20</td>
+                                                                        <td>
+                                                                            <div>
+                                                                                <a href="#"
+                                                                                    class="badge badge-success mr-3"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#edit-note1"><i
+                                                                                        class="las la-pen mr-0"></i></a>
+                                                                                <a href="#"
+                                                                                    class="badge badge-danger"
+                                                                                    data-extra-toggle="delete"
+                                                                                    data-closest-elem="tr"><i
+                                                                                        class="las la-trash-alt mr-0"></i></a>
+
+
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <h4 class="mb-2">Quick Summary <i
+                                                                                    class="las la-thumbtack ml-2"></i>
+
+
+                                                                            </h4>
+                                                                            <span>Need to write a summary note of the
+                                                                                subject you just finished</span>
+                                                                        </td>
+                                                                        <td>
+                                                                            <i class="las la-lock mr-2 font-size-20"></i>
+                                                                            Only You
+                                                                        </td>
+                                                                        <td>Dec 20</td>
+                                                                        <td>
+                                                                            <div>
+                                                                                <a href="#"
+                                                                                    class="badge badge-success mr-3"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#edit-note1"><i
+                                                                                        class="las la-pen mr-0"></i></a>
+                                                                                <a href="#"
+                                                                                    class="badge badge-danger"
+                                                                                    data-extra-toggle="delete"
+                                                                                    data-closest-elem="tr"><i
+                                                                                        class="las la-trash-alt mr-0"></i></a>
+
+
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <h4 class="mb-2">Essay Outline <i
+                                                                                    class="las la-thumbtack ml-2"></i>
+
+
+                                                                            </h4>
+                                                                            <span>Donec rutrum congue leo eget
+                                                                                malesuada.</span>
+                                                                        </td>
+                                                                        <td>
+                                                                            <i class="las la-lock mr-2 font-size-20"></i>
+                                                                            Only You
+                                                                        </td>
+                                                                        <td>Dec 20</td>
+                                                                        <td>
+                                                                            <div>
+                                                                                <a href="#"
+                                                                                    class="badge badge-success mr-3"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#edit-note1"><i
+                                                                                        class="las la-pen mr-0"></i></a>
+                                                                                <a href="#"
+                                                                                    class="badge badge-danger"
+                                                                                    data-extra-toggle="delete"
+                                                                                    data-closest-elem="tr"><i
+                                                                                        class="las la-trash-alt mr-0"></i></a>
+
+
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <h4 class="mb-2">NotePlus for Entrepreneurs
+                                                                                <i class="las la-thumbtack ml-2"></i>
+                                                                            </h4>
+                                                                            <span>With NotePlus, you can easily share via
+                                                                                message, WhatsApp, emails etc.</span>
+                                                                        </td>
+                                                                        <td>
+                                                                            <i class="las la-lock mr-2 font-size-20"></i>
+                                                                            Only You
+                                                                        </td>
+                                                                        <td>Dec 20</td>
+                                                                        <td>
+                                                                            <div>
+                                                                                <a href="#"
+                                                                                    class="badge badge-success mr-3"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#edit-note1"><i
+                                                                                        class="las la-pen mr-0"></i></a>
+                                                                                <a href="#"
+                                                                                    class="badge badge-danger"
+                                                                                    data-extra-toggle="delete"
+                                                                                    data-closest-elem="tr"><i
+                                                                                        class="las la-trash-alt mr-0"></i></a>
+
+
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <h4 class="mb-2">Lecture Notes <i
+                                                                                    class="las la-thumbtack ml-2"></i>
+
+
+                                                                            </h4>
+                                                                            <span>Chapter 1 notes, Chapter 2 Assignment,
+                                                                                Chapter 3 practical File.</span>
+                                                                        </td>
+                                                                        <td>
+                                                                            <i class="las la-lock mr-2 font-size-20"></i>
+                                                                            Only You
+                                                                        </td>
+                                                                        <td>Dec 20</td>
+                                                                        <td>
+                                                                            <div>
+                                                                                <a href="#"
+                                                                                    class="badge badge-success mr-3"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#edit-note1"><i
+                                                                                        class="las la-pen mr-0"></i></a>
+                                                                                <a href="#"
+                                                                                    class="badge badge-danger"
+                                                                                    data-extra-toggle="delete"
+                                                                                    data-closest-elem="tr"><i
+                                                                                        class="las la-trash-alt mr-0"></i></a>
+
+
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
 
-                                        <div class="icon active animate__animated animate__fadeIn i-list">
-                                            <div class="row">
-                                                <div class="col-lg-12">
-                                                    <div class="table-responsive">
-                                                        <table class="table  tbl-server-info">
-                                                            <thead>
-                                                                <tr class="ligth">
-                                                                    <th class="w-50" scope="col">Title</th>
-                                                                    <th scope="col">Permission</th>
-                                                                    <th scope="col">Created At</th>
-                                                                    <th scope="col">Action</th>
-                                                                </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>
-                                                                        <h4 class="mb-2">Essay Outline <i class="lar la-heart ml-2"></i></h4>
+                                        {{-- Fixar Favoritas --}}
+                                        <div id="note4" class="tab-pane fade">
+                                            <div class="icon active animate__animated animate__fadeIn i-grid">
+                                                <div class="row">
+                                                    <div class="col-lg-4 col-md-6">
+                                                        <div
+                                                            class="card card-block card-stretch card-height card-bottom-border-warning note-detail">
 
 
-                                                                        <span>Donec rutrum congue leo eget
-                                                                            malesuada.</span>
-                                                                    </td>
-                                                                    <td>
-                                                                        <i class="las la-lock mr-2 font-size-20"></i>
-                                                                        Only You
-                                                                    </td>
-                                                                    <td>Dec 20</td>
-                                                                    <td>
-                                                                        <div>
-                                                                            <a href="#" class="badge badge-success mr-3" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-0"></i></a>
-                                                                            <a href="#" class="badge badge-danger" data-extra-toggle="delete" data-closest-elem="tr"><i class="las la-trash-alt mr-0"></i></a>
+                                                            <div class="card-header d-flex justify-content-between pb-1">
+                                                                <div
+                                                                    class="icon iq-icon-box-2 icon-border-warning rounded">
+                                                                    <svg width="23" height="23"
+                                                                        class="svg-icon" id="iq-main-22"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        fill="none" viewBox="0 0 24 24"
+                                                                        stroke="currentColor">
+                                                                        <path stroke-linecap="round"
+                                                                            stroke-linejoin="round" stroke-width="2"
+                                                                            d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
 
 
+                                                                    </svg>
+                                                                </div>
+                                                                <div
+                                                                    class="card-header-toolbar d-flex align-items-center">
+                                                                    <a href="#" data-toggle="tooltip"
+                                                                        data-placement="top" title=""
+                                                                        data-original-title="favorite"><i
+                                                                            class="lar la-heart mr-2"></i></a>
+                                                                    <div
+                                                                        class="card-header-toolbar d-flex align-items-center">
+
+
+                                                                        <div class="dropdown">
+                                                                            <span class="dropdown-toggle dropdown-bg"
+                                                                                id="note-dropdownMenuButton25"
+                                                                                data-toggle="dropdown"
+                                                                                aria-expanded="false" role="button">
+
+
+                                                                                <i class="ri-more-fill"></i>
+                                                                            </span>
+                                                                            <div class="dropdown-menu dropdown-menu-right"
+                                                                                aria-labelledby="note-dropdownMenuButton25"
+                                                                                style="">
+                                                                                <a href="#"
+                                                                                    class="dropdown-item new-note3"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#new-note3"><i
+                                                                                        class="las la-eye mr-3"></i>View</a>
+
+                                                                                <a href="#"
+                                                                                    class="dropdown-item edit-note1"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#edit-note1"><i
+                                                                                        class="las la-pen mr-3"></i>Edit</a>
+
+                                                                                <a class="dropdown-item"
+                                                                                    data-extra-toggle="delete"
+                                                                                    data-closest-elem=".card"
+                                                                                    href="#"><i
+                                                                                        class="las la-trash-alt mr-3"></i>Delete</a>
+
+
+                                                                            </div>
                                                                         </div>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <h4 class="mb-2">Lecture Notes <i class="lar la-heart ml-2"></i></h4>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="card-body rounded">
+                                                                <h4 class="card-title">Essay Outline</h4>
+                                                                <ul class="pl-3 mb-0">
+                                                                    <li class="note-list mb-2">Content should be of topic.
+                                                                    </li>
+                                                                    <li class="note-list mb-2">300 Words only.</li>
+                                                                    <li class="note-list">Make presentation.</li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="card-footer">
+                                                                <div
+                                                                    class="d-flex align-items-center justify-content-between note-text note-text-warning">
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-user mr-2 font-size-20"></i>Only
 
 
-                                                                        <span>Chapter 1 notes, Chapter 2 Assignment,
-                                                                            Chapter 3 practical File.</span>
-                                                                    </td>
-                                                                    <td>
-                                                                        <i class="las la-lock mr-2 font-size-20"></i>
-                                                                        Only You
-                                                                    </td>
-                                                                    <td>Dec 20</td>
-                                                                    <td>
-                                                                        <div>
-                                                                            <a href="#" class="badge badge-success mr-3" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-0"></i></a>
-                                                                            <a href="#" class="badge badge-danger" data-extra-toggle="delete" data-closest-elem="tr"><i class="las la-trash-alt mr-0"></i></a>
+                                                                        You</a>
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-calendar mr-2 font-size-20"></i>09
 
 
+                                                                        Jan 2021</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6">
+                                                        <div
+                                                            class="card card-block card-stretch card-height card-bottom-border-danger note-detail">
+
+
+                                                            <div class="card-header d-flex justify-content-between pb-1">
+                                                                <div
+                                                                    class="icon iq-icon-box-2 icon-border-danger rounded">
+                                                                    <svg width="23" height="23"
+                                                                        class="svg-icon" id="iq-main-23"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        fill="none" viewBox="0 0 24 24"
+                                                                        stroke="currentColor">
+                                                                        <path stroke-linecap="round"
+                                                                            stroke-linejoin="round" stroke-width="2"
+                                                                            d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+
+
+                                                                    </svg>
+                                                                </div>
+                                                                <div
+                                                                    class="card-header-toolbar d-flex align-items-center">
+                                                                    <a href="#" data-toggle="tooltip"
+                                                                        data-placement="top" title=""
+                                                                        data-original-title="favorite"><i
+                                                                            class="lar la-heart mr-2"></i></a>
+                                                                    <div
+                                                                        class="card-header-toolbar d-flex align-items-center">
+
+
+                                                                        <div class="dropdown">
+                                                                            <span class="dropdown-toggle dropdown-bg"
+                                                                                id="note-dropdownMenuButton26"
+                                                                                data-toggle="dropdown"
+                                                                                aria-expanded="false" role="button">
+
+
+                                                                                <i class="ri-more-fill"></i>
+                                                                            </span>
+                                                                            <div class="dropdown-menu dropdown-menu-right"
+                                                                                aria-labelledby="note-dropdownMenuButton26"
+                                                                                style="">
+                                                                                <a href="#"
+                                                                                    class="dropdown-item new-note4"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#new-note4"><i
+                                                                                        class="las la-eye mr-3"></i>View</a>
+                                                                                <a href="#"
+                                                                                    class="dropdown-item edit-note1"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#edit-note1"><i
+                                                                                        class="las la-pen mr-3"></i>Edit</a>
+                                                                                <a class="dropdown-item"
+                                                                                    data-extra-toggle="delete"
+                                                                                    data-closest-elem=".card"
+                                                                                    href="#"><i
+                                                                                        class="las la-trash-alt mr-3"></i>Delete</a>
+
+
+                                                                            </div>
                                                                         </div>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <h4 class="mb-2">NotePlus for Entrepreneurs
-                                                                            <i class="lar la-heart ml-2"></i>
-                                                                        </h4>
-                                                                        <span>With NotePlus, you can easily share via
-                                                                            message, WhatsApp, emails etc.</span>
-                                                                    </td>
-                                                                    <td>
-                                                                        <i class="las la-lock mr-2 font-size-20"></i>
-                                                                        Only You
-                                                                    </td>
-                                                                    <td>Dec 20</td>
-                                                                    <td>
-                                                                        <div>
-                                                                            <a href="#" class="badge badge-success mr-3" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-0"></i></a>
-                                                                            <a href="#" class="badge badge-danger" data-extra-toggle="delete" data-closest-elem="tr"><i class="las la-trash-alt mr-0"></i></a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="card-body rounded">
+                                                                <h4 class="card-title">Lecture Notes</h4>
+                                                                <div class="checkbox mb-2">
+                                                                    <input type="checkbox" class="checkbox-input mr-3"
+                                                                        id="checkbox10">
+                                                                    <label for="checkbox10"
+                                                                        class="note-checkbox mb-0">Chapter 1
 
 
+                                                                        notes.</label>
+                                                                </div>
+                                                                <div class="checkbox mb-2">
+                                                                    <input type="checkbox" class="checkbox-input mr-3"
+                                                                        id="checkbox11">
+                                                                    <label for="checkbox11"
+                                                                        class="note-checkbox mb-0">Chapter 2
+
+
+                                                                        Assignment.</label>
+                                                                </div>
+                                                                <div class="checkbox mb-2">
+                                                                    <input type="checkbox" class="checkbox-input mr-3"
+                                                                        id="checkbox12">
+                                                                    <label for="checkbox12"
+                                                                        class="note-checkbox mb-0">Chapter 3 practical
+
+
+                                                                        File.</label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="card-footer">
+                                                                <div
+                                                                    class="d-flex align-items-center justify-content-between note-text note-text-danger">
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-user mr-2 font-size-20"></i>Only
+
+
+                                                                        You</a>
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-calendar mr-2 font-size-20"></i>15
+
+
+                                                                        Jan 2021</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6">
+                                                        <div
+                                                            class="card card-block card-stretch card-height card-bottom-border-info note-detail">
+
+
+                                                            <div class="card-header d-flex justify-content-between pb-1">
+                                                                <div
+                                                                    class="icon iq-icon-box-2 icon-border-info py-3 rounded">
+                                                                    <svg width="23" height="23"
+                                                                        class="svg-icon" id="iq-main-24"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        viewBox="0 0 20 20" fill="currentColor">
+                                                                        <path fill-rule="evenodd"
+                                                                            d="M5 3a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2V5a2 2 0 00-2-2H5zm0 2h10v7h-2l-1 2H8l-1-2H5V5z"
+                                                                            clip-rule="evenodd" />
+
+
+                                                                    </svg>
+                                                                </div>
+                                                                <div
+                                                                    class="card-header-toolbar d-flex align-items-center">
+                                                                    <a href="#" data-toggle="tooltip"
+                                                                        data-placement="top" title=""
+                                                                        data-original-title="favorite"><i
+                                                                            class="lar la-heart mr-2"></i></a>
+                                                                    <div
+                                                                        class="card-header-toolbar d-flex align-items-center">
+
+
+                                                                        <div class="dropdown">
+                                                                            <span class="dropdown-toggle dropdown-bg"
+                                                                                id="note-dropdownMenuButton27"
+                                                                                data-toggle="dropdown"
+                                                                                aria-expanded="false" role="button">
+
+
+                                                                                <i class="ri-more-fill"></i>
+                                                                            </span>
+                                                                            <div class="dropdown-menu dropdown-menu-right"
+                                                                                aria-labelledby="note-dropdownMenuButton27"
+                                                                                style="">
+                                                                                <a href="#"
+                                                                                    class="dropdown-item new-note9"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#new-note9"><i
+                                                                                        class="las la-eye mr-3"></i>View</a>
+                                                                                <a href="#"
+                                                                                    class="dropdown-item edit-note1"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#edit-note1"><i
+                                                                                        class="las la-pen mr-3"></i>Edit</a>
+                                                                                <a class="dropdown-item"
+                                                                                    data-extra-toggle="delete"
+                                                                                    data-closest-elem=".card"
+                                                                                    href="#"><i
+                                                                                        class="las la-trash-alt mr-3"></i>Delete</a>
+
+
+                                                                            </div>
                                                                         </div>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <h4 class="mb-2">Birthday Celebration <i class="lar la-heart ml-2"></i></h4>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="card-body rounded">
+                                                                <h4 class="card-title">NotePlus for Entrepreneurs</h4>
+                                                                <p class="mb-3 card-description short">With NotePlus, you
+                                                                    can easily share via message, WhatsApp, emails etc. You
+                                                                    can also save your notes and edit it later or can easily
+                                                                    delete the note.</p>
+                                                            </div>
+                                                            <div class="card-footer">
+                                                                <div
+                                                                    class="d-flex align-items-center justify-content-between note-text note-text-info">
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-user mr-2 font-size-20"></i>Only
 
 
-                                                                        <span>You can easily share via message,
-                                                                            WhatsApp, emails etc.</span>
-                                                                    </td>
-                                                                    <td>
-                                                                        <i class="las la-lock mr-2 font-size-20"></i>
-                                                                        Only You
-                                                                    </td>
-                                                                    <td>Dec 20</td>
-                                                                    <td>
-                                                                        <div>
-                                                                            <a href="#" class="badge badge-success mr-3" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-0"></i></a>
-                                                                            <a href="#" class="badge badge-danger" data-extra-toggle="delete" data-closest-elem="tr"><i class="las la-trash-alt mr-0"></i></a>
+                                                                        You</a>
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-calendar mr-2 font-size-20"></i>18
 
 
+                                                                        Jan 2021</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6">
+                                                        <div
+                                                            class="card card-block card-stretch card-height card-bottom-border-purple note-detail">
+
+
+                                                            <div class="card-header d-flex justify-content-between pb-1">
+                                                                <div
+                                                                    class="icon iq-icon-box-2 icon-border-purple rounded">
+                                                                    <svg width="23" height="23"
+                                                                        class="svg-icon" id="iq-main-25"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        fill="none" viewBox="0 0 24 24"
+                                                                        stroke="currentColor">
+                                                                        <path stroke-linecap="round"
+                                                                            stroke-linejoin="round" stroke-width="2"
+                                                                            d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.701 2.701 0 00-1.5-.454M9 6v2m3-2v2m3-2v2M9 3h.01M12 3h.01M15 3h.01M21 21v-7a2 2 0 00-2-2H5a2 2 0 00-2 2v7h18zm-3-9v-2a2 2 0 00-2-2H8a2 2 0 00-2 2v2h12z" />
+
+
+                                                                    </svg>
+                                                                </div>
+                                                                <div
+                                                                    class="card-header-toolbar d-flex align-items-center">
+                                                                    <a href="#" data-toggle="tooltip"
+                                                                        data-placement="top" title=""
+                                                                        data-original-title="favorite"><i
+                                                                            class="lar la-heart mr-2"></i></a>
+                                                                    <div
+                                                                        class="card-header-toolbar d-flex align-items-center">
+
+
+                                                                        <div class="dropdown">
+                                                                            <span class="dropdown-toggle dropdown-bg"
+                                                                                id="note-dropdownMenuButton28"
+                                                                                data-toggle="dropdown"
+                                                                                aria-expanded="false" role="button">
+
+
+                                                                                <i class="ri-more-fill"></i>
+                                                                            </span>
+                                                                            <div class="dropdown-menu dropdown-menu-right"
+                                                                                aria-labelledby="note-dropdownMenuButton28"
+                                                                                style="">
+                                                                                <a href="#"
+                                                                                    class="dropdown-item new-note2"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#new-note2"><i
+                                                                                        class="las la-eye mr-3"></i>View</a>
+
+                                                                                <a href="#"
+                                                                                    class="dropdown-item edit-note1"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#edit-note1"><i
+                                                                                        class="las la-pen mr-3"></i>Edit</a>
+
+                                                                                <a class="dropdown-item"
+                                                                                    data-extra-toggle="delete"
+                                                                                    data-closest-elem=".card"
+                                                                                    href="#"><i
+                                                                                        class="las la-trash-alt mr-3"></i>Delete</a>
+
+
+                                                                            </div>
                                                                         </div>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <h4 class="mb-2">Image Notes<i class="lar la-heart ml-2"></i></h4>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="card-body rounded">
+                                                                <h4 class="card-title">Birthday Celebration</h4>
+                                                                <p class="mb-3 card-description short">You can easily
+                                                                    share via message, WhatsApp, emails etc. You can also
+                                                                    save your notes and edit it later or can easily delete
+                                                                    the note.</p>
+                                                                <ul class="pl-3 mb-0">
+                                                                    <li class="note-list">Cakes and Balloons.</li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="card-footer">
+                                                                <div
+                                                                    class="d-flex align-items-center justify-content-between note-text note-text-purple">
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-user mr-2 font-size-20"></i>Only
 
 
-                                                                        <span>NotePlus lets you do in on-the-go!</span>
-                                                                    </td>
-                                                                    <td>
-                                                                        <i class="las la-lock mr-2 font-size-20"></i>
-                                                                        Only You
-                                                                    </td>
-                                                                    <td>Dec 20</td>
-                                                                    <td>
-                                                                        <div>
-                                                                            <a href="#" class="badge badge-success mr-3" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-0"></i></a>
-                                                                            <a href="#" class="badge badge-danger" data-extra-toggle="delete" data-closest-elem="tr"><i class="las la-trash-alt mr-0"></i></a>
+                                                                        You</a>
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-calendar mr-2 font-size-20"></i>10
 
 
+                                                                        Jan 2021</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6">
+                                                        <div
+                                                            class="card card-block card-stretch card-height card-bottom-border-primary note-detail">
+
+
+                                                            <div class="card-header d-flex justify-content-between pb-1">
+                                                                <div
+                                                                    class="icon iq-icon-box-2 icon-border-primary rounded">
+                                                                    <svg width="23" height="23"
+                                                                        class="svg-icon" id="iq-main-26"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        fill="none" viewBox="0 0 24 24"
+                                                                        stroke="currentColor">
+                                                                        <path stroke-linecap="round"
+                                                                            stroke-linejoin="round" stroke-width="2"
+                                                                            d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+
+
+                                                                    </svg>
+                                                                </div>
+                                                                <div
+                                                                    class="card-header-toolbar d-flex align-items-center">
+                                                                    <a href="#" data-toggle="tooltip"
+                                                                        data-placement="top" title=""
+                                                                        data-original-title="favorite"><i
+                                                                            class="lar la-heart mr-2"></i></a>
+                                                                    <div
+                                                                        class="card-header-toolbar d-flex align-items-center">
+
+
+                                                                        <div class="dropdown">
+                                                                            <span class="dropdown-toggle dropdown-bg"
+                                                                                id="note-dropdownMenuButton29"
+                                                                                data-toggle="dropdown"
+                                                                                aria-expanded="false" role="button">
+
+
+                                                                                <i class="ri-more-fill"></i>
+                                                                            </span>
+                                                                            <div class="dropdown-menu dropdown-menu-right"
+                                                                                aria-labelledby="note-dropdownMenuButton29"
+                                                                                style="">
+                                                                                <a href="#"
+                                                                                    class="dropdown-item new-note5"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#new-note5"><i
+                                                                                        class="las la-eye mr-3"></i>View</a>
+                                                                                <a href="#"
+                                                                                    class="dropdown-item edit-note1"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#edit-note1"><i
+                                                                                        class="las la-pen mr-3"></i>Edit</a>
+                                                                                <a class="dropdown-item"
+                                                                                    data-extra-toggle="delete"
+                                                                                    data-closest-elem=".card"
+                                                                                    href="#"><i
+                                                                                        class="las la-trash-alt mr-3"></i>Delete</a>
+
+
+                                                                            </div>
                                                                         </div>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <h4 class="mb-2">Quick Summary <i class="lar la-heart ml-2"></i></h4>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="card-body rounded">
+                                                                <h4 class="card-title">Image Notes</h4>
+                                                                <ul
+                                                                    class="row mb-0 p-0 list-inline flex-wrap align-items-center">
 
 
-                                                                        <span>Need to write a summary note of the
-                                                                            subject you just finished</span>
-                                                                    </td>
-                                                                    <td>
-                                                                        <i class="las la-lock mr-2 font-size-20"></i>
-                                                                        Only You
-                                                                    </td>
-                                                                    <td>Dec 20</td>
-                                                                    <td>
-                                                                        <div>
-                                                                            <a href="#" class="badge badge-success mr-3" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-0"></i></a>
-                                                                            <a href="#" class="badge badge-danger" data-extra-toggle="delete" data-closest-elem="tr"><i class="las la-trash-alt mr-0"></i></a>
+                                                                    <li class="col-4">
+                                                                        <a href="#">
+                                                                            <img src="../assets/images/gallery/grid/01.jpg"
+                                                                                class="img-fluid rounded"
+                                                                                alt="" />
 
 
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="col-4">
+                                                                        <a href="#">
+                                                                            <img src="../assets/images/gallery/grid/02.jpg"
+                                                                                class="img-fluid rounded"
+                                                                                alt="" />
+
+
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="col-4">
+                                                                        <a href="#">
+                                                                            <img src="../assets/images/gallery/grid/03.jpg"
+                                                                                class="img-fluid rounded"
+                                                                                alt="" />
+
+
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="card-footer">
+                                                                <div
+                                                                    class="d-flex align-items-center justify-content-between note-text note-text-primary">
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-user mr-2 font-size-20"></i>Only
+
+
+                                                                        You</a>
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-calendar mr-2 font-size-20"></i>5
+
+
+                                                                        Jan 2021</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6">
+                                                        <div
+                                                            class="card card-block card-stretch card-height card-bottom-border-success note-detail mb-0">
+
+
+                                                            <div class="card-header d-flex justify-content-between pb-1">
+                                                                <div
+                                                                    class="icon iq-icon-box-2 icon-border-success rounded">
+                                                                    <svg width="23" height="23"
+                                                                        class="svg-icon" id="iq-main-27"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        fill="none" viewBox="0 0 24 24"
+                                                                        stroke="currentColor">
+                                                                        <path stroke-linecap="round"
+                                                                            stroke-linejoin="round" stroke-width="2"
+                                                                            d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
+
+
+                                                                    </svg>
+                                                                </div>
+                                                                <div
+                                                                    class="card-header-toolbar d-flex align-items-center">
+                                                                    <a href="#" data-toggle="tooltip"
+                                                                        data-placement="top" title=""
+                                                                        data-original-title="favorite"><i
+                                                                            class="lar la-heart mr-2"></i></a>
+                                                                    <div
+                                                                        class="card-header-toolbar d-flex align-items-center">
+
+
+                                                                        <div class="dropdown">
+                                                                            <span class="dropdown-toggle dropdown-bg"
+                                                                                id="note-dropdownMenuButton30"
+                                                                                data-toggle="dropdown"
+                                                                                aria-expanded="false" role="button">
+
+
+                                                                                <i class="ri-more-fill"></i>
+                                                                            </span>
+                                                                            <div class="dropdown-menu dropdown-menu-right"
+                                                                                aria-labelledby="note-dropdownMenuButton30"
+                                                                                style="">
+                                                                                <a href="#"
+                                                                                    class="dropdown-item new-note7"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#new-note7"><i
+                                                                                        class="las la-eye mr-3"></i>View</a>
+                                                                                <a href="#"
+                                                                                    class="dropdown-item edit-note1"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#edit-note1"><i
+                                                                                        class="las la-pen mr-3"></i>Edit</a>
+                                                                                <a class="dropdown-item"
+                                                                                    data-extra-toggle="delete"
+                                                                                    data-closest-elem=".card"
+                                                                                    href="#"><i
+                                                                                        class="las la-trash-alt mr-3"></i>Delete</a>
+
+
+                                                                            </div>
                                                                         </div>
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="card-body rounded">
+                                                                <h4 class="card-title">Quick Summary</h4>
+                                                                <p class="mb-3 card-description short">Need to write a
+                                                                    summary note of the subject you just finished? NotePlus
+                                                                    lets you do in on-the-go!</p>
+                                                                <p class="text-underline ellipsis-text short">
+                                                                    Https://Dribble.com/Shots/6387620</p>
+                                                            </div>
+                                                            <div class="card-footer">
+                                                                <div
+                                                                    class="d-flex align-items-center justify-content-between note-text note-text-success">
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-user mr-2 font-size-20"></i>Only
+
+
+                                                                        You</a>
+                                                                    <a href="#" class=""><i
+                                                                            class="las la-calendar mr-2 font-size-20"></i>12
+
+
+                                                                        Jan 2021</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="icon active animate__animated animate__fadeIn i-list">
+                                                <div class="row">
+                                                    <div class="col-lg-12">
+                                                        <div class="table-responsive">
+                                                            <table class="table  tbl-server-info">
+                                                                <thead>
+                                                                    <tr class="ligth">
+                                                                        <th class="w-50" scope="col">Title</th>
+                                                                        <th scope="col">Permission</th>
+                                                                        <th scope="col">Created At</th>
+                                                                        <th scope="col">Action</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <h4 class="mb-2">Essay Outline <i
+                                                                                    class="lar la-heart ml-2"></i></h4>
+
+
+                                                                            <span>Donec rutrum congue leo eget
+                                                                                malesuada.</span>
+                                                                        </td>
+                                                                        <td>
+                                                                            <i class="las la-lock mr-2 font-size-20"></i>
+                                                                            Only You
+                                                                        </td>
+                                                                        <td>Dec 20</td>
+                                                                        <td>
+                                                                            <div>
+                                                                                <a href="#"
+                                                                                    class="badge badge-success mr-3"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#edit-note1"><i
+                                                                                        class="las la-pen mr-0"></i></a>
+                                                                                <a href="#"
+                                                                                    class="badge badge-danger"
+                                                                                    data-extra-toggle="delete"
+                                                                                    data-closest-elem="tr"><i
+                                                                                        class="las la-trash-alt mr-0"></i></a>
+
+
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <h4 class="mb-2">Lecture Notes <i
+                                                                                    class="lar la-heart ml-2"></i></h4>
+
+
+                                                                            <span>Chapter 1 notes, Chapter 2 Assignment,
+                                                                                Chapter 3 practical File.</span>
+                                                                        </td>
+                                                                        <td>
+                                                                            <i class="las la-lock mr-2 font-size-20"></i>
+                                                                            Only You
+                                                                        </td>
+                                                                        <td>Dec 20</td>
+                                                                        <td>
+                                                                            <div>
+                                                                                <a href="#"
+                                                                                    class="badge badge-success mr-3"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#edit-note1"><i
+                                                                                        class="las la-pen mr-0"></i></a>
+                                                                                <a href="#"
+                                                                                    class="badge badge-danger"
+                                                                                    data-extra-toggle="delete"
+                                                                                    data-closest-elem="tr"><i
+                                                                                        class="las la-trash-alt mr-0"></i></a>
+
+
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <h4 class="mb-2">NotePlus for Entrepreneurs
+                                                                                <i class="lar la-heart ml-2"></i>
+                                                                            </h4>
+                                                                            <span>With NotePlus, you can easily share via
+                                                                                message, WhatsApp, emails etc.</span>
+                                                                        </td>
+                                                                        <td>
+                                                                            <i class="las la-lock mr-2 font-size-20"></i>
+                                                                            Only You
+                                                                        </td>
+                                                                        <td>Dec 20</td>
+                                                                        <td>
+                                                                            <div>
+                                                                                <a href="#"
+                                                                                    class="badge badge-success mr-3"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#edit-note1"><i
+                                                                                        class="las la-pen mr-0"></i></a>
+                                                                                <a href="#"
+                                                                                    class="badge badge-danger"
+                                                                                    data-extra-toggle="delete"
+                                                                                    data-closest-elem="tr"><i
+                                                                                        class="las la-trash-alt mr-0"></i></a>
+
+
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <h4 class="mb-2">Birthday Celebration <i
+                                                                                    class="lar la-heart ml-2"></i></h4>
+
+
+                                                                            <span>You can easily share via message,
+                                                                                WhatsApp, emails etc.</span>
+                                                                        </td>
+                                                                        <td>
+                                                                            <i class="las la-lock mr-2 font-size-20"></i>
+                                                                            Only You
+                                                                        </td>
+                                                                        <td>Dec 20</td>
+                                                                        <td>
+                                                                            <div>
+                                                                                <a href="#"
+                                                                                    class="badge badge-success mr-3"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#edit-note1"><i
+                                                                                        class="las la-pen mr-0"></i></a>
+                                                                                <a href="#"
+                                                                                    class="badge badge-danger"
+                                                                                    data-extra-toggle="delete"
+                                                                                    data-closest-elem="tr"><i
+                                                                                        class="las la-trash-alt mr-0"></i></a>
+
+
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <h4 class="mb-2">Image Notes<i
+                                                                                    class="lar la-heart ml-2"></i></h4>
+
+
+                                                                            <span>NotePlus lets you do in on-the-go!</span>
+                                                                        </td>
+                                                                        <td>
+                                                                            <i class="las la-lock mr-2 font-size-20"></i>
+                                                                            Only You
+                                                                        </td>
+                                                                        <td>Dec 20</td>
+                                                                        <td>
+                                                                            <div>
+                                                                                <a href="#"
+                                                                                    class="badge badge-success mr-3"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#edit-note1"><i
+                                                                                        class="las la-pen mr-0"></i></a>
+                                                                                <a href="#"
+                                                                                    class="badge badge-danger"
+                                                                                    data-extra-toggle="delete"
+                                                                                    data-closest-elem="tr"><i
+                                                                                        class="las la-trash-alt mr-0"></i></a>
+
+
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <h4 class="mb-2">Quick Summary <i
+                                                                                    class="lar la-heart ml-2"></i></h4>
+
+
+                                                                            <span>Need to write a summary note of the
+                                                                                subject you just finished</span>
+                                                                        </td>
+                                                                        <td>
+                                                                            <i class="las la-lock mr-2 font-size-20"></i>
+                                                                            Only You
+                                                                        </td>
+                                                                        <td>Dec 20</td>
+                                                                        <td>
+                                                                            <div>
+                                                                                <a href="#"
+                                                                                    class="badge badge-success mr-3"
+                                                                                    data-toggle="modal"
+                                                                                    data-target="#edit-note1"><i
+                                                                                        class="las la-pen mr-0"></i></a>
+                                                                                <a href="#"
+                                                                                    class="badge badge-danger"
+                                                                                    data-extra-toggle="delete"
+                                                                                    data-closest-elem="tr"><i
+                                                                                        class="las la-trash-alt mr-0"></i></a>
+
+
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -2221,46 +2963,40 @@
                         </div>
                     </div>
                 </div>
+                <!-- Page end  -->
             </div>
-            <!-- Page end  -->
+
+
+
+
         </div>
-
-
-
+        @include('modal.index')
 
     </div>
-    @include('modal.index')
-
-</div>
 
 
 
-@push('scripts')
-<script>
-    window.addEventListener('new-note', event => {
-        $('#new-note').modal('show');
-});
-    window.addEventListener('modaleditar', event => {
+    @push('scripts')
+        <script>
+            window.addEventListener('new-note', event => {
+                $('#new-note').modal('show');
+            });
+            window.addEventListener('modaleditar', event => {
 
-    $('#modaleditar').modal('show');
+                $('#modaleditar').modal('show');
 
-    });
-
-
- window.addEventListener('confirmarDelete', event => {
- $('.bd-example-modal-sm').modal('show');
-
- });
- window.addEventListener('deletado', event => {
-
- $('.bd-example-modal-sm').modal('hide');
- $('#modaleditar').modal('hide');
-
- });
-
-</script>
-
-@endpush
+            });
 
 
+            window.addEventListener('confirmarDelete', event => {
+                $('.bd-example-modal-sm').modal('show');
 
+            });
+            window.addEventListener('deletado', event => {
+
+                $('.bd-example-modal-sm').modal('hide');
+                $('#modaleditar').modal('hide');
+
+            });
+        </script>
+    @endpush
