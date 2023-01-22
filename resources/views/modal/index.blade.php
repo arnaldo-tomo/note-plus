@@ -72,9 +72,7 @@
                                         wire:model="editarTitle">
                                     <input type="hidden" type="text" wire:model="editarID">
                                     <div id="quill-toolbar1">
-                                        {{-- <input class="form-control mb-3" type="text"   wire:model="editarTitle"> --}}
-
-                                        <div class="form-group">
+                                                                               <div class="form-group">
                                             <textarea type="text" class="form-control" wire:model="editarDescription" rows="3"  >{{$editarTitle  }}</textarea>
                                    
                                         </div>
