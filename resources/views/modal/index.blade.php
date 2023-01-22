@@ -85,7 +85,7 @@
                 <div class="popup text-left">
                     <div class="media align-items-top justify-content-between">
 
-<input wire:model="autualizarTitle" value="{{ $editarTitle }}" class="form-control">
+<div class="mb-3">Actular notas</div>
 
 
 
@@ -103,6 +103,9 @@
                                     <div class="quill-tool">
                                     </div>
                                 </div>
+<input wire:model="autualizarTitle" value="{{ $editarTitle }}" class="form-control mb-3">
+
+
                                 <div id="quill-toolbar1">
                                     <textarea id="quill-toolbar1" wire:model="actulaizarDescription" class="form-control" cols="30" rows="5">{{ $editarDescription }}</textarea>
 
