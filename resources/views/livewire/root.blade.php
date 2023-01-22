@@ -585,7 +585,7 @@
                                 </a>
                             </li>
                             <li class="">
-                                <a href="page-bin.html" class="svg-icon">
+                                <a href="/lixeira" class="svg-icon">
                                     <i>
                                         <svg width="20" class="svg-icon" id="iq-main-8"
                                             xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
