@@ -572,7 +572,9 @@
 
 
 
-                                                                            <a href="#" class="dropdown-item edit-note1" data-toggle="modal" data-target="#edit-note1"><i class="las la-pen mr-3"></i>Edit</a>
+                                                                            <a href="#" class="dropdown-item" wire:click="editar({{ $note->id }})"><i class="las la-pen mr-3"></i>Edit</a>
+
+
 <a class="dropdown-item" wire:click='confirmarDelete({{ $note->id }})' href="#"><i class="las la-trash-alt mr-3"></i>Delete</a>
 
 
