@@ -30,6 +30,8 @@ class Index extends Component
     public function limpar()
     {
         $this->idDelete = "";
+        $this->editarTitle = "";
+        $this->editarDescription = "";
     }
 
     public function ver($id)
@@ -68,7 +70,12 @@ class Index extends Component
 
     public function atualizar()
     {
-        dd($this->editarID);
+        $notes = notes::find($this->editarID);
+        $notes->title = $this->editarTitle;
+        $notes->description = $this->editarDescription;
+        $notes->update();
+        // $this->limpar();
+        $this->editarDescription
     }
 
 }
