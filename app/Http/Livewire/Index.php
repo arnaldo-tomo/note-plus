@@ -20,7 +20,7 @@ class Index extends Component
 
     public function render()
     {
-        $notes = notes::ORDERBY('id', 'DESC')->paginate(6);
+        $notes = notes::where('user_id', Auth::user()->id)->ORDERBY('id', 'DESC')->paginate(6);
         if (!Auth::check()) {
             return redirect()->back();
         } else {
