@@ -10,7 +10,7 @@ use Livewire\WithPagination;
 class Lixeira extends Component
 {
     use WithPagination;
-    public
+    public $title_ver, $description_ver, $title, $description;
     public function render()
     {
         $notes = notes::where('user_id', Auth::user()->id)->onlyTrashed()->ORDERBY('id', 'DESC')->paginate(6);
