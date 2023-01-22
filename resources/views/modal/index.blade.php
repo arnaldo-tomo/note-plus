@@ -54,7 +54,7 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-body">
-                <form  wire:submit.prevent="atualizar">
+                <form wire:submit.prevent="atualizar">
                     <div class="popup text-left">
                         <div class="media align-items-top justify-content-between">
                             <div class="mb-3">ACTUALIZAR NOTAS</div>
@@ -68,17 +68,22 @@
                                         <div class="quill-tool">
                                         </div>
                                     </div>
-                                    <input class="form-control mb-3" type="text" id="editarTitle"  wire:model="editarTitle">
+                                    <input class="form-control mb-3" type="text" id="editarTitle"
+                                        wire:model="editarTitle">
                                     <input type="hidden" type="text" wire:model="editarID">
                                     <div id="quill-toolbar1">
-                                    {{-- <input class="form-control mb-3" type="text"   wire:model="editarTitle"> --}}
-                                        <textarea class="form-control" wire:model="editarTitle"  cols="30" rows="5">{{ $editarTitle }}</textarea>
+                                        {{-- <input class="form-control mb-3" type="text"   wire:model="editarTitle"> --}}
+
+                                        <div class="form-group">
+                                            <textarea type="text" class="form-control" wire:model="editarDescription" rows="3"  >{{$editarTitle  }}</textarea>
+                                   
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="card-footer border-0">
                                     <div class="d-flex flex-wrap align-items-ceter justify-content-end">
                                         <div class="btn btn-primary mr-3" data-dismiss="modal">Fechar</div>
-                                        <button type="submit" class="btn btn-warning" >
+                                        <button type="submit" class="btn btn-warning">
                                             <div wire:loading> <i class="fa fa-spinner fa-pulse fa-1x fa-fw"> </i>
                                             </div>
                                             Actular notes
