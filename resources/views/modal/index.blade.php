@@ -85,7 +85,9 @@
                 <div class="popup text-left">
                     <div class="media align-items-top justify-content-between">
 
-<div class="mb-3">Actular notas</div>
+<div class="mb-3">ACTUALIZAR NOTAS</div>
+
+
 
 
 
@@ -104,6 +106,9 @@
                                     </div>
                                 </div>
 <input wire:model="autualizarTitle" value="{{ $editarTitle }}" class="form-control mb-3">
+<input type="hidden" value="{{ $editarID }}">
+
+
 
 
                                 <div id="quill-toolbar1">
