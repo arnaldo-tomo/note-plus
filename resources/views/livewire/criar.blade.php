@@ -420,6 +420,8 @@
                                     </form>
                                 </div>
 
+
+
                                 <div class="col-md-4" id="default">
                                     <div class="card card-block card-stretch card-height card-bottom-border-danger py-3 note-detail"
                                         id="update-note">
