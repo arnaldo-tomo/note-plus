@@ -74,8 +74,9 @@ class Index extends Component
         $notes->title = $this->editarTitle;
         $notes->description = $this->editarDescription;
         $notes->update();
-        // $this->limpar();
-        $this->editarDescription
+        $this->limpar();
+        $this->dispatchBrowserEvent('deletado');
+
     }
 
 }
