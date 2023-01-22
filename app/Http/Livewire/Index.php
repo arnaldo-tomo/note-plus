@@ -15,7 +15,7 @@ class Index extends Component
     public $user_idVER, $title_ver,  $description_ver, $remenberVER, $iconVER, $priorityVER;
     public $idDelete, $titleDelete;
     public $editarTitle, $editarID, $editarDescription;
-    public $atualizarTitle, $atualizarDescription;
+    public $atualizarTitle, $atualizarID, $atualizarDescription;
     public $updateMode = false;
 
     public function render()
@@ -68,6 +68,7 @@ class Index extends Component
 
     public function atualizar()
     {
+        dd($this->editarID);
     }
 
 }
