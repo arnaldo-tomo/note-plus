@@ -50,14 +50,18 @@
    
 
   <!-- Modal Edit -->
-<div class="modal fade" id="modaleditar" tabindex="-1" role="dialog" aria-hidden="true">
+<div wire:ignore.self class="modal fade" id="modaleditar" tabindex="-1" role="dialog" aria-hidden="true">
+
+
 
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="popup text-left">
                     <div class="media align-items-top justify-content-between">                            
-                        <h3 class="mb-3">Weekly Planner</h3>
+                        <h3 class="mb-3">{{ $editarTitle }}</h3>
+
+
                         <div class="btn-cancel p-0" data-dismiss="modal"><i class="las la-times"></i></div>
                     </div>
                     <div class="content edit-notes">
@@ -68,13 +72,16 @@
                                     </div>
                                 </div>
                                 <div id="quill-toolbar1">
-                                    <p>Virtual Digital Marketing Course every week on Monday, Wednesday and Saturday.Virtual Digital Marketing Course every week on Monday</p>
+                            <textarea id="quill-toolbar1" class="form-control" cols="30" rows="5">{{ $editarDescription }}</textarea>
+
+
                                 </div>
                             </div>
                             <div class="card-footer border-0">
                                 <div class="d-flex flex-wrap align-items-ceter justify-content-end">
-                                    <div class="btn btn-primary mr-3" data-dismiss="modal">Cancel</div>
-                                    <div class="btn btn-outline-primary" data-dismiss="modal">Save</div>
+                                    <div class="btn btn-primary mr-3" data-dismiss="modal">Fechar</div>
+                                    <div class="btn btn-outline-primary" data-dismiss="modal">Actular notes</div>
+
                                 </div>
                             </div>
                         </div>
