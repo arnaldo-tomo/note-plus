@@ -2238,6 +2238,12 @@
     window.addEventListener('new-note', event => {
         $('#new-note').modal('show');
 });
+    window.addEventListener('modaleditar', event => {
+
+    $('#modaleditar').modal('show');
+
+    });
+
 
  window.addEventListener('confirmarDelete', event => {
  $('.bd-example-modal-sm').modal('show');
