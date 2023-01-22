@@ -2254,6 +2254,7 @@
  window.addEventListener('deletado', event => {
 
  $('.bd-example-modal-sm').modal('hide');
+ $('#modaleditar').modal('hide');
 
  });
 
